@@ -37,36 +37,14 @@ fi
 SLUG="$(basename "$FOLDER")"
 echo "Picked: $FOLDER (slug: $SLUG)"
 
-# --- Step 2: Claude drafts + picks ---
+# --- Step 2: Claude drafts + picks (prompt template lives in prompts/x/prompt.md) ---
 TWEET_FILE="$(mktemp)"
 ANGLE_FILE="$(mktemp)"
-prompt=$(cat <<EOF
-Read the article at:
-  ${FOLDER}/article.md
-
-Draft 3 tweet candidates for X (Twitter), each from a different angle:
-- A · 金句 — quote the strongest single sentence (or short couplet) from the article, optionally with a one-line lead-in
-- B · 反差 — sharp "not X, is Y" cognitive flip
-- C · 小灾难 — the "every day, most attempts fail, but failure is the data" rhythm
-
-Hard constraints on each candidate:
-- ≤ 140 Chinese characters (X allows 280 latin = 140 CJK characters)
-- Preserve 王建硕 voice: plain, honest, conversational, family-style metaphors
-- NO hashtags, NO @mentions, NO emoji (unless original article has them), NO marketing tone
-- Material MUST come from the article text — do not invent new examples
-- NO mp.weixin link, NO "click here", NO call-to-action
-
-Then pick the strongest of the 3 (most resonance + tightest line).
-
-Write ONLY the chosen tweet text (exactly what should be posted, no quotes, no metadata) to:
-  ${TWEET_FILE}
-
-Write the letter (A or B or C) to:
-  ${ANGLE_FILE}
-
-Do not output anything else. Just write those two files.
-EOF
-)
+PROMPT_TPL="prompts/x/prompt.md"
+[[ -f "$PROMPT_TPL" ]] || { echo "FATAL: missing $PROMPT_TPL"; exit 1; }
+prompt="$(sed -e "s#{{ARTICLE_PATH}}#${FOLDER}/article.md#g" \
+              -e "s#{{OUT_FILE}}#${TWEET_FILE}#g" \
+              -e "s#{{ANGLE_FILE}}#${ANGLE_FILE}#g" "$PROMPT_TPL")"
 
 echo "→ asking Claude to draft + pick ..."
 claude -p --allowedTools=Read,Write -- "$prompt" || {
