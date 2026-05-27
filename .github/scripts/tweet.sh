@@ -73,7 +73,7 @@ if [[ "${DRY_RUN:-0}" == "1" ]]; then
 fi
 
 JSON="$(jq -nc --arg text "$TWEET_TEXT" '{text:$text}')"
-resp="$(xurl -X POST -d "$JSON" /2/tweets 2>&1)"
+resp="$(xurl --auth oauth1 -X POST -d "$JSON" /2/tweets 2>&1)"
 TWEET_ID="$(printf '%s' "$resp" | grep -oE '"id":"[0-9]+"' | head -1 | sed -E 's/.*"([0-9]+)".*/\1/')"
 if [[ -z "$TWEET_ID" ]]; then
   echo "FATAL: post returned no id"; echo "$resp"
