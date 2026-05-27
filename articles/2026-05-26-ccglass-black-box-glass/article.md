@@ -1,6 +1,10 @@
 # ccglass 0.6.0 版本新功能
 
-ccglass 是一个本地的日志反向代理 + 网页面板，让你看见自己的 coding agent 到底往模型发了什么。这是最近几个版本（0.3 → 0.6）的更新清单，按版本列出所有 PR，括号里是作者。
+ccglass 是我自己写的小工具——一个本地的日志反向代理 + 网页面板，让你看见自己的 coding agent 到底往模型发了什么。
+
+claude-trace 这些挺好的工具，因为 Claude 改了架构没法继续用了，我又有自己的研究需求，就写了一个。没想到在 Github 上拿到了 300 个星星，说明是大家共同的痛点，所以前不久花了些时间维护（其实，所谓的维护，就是在 issue 后面 @claude 一下，然后把它提的 PR 认真地看一遍）。
+
+下面是这一周里加入的新功能。
 
 ## v0.5.0（2026-05-26）
 
@@ -42,11 +46,13 @@ ccglass 是一个本地的日志反向代理 + 网页面板，让你看见自己
 
 ## 感谢
 
-这些版本里很多功能来自社区贡献，特别感谢 **@KorenKrita、@marcuslannister、@ivanberry、@ping-coding、@zhuangbiaowei（庄表伟）**——是你们让 ccglass 变得更好。
+这些版本里很多功能来自社区贡献，特别感谢 **@KorenKrita、@marcuslannister、@ivanberry、@ping-coding、@zhuangbiaowei（庄表伟）**。
 
 ## Star History
 
 ![](./illustration.png)
+
+眼看着星星增加的趋势慢慢放缓，心里有些小忧伤，有 Github 的同学帮忙给个星星，喂养一下我的小虚荣心。
 
 ## 安装 / 升级
 
