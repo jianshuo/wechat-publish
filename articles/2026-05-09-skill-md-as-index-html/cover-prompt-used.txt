@@ -1,0 +1,5 @@
+target_word: 入口
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider)
+generated: 2026-05-09T16:10:59Z

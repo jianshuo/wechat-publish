@@ -1,0 +1,63 @@
+# 吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机
+
+在我做的所有 skill 里面，我最喜欢、用得最多的是「吃一堑长一智」Skill——它可以帮我迅速把每一次的错误，变成自己**大脑参数**的调整。
+
+## 原理
+
+这一切来源于最近的一个认知——**我们的大脑其实很像一个大语言模型。**
+
+我们每个人独特的经历一次次塑造着这个大语言模型的参数，以至于对于任何事情，它都有瞬间的第一反应。大多数知识都很难改变这个大脑参数，而仅仅是在大脑里产生了记忆——在第一反应出来以后，通过自己的理性对这个第一反应进行修正。
+
+比如当有人开车野蛮变道，第一反应是暴怒，想冲上去别他。然后不断用理性说服自己，不要去——但很多时候并不奏效。
+
+**这就如同 RAG 的工作机制**——通过加入一层文档来帮助自己修改大语言模型缺省的输出。而「吃一堑长一智.Skill」的作用是**通过五步，强制刷新这个大语言模型的参数**，让自己下一次大语言模型的缺省输出发生变化。
+
+## 它带你走的五步
+
+简单的说，它会带领用户走五步：
+
+**第一步：这次"堑"是什么？** 用一句话写清楚发生了什么。不要解读、不要分析，先把事实落地——只是事件，不是解读。因为后面我们的工作就是在这个事件之上加上解读。
+
+**第二步：我当时的自动输出是什么？** 不是你事后的解释，是第一反应。这个是 **LoRA 训练中梯度最大**的那个时刻。
+
+**第三步：这个输出背后的旧权重是什么？** 也就是：你为什么总往这个方向解释？
+
+**第四步：这次我想训练的新权重是啥？** 要写成针对**一类具体情境的新响应模式**。
+
+**第五步：下次再来时，我的替代动作是什么？** 新参数是要训练的目标——训练靠的是动作，不是念头。
+
+当这五次都做完以后，可以用自己的绘图工具出一个手机的壁纸，设成壁纸。很快就能改掉自己脑子里面那个跟随自己十几年甚至几十年的旧参数，从而**釜底抽薪**地改变自己的行为模式。
+
+## 我自己用它改过的几条
+
+比如我特别有感触的，就是我用这个 Skill 改变了我的——
+
+**金钱观**——花钱的时候不要只关注等式左边金钱数额的减少，而是也要看右边到底什么部分增加了。
+
+**吃饭**——吃饭也应该是一个临在的过程，每吃一口就把筷子放下，吃下一口是主动的动作。
+
+**晚上总熬夜写程序无法睡觉**——察觉到是我无法接受任务没有跑完中途关掉的那种未完成感。故意训练在任务中间关闭电脑，随时可以关机睡觉。
+
+## 消业，也就是改大脑参数
+
+其实，佛教里面所说的因果，也就是这么个过程——过去的行为塑造了自己的大语言模型的参数，而这个参数的变化会在一年、或者十年以后的某一刻影响自己的行为和决策。
+
+**因，就是通过大脑里的参数传递到了未来**，并没有一个超自然的地方记录着每个人的业。而消业，就是通过某些活动（比如烧香、念经、吃素、打坐）改变自己大脑的参数。
+
+但我自己亲自实验——没有哪个时刻比「吃一堑」更合适的时间去调整这个参数。那个时候头脑正热、情绪正浓、信号最强烈。这个时候抓住，**趁热打铁——这才是改变参数的最佳时刻**。
+
+![](./illustration.png)
+
+## 安装方法
+
+不用复制命令。打开你用的 AI agent——Claude Code、Codex、Kimi Code、OpenClaw 都可以，对它说一句：
+
+> 安装 https://github.com/jianshuo/claude-skills/blob/main/wjs-eating-and-growing/SKILL.md
+
+它会自己 fetch、放到自己平台的 skill 目录里、提示你重启对话。
+
+用 Hermes 的话直接命令行：`hermes skills install https://github.com/jianshuo/claude-skills/blob/main/wjs-eating-and-growing/SKILL.md`
+
+装完之后，对 agent 说一句「我想吃一堑长一智，最近这件事——」，就能用。
+
+<section style="background:#f7f5f0;padding:20px 22px;border-radius:8px;margin-top:32px;"><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;"><strong style="color:#777;">上篇精选留言 ·《<a href="https://mp.weixin.qq.com/s/-_dmDAsDbBGbL3zt8ur6Sg" style="color:#888;text-decoration:underline;">智能变得廉价以后，会改变什么？</a>》</strong></p><p style="color:#999;font-size:13px;line-height:1.7;margin:0 0 14px;font-style:italic;">当智能像自来水一样廉价、人人都用得起，最大的机会会出现在哪里？这是上一篇抛给大家的问题。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">36 条留言里，最值得分享的 5 条——</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">小余（广东 · 👍 19）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">智能廉价后，最根本的改变是，"解决问题的能力"会像自来水一样普及，真正稀缺的将变成"提出问题的能力"和"定义价值的能力"。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">昕（浙江 · 👍 14）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">最大机会很可能不是"替代人"，而是让过去不值得做的事情变得值得做。每个学生都配一个私人老师；每个小公司都有 CFO、法务、设计师；每个医生都给病人做长期随访；每个员工都有一个随时理解上下文的助理。机会不是做一个"更便宜的人"，而是创造原来根本不存在的<strong style="color:#777;">服务密度</strong>。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">逢山路（北京 · 👍 13）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">智能便宜了，试错成本会降低。以前有 100 个想法，只能选一个去试。现在可以快速试错、快速迭代。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">徐霁陶（浙江 · 👍 9）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">选择越多，专注力就越稀缺。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">Nineteen Eighty-eight（重庆 · 👍 6）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">以前要交网费、流量费，以后要交<strong style="color:#777;">词元费</strong>了。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0;">谢谢每一位留言的朋友——下一篇我接着从你们的留言里找钥匙。</p></section>

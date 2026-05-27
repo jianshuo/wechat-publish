@@ -1,0 +1,7 @@
+{
+  "title": "Skill 是新时代的函数",
+  "summary": "写 Skill 写了一阵子，发现代码无法维护的老问题又在新的层次出现了。把大 Skill 分拆成独立的小 skill 互相调用，立体结构慢慢成型——新时代编程的感觉就慢慢来了。",
+  "author": "王建硕",
+  "date": "2026-05-11",
+  "slug": "skill-as-function"
+}

@@ -1,0 +1,5 @@
+target_word: 编译器
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-17T17:34:09Z

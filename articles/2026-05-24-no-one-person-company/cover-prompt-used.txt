@@ -1,0 +1,5 @@
+target_word: 我不信「一人公司」
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-24T09:43:29Z

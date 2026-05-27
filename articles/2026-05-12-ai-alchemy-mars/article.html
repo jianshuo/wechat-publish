@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 炼金术：和 Mars 聊了两小时，剪出 5 段</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f4ef;
+      --panel: #fffdf7;
+      --ink: #1f1f1f;
+      --muted: #5f5a52;
+      --border: #ddd6c7;
+      --warn: #8c5c00;
+      --error: #9b1c1c;
+      --info: #1f5d8a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Noto Serif SC", serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #efede5 0%, #f9f7f1 100%);
+    }
+    .shell {
+      display: grid;
+      grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+      gap: 24px;
+      padding: 24px;
+      min-height: 100vh;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 12px 32px rgba(59, 43, 17, 0.08);
+    }
+    h1, h2, h3 { margin: 0 0 12px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-top: 24px; }
+    .meta-row { margin-bottom: 14px; }
+    .meta-label { font-size: 12px; text-transform: uppercase; color: var(--muted); letter-spacing: 0.08em; }
+    .meta-value { font-size: 16px; margin-top: 4px; word-break: break-word; }
+    .meta-source { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .pill {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      border: 1px solid var(--border);
+      background: #fbf8f0;
+    }
+    .check {
+      border-left: 4px solid var(--border);
+      padding: 10px 12px;
+      background: #fcfaf4;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+    .check.warn { border-color: var(--warn); }
+    .check.error { border-color: var(--error); }
+    .check.info { border-color: var(--info); }
+    .check-code { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+    .article-shell {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 16px 40px rgba(40, 33, 18, 0.10);
+    }
+    .banner {
+      border: 1px dashed var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 18px;
+      background: #faf6ec;
+      color: var(--muted);
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #f6f3eb;
+      border-radius: 12px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      overflow: auto;
+    }
+    @media (max-width: 960px) {
+      .shell { grid-template-columns: 1fr; }
+      .article-shell { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="panel">
+      <h1>Publish Preview</h1>
+      <div class="meta-source">article.md</div>
+
+      <h2>Resolved Metadata</h2>
+      <div class="meta-row">
+        <div class="meta-label">Title</div>
+        <div class="meta-value">AI 炼金术：和 Mars 聊了两小时，剪出 5 段</div>
+        <div class="meta-source">markdown.heading · 26 / 32</div>
+      </div>
+      <div class="meta-row">
+        <div class="meta-label">Author</div>
+        <div class="meta-value">—</div>
+        <div class="meta-source">fallback.empty · 0 / 16</div>
+      </div>
+      <div class="meta-row">
+        <div class="meta-label">Digest</div>
+        <div class="meta-value">—</div>
+        <div class="meta-source">fallback.empty · 0 / 128</div>
+      </div>
+
+      <h2>Context</h2>
+      <span class="pill">mode: api</span>
+      <span class="pill">theme: default</span>
+      <span class="pill">font: medium</span>
+      <span class="pill">background: none</span>
+      <span class="pill">preview: degraded</span>
+
+      <h2>Structure</h2>
+      <div class="meta-row">
+        <div class="meta-label">Body H1</div>
+        <div class="meta-value">AI 炼金术：和 Mars 聊了两小时，剪出 5 段</div>
+      </div>
+      <div class="meta-row">
+        <div class="meta-label">Images</div>
+        <div class="meta-value">1 total · 1 local · 0 remote · 0 ai</div>
+      </div>
+
+      <h2>Checks</h2>
+      
+        
+          <div class="check warn">
+            <div class="check-code">warn · DUPLICATE_H1</div>
+            <div>Body H1 matches the final article title</div>
+            <div class="meta-source">remove the body H1 or change the final title</div>
+          </div>
+        
+          <div class="check info">
+            <div class="check-code">info · IMAGE_REPLACEMENT_REQUIRES_UPLOAD_OR_DRAFT</div>
+            <div>Images are only uploaded and replaced during upload or draft flows</div>
+            <div class="meta-source">use --upload or --draft when you need local/remote/AI image references rewritten to published URLs</div>
+          </div>
+        
+          <div class="check error">
+            <div class="check-code">error · MISSING_API_KEY</div>
+            <div>API mode requires MD2WECHAT_API_KEY</div>
+            <div class="meta-source">set MD2WECHAT_API_KEY or switch to --mode ai</div>
+          </div>
+        
+      
+    </aside>
+
+    <main class="panel">
+      <div class="article-shell">
+        
+          <div class="banner">Preview degraded: exact HTML could not be rendered in the current environment.</div>
+        
+        
+          <div class="banner">Render error: MISSING_API_KEY: API key is required for API mode</div>
+        
+        
+          <h1 style="margin-bottom:12px;">AI 炼金术：和 Mars 聊了两小时，剪出 5 段</h1>
+          
+          
+          <h2 style="margin-top:24px;">Markdown Body</h2>
+          <pre># AI 炼金术：和 Mars 聊了两小时，剪出 5 段
+
+上周和 Mars 在 Riverside 录了一期对谈，主题叫《AI 炼金术》，两个小时。剪成了 5 段两分钟左右的精华，都传到了 YouTube 上。
+
+每一段都可以独立看。下面是顺序和我的私房推荐看法。
+
+![五段精华一览](./illustration.png)
+
+## 一、LLM 是新的编译器，自然语言才是新代码
+
+所谓「屎山代码」不是 bug，是新的汇编层——人不该读、不该改。
+
+LLM 是新的编译器，把自然语言编译成 Python，再编译成汇编。未来你写的是「意图」，不是 Python。如果觉得生成的代码不对，去自然语言层改，不要在 Python 层改。
+
+视频：https://www.youtube.com/watch?v=G-5naPKVgHM
+
+## 二、用 AI 的三层境界——你停在第几层？
+
+第一层：跟豆包 / ChatGPT 聊天。90% 的人卡在这一层。
+
+第二层：写一个 .md 文件让它执行，沉淀成 skill。
+
+第三层：用多个文件夹组织真正的工程项目，几万行自然语言「源代码」&#43; 定时执行。
+
+只在第一层的人会觉得 AI「没法用」。真正的杠杆在第三层。
+
+（这一层我之前单独写过一篇文字版，对应到编程的 REPL、单文件、多文件项目，可以回看公众号上一篇《AI 能力的三个简单层次》。）
+
+视频：https://www.youtube.com/watch?v=zNFY8npEipA
+
+## 三、程序员的最大风险——从轿夫到司机
+
+AI 不是更快的轿子，是车。
+
+程序员有力气抬轿子，但开车需要重新学。最大的悲哀：离新技术越近的产业工人，往往是被淘汰得最惨的——因为他们最不愿意承认自己原来的力气没用了。
+
+视频：https://www.youtube.com/watch?v=TfSMIQOqmdU
+
+## 四、我做了个 APP，它自己改自己
+
+用户在 APP 里写反馈 → 自动提交到 GitHub Issue → Claude Code 写代码、跑测试、合并主分支 → TestFlight 5 分钟后推送新版本到你的手机。
+
+未来软件的形态：不再从 App Store 下载现成的，每个 APP 都在按你的反馈自我进化。
+
+视频：https://www.youtube.com/watch?v=VIcvO_iZf9U
+
+## 五、Token 烧不出去，是因为你脑子不行
+
+判断一个人或一家公司的 AI 真功夫，只看一个指标：每天烧多少 token。这是新的 GDP。
+
+不要省 token——「省钱」会让你蒙蔽双眼，以为是钱的瓶颈，其实瓶颈是你的脑子、你的想象力、你能给 AI 派多少正经活。
+
+视频：https://www.youtube.com/watch?v=7qYD5WGjXGY
+
+## 完整版
+
+5 段是从 2 小时里挑出来的，原版完整对谈也在 YouTube，搜「王建硕 Mars AI 炼金术」可以找到。如果你只有 10 分钟，就按顺序刷这 5 段。</pre>
+        
+      </div>
+    </main>
+  </div>
+</body>
+</html>

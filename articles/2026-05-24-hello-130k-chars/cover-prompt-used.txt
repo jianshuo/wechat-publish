@@ -1,0 +1,5 @@
+target_word: 你打一个 hello，发过去 13 万字
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-24T10:11:09Z

@@ -1,0 +1,3 @@
+calling gpt-image-2-skill (target: 'Agent 不空', size: 1536x1024, quality: high)
+raw image: /Users/jianshuo/code/wechat-publish/articles/2026-05-18-agent-not-empty/cover-raw.png
+cover ready: /Users/jianshuo/code/wechat-publish/articles/2026-05-18-agent-not-empty/cover.png (900x383)

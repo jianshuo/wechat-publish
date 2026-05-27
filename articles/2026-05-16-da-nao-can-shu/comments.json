@@ -1,0 +1,164 @@
+{
+  "fetched_at": "2026-05-18T06:42:35Z",
+  "source": "gstack-browser-fetch",
+  "total": 3,
+  "comments": [
+    {
+      "id": 3,
+      "nick_name": "西瓜珍宝",
+      "icon": "https://wx.qlogo.cn/mmopen/ChaK6v2M7nYMGzg7lUua3PIpSQ8iau458ib5GVd5vyD5EEEv5tKOu6HgiaxqVHR2yLQiconEqIcJu2mtJicp7vXtnXJSrcKRLGLvFDsicsmq78ubVv5ictsWDmgSEPtvV4gcPzB/64",
+      "content": "把自己当AI，主动构建环境，将自己数据化赛博化[呲牙]",
+      "post_time": 1779067510,
+      "is_elected": 1,
+      "uin": 0,
+      "del_flag": 0,
+      "my_id": 72,
+      "content_id": "9926627460756013128",
+      "reply": {
+        "reply_list": [],
+        "reply_read_time": 1779073042,
+        "support_new_reply": 2
+      },
+      "status": 3,
+      "comment_id": "4520525540709220353",
+      "fake_id": "o2AXjjpNROgqByEuO67DWhKZF8uk",
+      "is_top": false,
+      "user_comment_cnt": 52,
+      "user_elected_comment_cnt": 49,
+      "shield_status": 0,
+      "update_time": 1779067510,
+      "is_often_read": 1,
+      "new_reply": {
+        "reply_list": [],
+        "max_reply_id": 1,
+        "reply_total_cnt": 0,
+        "max_read_reply_time": 1779073042,
+        "new_reply_total_cnt": 0,
+        "shield_reply_cnt": 0,
+        "elected_reply_cnt": 0
+      },
+      "like_num": 2,
+      "spam_flag": 0,
+      "identity_type": 0,
+      "identity_id": 0,
+      "identity_open_id": "pQCsXTL_5wt4QuvYUezb3w",
+      "author_like_status": 1,
+      "tag_info": {
+        "first_tag": "留言52次",
+        "second_tag": "关注12年"
+      },
+      "is_from": 1,
+      "multi_info": {
+        "pictures": [],
+        "emojis": []
+      },
+      "ip_wording": "上海",
+      "antispam_reason": "",
+      "bizattr_servicetype": 0
+    },
+    {
+      "id": 2,
+      "nick_name": "JunChenོ ²⁰²⁶",
+      "icon": "https://wx.qlogo.cn/mmopen/ajNVdqHZLLDKxcOAgoRq6HjxvYKXFvK0bmYazsjNV9VJE9bFJAauAQmtbAYzcZOY4lt2WgfciaQ6Zbj7XOcBuRg/64",
+      "content": "我们不知道大模型为何会智能涌现，正如我们也不知道人类为何会产生智慧",
+      "post_time": 1779062816,
+      "is_elected": 1,
+      "uin": 0,
+      "del_flag": 0,
+      "my_id": 66,
+      "content_id": "3116583318296985666",
+      "reply": {
+        "reply_list": [],
+        "reply_read_time": 1779073042,
+        "support_new_reply": 2
+      },
+      "status": 3,
+      "comment_id": "4520525540709220353",
+      "fake_id": "o2AXjjuaYj86GtDHNwStS5AiC50E",
+      "is_top": false,
+      "user_comment_cnt": 2,
+      "user_elected_comment_cnt": 2,
+      "shield_status": 0,
+      "update_time": 1779062816,
+      "is_often_read": 1,
+      "new_reply": {
+        "reply_list": [],
+        "max_reply_id": 1,
+        "reply_total_cnt": 0,
+        "max_read_reply_time": 1779073042,
+        "new_reply_total_cnt": 0,
+        "shield_reply_cnt": 0,
+        "elected_reply_cnt": 0
+      },
+      "like_num": 3,
+      "spam_flag": 0,
+      "identity_type": 0,
+      "identity_id": 0,
+      "identity_open_id": "OIaxYP5AlpQQ95rmmCqdzQ",
+      "author_like_status": 0,
+      "tag_info": {
+        "first_tag": "留言2次",
+        "second_tag": "关注4年"
+      },
+      "is_from": 1,
+      "multi_info": {
+        "pictures": [],
+        "emojis": []
+      },
+      "ip_wording": "浙江",
+      "antispam_reason": "",
+      "bizattr_servicetype": 0
+    },
+    {
+      "id": 1,
+      "nick_name": "普通AI星球",
+      "icon": "http://wx.qlogo.cn/mmhead/xzvVYaqtSnwPryqZW9IBg6IKXfXkZdIMxV6tDmFvB5rvwic8Axzb0ziavGbzQiaJaFao3dbrjShjhc/64",
+      "content": "烦恼即菩提，bug即优化。",
+      "post_time": 1779062521,
+      "is_elected": 1,
+      "uin": 0,
+      "del_flag": 0,
+      "my_id": 311,
+      "content_id": "4656260975731671351",
+      "reply": {
+        "reply_list": [],
+        "reply_read_time": 1779073042,
+        "support_new_reply": 2
+      },
+      "status": 3,
+      "comment_id": "4520525540709220353",
+      "fake_id": "",
+      "is_top": false,
+      "user_comment_cnt": 1,
+      "user_elected_comment_cnt": 1,
+      "shield_status": 0,
+      "update_time": 1779062521,
+      "new_reply": {
+        "reply_list": [],
+        "max_reply_id": 1,
+        "reply_total_cnt": 0,
+        "max_read_reply_time": 1779073042,
+        "new_reply_total_cnt": 0,
+        "shield_reply_cnt": 0,
+        "elected_reply_cnt": 0
+      },
+      "like_num": 2,
+      "spam_flag": 0,
+      "identity_type": 1,
+      "identity_id": 0,
+      "identity_open_id": "OKjFU08P4tZStQvT6-ToKw",
+      "author_like_status": 0,
+      "tag_info": {
+        "first_tag": "留言1次"
+      },
+      "is_from": 1,
+      "multi_info": {
+        "pictures": [],
+        "emojis": []
+      },
+      "ip_wording": "上海",
+      "antispam_reason": "",
+      "bizattr_servicetype": 1
+    }
+  ]
+}

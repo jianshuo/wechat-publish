@@ -1,0 +1,33 @@
+<p>ccglass 是一个本地的日志反向代理 + 网页面板，让你看见自己的 coding agent 到底往模型发了什么。这是最近几个版本（0.3 → 0.6）的更新清单，按版本列出所有 PR，括号里是作者。</p>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">v0.5.0（2026-05-26）</h2>
+<p><br></p>
+<ul><li>#50 dashboard 升级：每条请求的延迟、首字时间、吞吐速度；延迟趋势图；按模型过滤；session 维度统计；浅色 / 深色主题（@KorenKrita）</li><li>#49 新增 Reasonix CLI provider（@KorenKrita）</li><li>#48 跨所有 session 的 token 用量与花费汇总（@marcuslannister）</li></ul>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">v0.4.0（2026-05-26）</h2>
+<p><br></p>
+<ul><li>#45 日志改为内容寻址（git 式）存储：message、tools、system 各按内容 hash 只存一份，长会话不再平方膨胀（@jianshuo）</li></ul>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">v0.3.2（2026-05-25）</h2>
+<p><br></p>
+<ul><li>#43 Codex：从 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">~/.codex/config.toml</code> 读 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">base_url</code>，再用 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">-c</code> 覆盖（@jianshuo）</li><li>#41 provider 切换器写在环境变量里的 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">ANTHROPIC_BASE_URL</code> 也能识别（@jianshuo）</li><li>#39 日志存到 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">~/.ccglass/sessions/</code>，删掉项目目录也不丢（@KorenKrita）</li><li>#38 Bedrock：改用 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">ANTHROPIC_BEDROCK_BASE_URL</code>，代理才真正拦得到流量（@marcuslannister）</li><li>#36 文档：补充 IDE（<code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">proxy</code> 子命令）支持说明（@jianshuo）</li><li>#34 找不到要启动的命令时，给出可操作的提示（ENOENT）（@jianshuo）</li><li>#32 新增 codex-azure provider（Azure OpenAI）（@jianshuo）</li><li>#29 创建代理前先校验 upstream URL 格式（@jianshuo）</li><li>#28 检测 Codex 的 ChatGPT 登录 / websocket 模式并提醒（这种模式抓不到流量）（@jianshuo）</li><li>#22 Windows：用 cross-spawn 可靠解析 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">.cmd</code>，修「命令找不到」（@jianshuo）</li><li>#20 修 Windows 下 Codex 的代理路由（@ping-coding）</li><li>#19 处理 Responses API 的 reasoning block（查看 / 流式 / 非流式）（@jianshuo）</li><li>#18 dashboard 显示错误和重试循环（@jianshuo）</li><li>#17 新增 provider 预设：Ollama、LM Studio、OpenRouter、GLM、Bedrock、Vertex（@jianshuo）</li></ul>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">v0.3.1（2026-05-24）</h2>
+<p><br></p>
+<ul><li>#12 修 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">xdg-open</code> 报 EACCES / ENOENT 时的崩溃（@KorenKrita）</li><li>#11 新增 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">--env-var</code> 选项和 OpenCode provider（@ivanberry）</li><li>#8 转发代理请求时拼上 upstream 的 base path（@jianshuo）</li><li>#7 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">--help</code> 的 export 格式列表补上 raw，去掉重复的 OPTIONS 行（@claude[bot]）</li></ul>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">v0.3.0（2026-05-23）</h2>
+<p><br></p>
+<ul><li>#1 新增 DeepSeek-TUI provider 支持（@zhuangbiaowei，庄表伟）</li></ul>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">感谢</h2>
+<p><br></p>
+<p>这些版本里很多功能来自社区贡献，特别感谢 <strong style="color:#ff0000;">@KorenKrita、@marcuslannister、@ivanberry、@ping-coding、@zhuangbiaowei（庄表伟）</strong>——是你们让 ccglass 变得更好。</p>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">Star History</h2>
+<p><br></p>
+<p><img src="http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQNryxzXibp6NuOZmDicDWibicImjaePs1PpIAlBdrtOsCibz7Q5lKylT6AB6FYq9umqlBLRQ54PWHNEHf2fyl6z5wVJWvutsRDPXEsw/0?wx_fmt=png" alt=""></p>
+<p><br></p>
+<h2 style="font-size:1.4em;font-weight:bold;">安装 / 升级</h2>
+<p><br></p>
+<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:14px;line-height:1.8;color:#24292e;">npm install -g ccglass@latest<br>ccglass</section>

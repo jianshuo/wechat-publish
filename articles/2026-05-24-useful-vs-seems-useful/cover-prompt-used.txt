@@ -1,0 +1,5 @@
+target_word: 「有用」和「好像有用」是两回事
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-24T10:27:44Z

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>精选留言 — 王建硕</title>
+<style>
+  :root {
+    --ink: #1f1d1a;
+    --ink-soft: #5e5a52;
+    --paper: #fafaf6;
+    --rule: #e9e5dc;
+    --accent: #a8341f;
+    --reply-bg: #f3eee3;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); }
+  body {
+    font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    padding: 80px 24px 120px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 64px; }
+  header h1 {
+    font-family: "Source Han Serif SC", "Songti SC", "Noto Serif CJK SC", serif;
+    font-size: 38px;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  header .subtitle {
+    color: var(--ink-soft);
+    font-size: 15px;
+    margin: 0;
+  }
+  header .article-title {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+  .divider {
+    width: 60px;
+    height: 1px;
+    background: var(--accent);
+    margin: 24px auto 0;
+  }
+
+  article.card {
+    margin: 48px 0;
+    border-top: 1px solid var(--rule);
+    padding-top: 36px;
+  }
+  .rank {
+    display: inline-block;
+    font-family: "Source Han Serif SC", "Songti SC", serif;
+    font-size: 13px;
+    letter-spacing: 0.25em;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .meta {
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .meta .nick {
+    color: var(--ink);
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .meta .sep { margin: 0 6px; opacity: 0.5; }
+  .quote {
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: var(--ink);
+    position: relative;
+    padding-left: 18px;
+    border-left: 3px solid var(--accent);
+  }
+  .reply {
+    margin-top: 18px;
+    padding: 14px 18px;
+    background: var(--reply-bg);
+    border-radius: 4px;
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+  .reply .label {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 8px;
+  }
+  .why {
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--rule);
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+  }
+  .why .label {
+    display: inline-block;
+    color: var(--ink);
+    font-weight: 600;
+    margin-right: 6px;
+  }
+
+  footer {
+    margin-top: 96px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+    border-top: 1px solid var(--rule);
+    padding-top: 28px;
+  }
+  footer .name {
+    font-family: "Source Han Serif SC", "Songti SC", serif;
+    font-size: 16px;
+    color: var(--ink);
+    letter-spacing: 0.1em;
+  }
+
+  @media (max-width: 520px) {
+    body { font-size: 16px; padding: 48px 18px 80px; }
+    header h1 { font-size: 30px; }
+    .quote { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>精 选 留 言</h1>
+      <div class="divider"></div>
+      <p class="subtitle">三条，从六条里挑出来</p>
+      <p class="article-title">《我写的用 Claude Code 剪视频的 15 个 Skill》</p>
+    </header>
+
+    <main>
+
+      <article class="card">
+        <div class="rank">01 / 03</div>
+        <div class="meta">
+          <span class="nick">吴泽祎</span>
+          <span class="sep">·</span><span>北京</span>
+          <span class="sep">·</span><span>2026-05-14 20:01</span>
+        </div>
+        <blockquote class="quote">拿自然语言编程 😁</blockquote>
+        <div class="why">
+          <span class="label">为什么选它：</span>
+          一句话提纯整篇文章的论点。最短、最准——五个字 + 一个表情，正中「少写代码、多写 skill」的核心。
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="rank">02 / 03</div>
+        <div class="meta">
+          <span class="nick">APING</span>
+          <span class="sep">·</span><span>广东</span>
+          <span class="sep">·</span><span>2026-05-14 19:56</span>
+        </div>
+        <blockquote class="quote">太赞了，就说将功能分解成小单位 skill 的思维，可以让人少走许多弯路。</blockquote>
+        <div class="why">
+          <span class="label">为什么选它：</span>
+          这条把 skill 化拆解的<em>思维价值</em>说出来了——超过感叹层面，到了「我看懂你为什么这么做」的层面。读者识别出方法论本身比赞美内容更难得。
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="rank">03 / 03</div>
+        <div class="meta">
+          <span class="nick">产品经理的那点事</span>
+          <span class="sep">·</span><span>福建</span>
+          <span class="sep">·</span><span>2026-05-15 15:40</span>
+        </div>
+        <blockquote class="quote">token 消耗情况怎么样呢？</blockquote>
+        <div class="reply">
+          <span class="label">公 开 回 复</span>
+          我暂时不关心这件事情。
+        </div>
+        <div class="why">
+          <span class="label">为什么选它：</span>
+          完整对话。一个真实痛点（成本），加一个反直觉但符合一贯态度的回应——「不要省 token，省钱会让你蒙蔽双眼」。这种有来回的留言，比孤立的赞美更有意思。
+        </div>
+      </article>
+
+    </main>
+
+    <footer>
+      <div class="name">王 建 硕</div>
+      <div style="margin-top: 6px;">公众号 / 视频号 · 同名</div>
+    </footer>
+  </div>
+</body>
+</html>

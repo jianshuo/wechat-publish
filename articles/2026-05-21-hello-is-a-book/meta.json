@@ -1,0 +1,7 @@
+{
+  "title": "用 Claude Code，你以为说了一个 Hello？不是，你发过去一本三国演义",
+  "summary": "用 Claude Code 打一个 hello，你以为发了 5 个字符？把请求抓下来——137918 字节。而且这还没算上下文堆起来后，每打一个词都顶一本三国演义。",
+  "author": "王建硕",
+  "date": "2026-05-21",
+  "slug": "hello-is-a-book"
+}

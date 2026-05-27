@@ -1,0 +1,7 @@
+{
+  "title": "我写了个 ccglass，看看 Claude Code 向大模型发了什么",
+  "summary": "Claude Code 升级成二进制后，claude-trace 这些工具全失效了。我写了个 ccglass，npm 装上就能看到它向服务器发的每个细节——系统提示词、48 个工具、token 账，全摊开在眼前。",
+  "author": "王建硕",
+  "date": "2026-05-22",
+  "slug": "ccglass"
+}

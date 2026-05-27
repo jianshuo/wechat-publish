@@ -1,0 +1,5 @@
+target_word: 20 年前的程序员，重新学走路
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-24T10:42:44Z

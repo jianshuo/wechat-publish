@@ -1,0 +1,31 @@
+# 改指令，不要改产物
+
+最近没日没夜地用 Claude Code 作为主要的平台做任何事情，得到一个非常重要的经验：要抑制住**直接**修改 AI 生成产物的冲动，而要从 Skill、Memory、CLAUDE.md 等层面去解决问题。
+
+比如最近我需要准备一些证据材料，就把几年的微信聊天记录录屏以后交给 Claude Code，帮我分析里面的对话内容，结果生成了一份详细的 PDF 报告。
+
+这个时候如果我对这份最终的报告有任何不满，最习惯的方法当然是直接在 PDF 里面修改——删几个字，加几句话。
+
+但是，**一定一定要抑制住这个冲动**。这种修改是没有前途的。
+
+一定要回到 Claude Code，重新把需求说一遍，比如「不要前面的封面，报告尽量简洁」。它会一口气做三件事：
+
+1. 把这份 PDF 改了；
+2. 把你没有注意到的类似问题也一并改了；
+3. 把这条指令写进 Skill 文件和 Memory 文件。
+
+这样当你下次还有别的修改的时候，可以在这次的改动上**叠加**。
+
+甚至在做别的修改的时候，这一条原则也会跟着，一劳永逸地解决类似的问题，在未来生成类似文档的时候继续发挥效果。
+
+否则的话，你直接改结果，这边改完了，然后又用 Claude Code 帮你改另外的东西，前一次的改动就被覆盖掉了。除非你能保证这次是你做的最后一次改动——但这种情况基本上并不存在。
+
+所以，无论 AI 生成的是什么——图片、文章、代码、PDF——都要抑制住那种直接去改成品的冲动。
+
+现在去修改指令的那一层，看似多此一举，不顺手，时间也不见得最快。
+
+但这是正确的方法。
+
+![](./illustration.png)
+
+<section style="background:#f7f5f0;padding:20px 22px;border-radius:8px;margin-top:32px;"><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;"><strong style="color:#777;">上篇精选留言 ·《<a href="https://mp.weixin.qq.com/s/L8puybdd9rr_OI3iSnS-dw" style="color:#888;text-decoration:underline;">吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机</a>》</strong></p><p style="color:#999;font-size:13px;line-height:1.7;margin:0 0 14px;font-style:italic;">「吃一堑」那一秒，像大模型 LoRA 梯度最大的瞬间——是修改自己大脑参数的黄金窗口。这是上一篇的核心比喻。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">3 条留言里，最值得分享的 3 条——</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">JunChen ²⁰²⁶（浙江 · 👍 3）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">我们不知道大模型为何会智能涌现，正如我们也不知道人类为何会产生智慧。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">西瓜珍宝（上海）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">把自己当 AI，主动构建环境，把自己数据化、赛博化。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 4px;"><strong style="color:#777;">普通AI星球（上海）</strong></p><p style="color:#888;font-size:14px;line-height:1.75;margin:0 0 14px;">烦恼即菩提，bug 即优化。</p><p style="color:#888;font-size:14px;line-height:1.75;margin:0;">谢谢这 3 位朋友——评论很少但每一条都让我多想了一会儿。下一篇接着从你们的视角里出发。</p></section>

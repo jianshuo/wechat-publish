@@ -1,0 +1,5 @@
+target_word: 能跑
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-25T13:08:45Z

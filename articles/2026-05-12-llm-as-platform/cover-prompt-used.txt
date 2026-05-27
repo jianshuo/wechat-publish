@@ -1,0 +1,5 @@
+target_word: Skill
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (auto provider)
+generated: 2026-05-12T14:03:27Z

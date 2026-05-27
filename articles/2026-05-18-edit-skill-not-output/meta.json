@@ -1,0 +1,7 @@
+{
+  "title": "改指令，不要改产物",
+  "summary": "没日没夜用 Claude Code 之后悟到的一条规则——AI 给你的产物不要直接改，回到 Skill / Memory / CLAUDE.md 那一层去改。否则下次就被覆盖。",
+  "author": "王建硕",
+  "date": "2026-05-18",
+  "slug": "edit-skill-not-output"
+}

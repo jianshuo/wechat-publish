@@ -1,0 +1,5 @@
+target_word: 凡是有用的做不出来，凡是做出来的没啥用
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-24T10:30:42Z

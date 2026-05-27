@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "title": "ccglass 0.3.0 新功能发布",
+      "author": "王建硕",
+      "digest": "上周写的 ccglass 更新到 0.3.0。最大的新功能是 flow——一条时间线，看 AI 写代码时怎么从几十个工具里挑一个、在本地跑、再把结果喂回模型。还能导出人能读的请求全文，agent 也能查自己。",
+      "content": "<p>上周我写了个 ccglass，能看到 Claude Code 在背地里跟大模型说了什么。那时候它还只是个看请求的小工具——左边一列请求，右边几个标签页，system、messages、tools 摊开给你看。</p>\n<p><br></p>\n<p>这周它长了不少。今天发了 0.3.0，说几个我自己最想要的新东西。</p>\n<p><br></p>\n<p>最大的一个，是 <strong style=\"color:#ff0000;\">flow</strong>。</p>\n<p><br></p>\n<p>以前那一列请求是干巴巴的，你知道 agent 发了五十次，但不知道这五十次之间发生了什么。现在点开 flow，是一条从上往下的时间线：模型先从几十个工具里挑了哪个、这个工具在你本地怎么跑的、跑出来的结果又怎么喂回给模型、模型接着再挑下一个。一来一回。</p>\n<p><br></p>\n<p>配对的「调用」和「结果」用同一个颜色连起来，skill 调用也单独标出来。</p>\n<p><br></p>\n<p>一句「改个 bug」，点开就是五十多步工具调用。<strong style=\"color:#ff0000;\">每一步它先做什么、再做什么、结果是什么，全摊在那儿，清清楚楚。</strong></p>\n<p><br></p>\n<p>第二个是 raw 导出。我不想看给机器读的 JSON，我想看人能读的：模型到底收到了什么 prompt，缩进、换行、一字不差。现在一键导出一份干净的请求全文，系统提示词、对话、工具定义，全在那儿。</p>\n<p><br></p>\n<p>第三个有点绕，但我很喜欢：agent 现在能查自己。我把 ccglass 的查询能力做成工具塞进了 Claude Code，于是你可以直接在对话里问它「我刚才那条请求花了多少 token」，它自己去翻日志回答你。<strong style=\"color:#ff0000;\">自己看自己。</strong></p>\n<p><br></p>\n<p>还有些小的：左边每条请求标了时间、标了用过几次工具，长内容能折叠起来，启动自动开浏览器。</p>\n<p><br></p>\n<p>最后修了个 bug。有朋友用 cc-switch 切换供应商，结果面板里一条请求都抓不到——它跟 ccglass 抢同一个地址，ccglass 抢输了。现在 ccglass 会自己认出来、自己接管，开箱即用。</p>\n<p><br></p>\n<p>写代码的 agent 越来越聪明，也越来越像黑箱。我做 ccglass，就是想给这个黑箱开一扇玻璃窗。<strong style=\"color:#ff0000;\">现在这扇窗，能看见它每一步是怎么动的了。</strong></p>\n<p><br></p>\n<p>整件事画出来，大概就是这样：</p>\n<p><br></p>\n<p><img src=\"http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQPbBf3sNLLchUUDgwvkbGZMH58gpicRiaVfsjYwpI9D2ZLQhMXoJU1s73HrDAD5kdIj1UkuB85fWu9lu1P6BIXnViaas6KNHhqdN4/0?wx_fmt=png\" alt=\"\"></p>\n<p><br></p>\n<p>装和升级，就这一行：</p>\n<p><br></p>\n<section style=\"background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:14px;line-height:1.8;color:#24292e;\">npm install -g ccglass</section>\n<p><br></p>\n<p>代码全部开源在 github.com/jianshuo/ccglass，上线一天多就有快一百颗 star 了，挺意外的，喜欢的话帮我点一颗。</p>",
+      "thumb_media_id": "qYkBJGAU_78uyzUjMFBzdYfFrXZlTHa_k1c4sFCfe8b2QaP1PlXcek9FqooBnafF",
+      "content_source_url": "",
+      "need_open_comment": 1,
+      "only_fans_can_comment": 0
+    }
+  ]
+}

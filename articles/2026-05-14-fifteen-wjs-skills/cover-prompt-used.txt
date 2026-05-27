@@ -1,0 +1,5 @@
+target_word: 十五个 skill
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-05-14T09:46:47Z

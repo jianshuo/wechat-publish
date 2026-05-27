@@ -1,0 +1,16 @@
+# Heavy media — regeneratable, not needed in repo (per request)
+*.mp4
+*.mp3
+
+# Local tooling state / logs — may contain cookies, tokens, sessions
+.gstack/
+.ccglass/
+.claude/
+.upload-logs/
+
+# Python venvs (in case any reappear)
+.venv/
+__pycache__/
+
+# macOS cruft
+.DS_Store
