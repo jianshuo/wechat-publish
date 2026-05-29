@@ -1,8 +1,12 @@
 2023 年 3 月 6 日，ChatGPT 刚出来不久，GPT-4 还没发布，我和 Sarah 做了一场关于 ChatGPT 的访谈——她播客 Traders' Talk「大白话系列」的第三期。那时候 ChatGPT 才出来没多久，真正上手用的人还非常少，这场长达三个小时的访谈，后来一直挂在小宇宙 ChatGPT 类目的第一名。我在里面一口气抛出了二十来个判断和预测，全凭直觉和有限的信息，没什么数据。当时那场访谈的完整逐字稿，还留在公众号上。现在是 2026 年 5 月底，三年过去了，AI 已经长成了当年想象不到的样子。
 
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQPVCAZJCHBfbHAMrwoHfqBp0oxvU4GMY6pAwCUhglBV4N4FRSIHicsLzyKLoqQtp76OTactvtZxoO6CKhBFuRiacGFelWicNVEpvM/0?wx_fmt=png)
+
 我想做一件事：把当年那二十条逐条拎出来，用今天能查到的最新数据，客观地对一次账。看清楚三年里世界到底变成了什么样，也看清楚三年前那个我，哪些地方看准了，哪些地方看偏了。
 
 为了尽量不偏不向，这次对账我索性交给了 AI 来做：把当年的访谈逐字稿丢进一个 workflow，由它调度 **41 个 Opus 4.8 的 agent**，先把二十条判断逐条拆开，再各自联网检索最新数据、一条条交叉求证，最后给三年前的王建硕打分。这群 agent 花了大约 20 分钟、烧掉 140 万 token，跑出了下面这份报告。判断都来自它们，不是我。基准日定在 2026 年 5 月。
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/x701icxIMoQMXhrxkxVEGCoJW5zxOMFZwUnsETbiad07IXI6vIF0w4htRiaInicQfGic22FeAMdJaNGOicB487FwW9UZEbWziacnCpibFsvZcR5OjRY/0?wx_fmt=jpeg)
 
 ## 一、记分牌
 
