@@ -14,3 +14,7 @@ __pycache__/
 
 # macOS cruft
 .DS_Store
+
+# tweet.sh in-flight drafts (mktemp -p .)
+.tweet.*
+.angle.*

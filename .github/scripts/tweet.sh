@@ -38,8 +38,10 @@ SLUG="$(basename "$FOLDER")"
 echo "Picked: $FOLDER (slug: $SLUG)"
 
 # --- Step 2: Claude drafts + picks (prompt template lives in prompts/x/prompt.md) ---
-TWEET_FILE="$(mktemp)"
-ANGLE_FILE="$(mktemp)"
+# Files must live inside the repo cwd — `claude -p`'s sandbox blocks writes to /tmp/.
+TWEET_FILE="$(mktemp -p . .tweet.XXXXXX)"
+ANGLE_FILE="$(mktemp -p . .angle.XXXXXX)"
+trap 'rm -f "$TWEET_FILE" "$ANGLE_FILE"' EXIT
 PROMPT_TPL="prompts/x/prompt.md"
 [[ -f "$PROMPT_TPL" ]] || { echo "FATAL: missing $PROMPT_TPL"; exit 1; }
 prompt="$(sed -e "s#{{ARTICLE_PATH}}#${FOLDER}/article.md#g" \
