@@ -1,5 +1,5 @@
-target_word: 19对1错
+target_word: 三年之后
 size: 1536x1024
 quality: high
 via: gpt-image-2-skill (codex provider only)
-generated: 2026-05-29T05:35:49Z
+generated: 2026-05-29T05:39:43Z
