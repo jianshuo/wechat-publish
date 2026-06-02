@@ -1,7 +1,13 @@
 """把 X 发帖按 ISO 周归档成公众号格式文章。"""
 from __future__ import annotations
 
-from datetime import datetime, date, timedelta
+import argparse
+import json
+import os
+import subprocess
+import sys
+from datetime import datetime, date, timedelta, timezone
+from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
@@ -149,15 +155,6 @@ def fetch_all(user_id: str, start_time: str, fetcher) -> dict:
         if not token:
             break
     return merge_pages(pages)
-
-
-import argparse
-import json
-import os
-import subprocess
-import sys
-from datetime import timezone
-from urllib.parse import urlencode
 
 
 class XurlError(RuntimeError):
