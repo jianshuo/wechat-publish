@@ -49,3 +49,73 @@ def group_by_week(merged: dict) -> dict[tuple[int, int], list[tuple[datetime, di
     for key in buckets:
         buckets[key].sort(key=lambda pair: pair[0])
     return buckets
+
+
+WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
+REF_LABEL = {"replied_to": "↩️ 回复", "quoted": "🔁 引用"}
+
+
+def _snippet(text: str, limit: int = 80) -> str:
+    """压成一行并截断。"""
+    one_line = " ".join(text.split())
+    return one_line if len(one_line) <= limit else one_line[:limit] + "…"
+
+
+def _ref_lines(tweet: dict, merged: dict) -> list[str]:
+    """渲染被回复/引用原帖上下文（可能多条）。"""
+    lines: list[str] = []
+    for ref in tweet.get("referenced_tweets") or []:
+        label = REF_LABEL.get(ref.get("type"))
+        if not label:
+            continue
+        parent = merged["tweets_by_id"].get(ref.get("id"))
+        if parent:
+            author = merged["users_by_id"].get(parent.get("author_id", ""), {})
+            handle = author.get("username", "?")
+            lines.append(f"> {label} @{handle}：{_snippet(parent.get('text', ''))}")
+        else:
+            lines.append(f"> {label}（原帖不可见）")
+    return lines
+
+
+def _metrics_line(tweet: dict) -> str | None:
+    pm = tweet.get("public_metrics") or {}
+    return (f"<small>💬{pm.get('reply_count', 0)} "
+            f"♥{pm.get('like_count', 0)} "
+            f"🔁{pm.get('retweet_count', 0)}</small>")
+
+
+def render_week(key: tuple[int, int], items: list[tuple[datetime, dict]],
+                merged: dict, include_metrics: bool = True) -> tuple[str, str, dict]:
+    """返回 (folder_name, article_md, meta_dict)。"""
+    iso_year, iso_week = key
+    monday = week_monday(iso_year, iso_week)
+    sunday = monday + timedelta(days=6)
+    title = f"X 周记 · {monday.month}月{monday.day}日–{sunday.month}月{sunday.day}日"
+
+    lines: list[str] = [f"# {title}", "",
+                        f"> 本周在 X 上的发帖归档（原创 + 回复），共 {len(items)} 条。", ""]
+    current_day = None
+    for local, tweet in items:
+        day = local.date()
+        if day != current_day:
+            current_day = day
+            lines.append(f"## {WEEKDAYS[local.weekday()]} {day.month}月{day.day}日")
+            lines.append("")
+        for ref_line in _ref_lines(tweet, merged):
+            lines.append(ref_line)
+        lines.append(f"**{local.strftime('%H:%M')}**　{tweet.get('text', '')}")
+        if include_metrics:
+            lines.append(_metrics_line(tweet))
+        lines.append("")
+
+    article_md = "\n".join(lines).rstrip() + "\n"
+    meta = {
+        "title": title,
+        "summary": f"本周在 X 上的 {len(items)} 条发帖（原创 + 回复）归档。",
+        "author": "王建硕",
+        "date": monday.isoformat(),
+        "slug": f"x-week-{iso_week:02d}",
+    }
+    folder_name = f"{monday.isoformat()}-x-week-{iso_week:02d}"
+    return folder_name, article_md, meta

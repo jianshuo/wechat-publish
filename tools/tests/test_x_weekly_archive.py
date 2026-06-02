@@ -29,6 +29,53 @@ class TimeHelpersTest(unittest.TestCase):
         self.assertLessEqual(monday, dt.date())
 
 
+class RenderWeekTest(unittest.TestCase):
+    def _merged(self):
+        return {
+            "tweets_by_id": {"p1": {"id": "p1", "text": "原帖很长" * 30, "author_id": "u9"}},
+            "users_by_id": {"u9": {"id": "u9", "username": "alice"}},
+        }
+
+    def test_renders_folder_meta_and_reply_context(self):
+        key = xa.iso_week_key(xa.to_shanghai("2026-06-02T13:44:57.000Z"))
+        items = [
+            (xa.to_shanghai("2026-06-02T13:44:57.000Z"),
+             {"id": "1", "text": "原创一条",
+              "public_metrics": {"like_count": 2, "reply_count": 1, "retweet_count": 0}}),
+            (xa.to_shanghai("2026-06-02T14:00:00.000Z"),
+             {"id": "2", "text": "我的回复",
+              "referenced_tweets": [{"type": "replied_to", "id": "p1"}],
+              "public_metrics": {"like_count": 0, "reply_count": 0, "retweet_count": 0}}),
+        ]
+        folder, md, meta = xa.render_week(key, items, self._merged(), include_metrics=True)
+
+        self.assertTrue(folder.endswith("-x-week-23"))   # 2026-W23
+        self.assertTrue(folder.startswith("2026-06-01"))  # 该周周一
+        self.assertEqual(meta["author"], "王建硕")
+        self.assertEqual(meta["date"], "2026-06-01")
+        self.assertEqual(meta["slug"], "x-week-23")
+        self.assertIn("X 周记", meta["title"])
+        self.assertIn("# X 周记", md)
+        self.assertIn("原创一条", md)
+        self.assertIn("↩️ 回复 @alice", md)   # 回复带上下文
+        self.assertIn("21:44", md)             # 本地时间
+        self.assertIn("♥", md)                 # 互动数
+
+    def test_no_metrics_when_disabled(self):
+        key = xa.iso_week_key(xa.to_shanghai("2026-06-02T13:44:57.000Z"))
+        items = [(xa.to_shanghai("2026-06-02T13:44:57.000Z"),
+                  {"id": "1", "text": "x", "public_metrics": {"like_count": 9, "reply_count": 0, "retweet_count": 0}})]
+        _, md, _ = xa.render_week(key, items, self._merged(), include_metrics=False)
+        self.assertNotIn("♥", md)
+
+    def test_reply_to_deleted_parent_degrades(self):
+        key = xa.iso_week_key(xa.to_shanghai("2026-06-02T13:44:57.000Z"))
+        items = [(xa.to_shanghai("2026-06-02T13:44:57.000Z"),
+                  {"id": "2", "text": "回复", "referenced_tweets": [{"type": "replied_to", "id": "GONE"}]})]
+        _, md, _ = xa.render_week(key, items, self._merged(), include_metrics=False)
+        self.assertIn("↩️ 回复", md)  # 不崩，降级展示
+
+
 class GroupByWeekTest(unittest.TestCase):
     def test_groups_into_weeks_sorted_ascending(self):
         merged = {
