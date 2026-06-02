@@ -37,3 +37,15 @@ def merge_pages(pages: list[dict]) -> dict:
         for user in includes.get("users") or []:
             users_by_id[user["id"]] = user
     return {"data": data, "tweets_by_id": tweets_by_id, "users_by_id": users_by_id}
+
+
+def group_by_week(merged: dict) -> dict[tuple[int, int], list[tuple[datetime, dict]]]:
+    """按上海时区 ISO 周分桶；桶内按时间正序。键=(iso_year, iso_week)。"""
+    buckets: dict[tuple[int, int], list[tuple[datetime, dict]]] = {}
+    for tweet in merged["data"]:
+        local = to_shanghai(tweet["created_at"])
+        key = iso_week_key(local)
+        buckets.setdefault(key, []).append((local, tweet))
+    for key in buckets:
+        buckets[key].sort(key=lambda pair: pair[0])
+    return buckets

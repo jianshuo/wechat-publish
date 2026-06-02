@@ -29,6 +29,25 @@ class TimeHelpersTest(unittest.TestCase):
         self.assertLessEqual(monday, dt.date())
 
 
+class GroupByWeekTest(unittest.TestCase):
+    def test_groups_into_weeks_sorted_ascending(self):
+        merged = {
+            "data": [
+                {"id": "late", "text": "z", "created_at": "2026-06-03T02:00:00.000Z"},
+                {"id": "early", "text": "a", "created_at": "2026-06-02T02:00:00.000Z"},
+                {"id": "nextwk", "text": "n", "created_at": "2026-06-09T02:00:00.000Z"},
+            ],
+            "tweets_by_id": {},
+            "users_by_id": {},
+        }
+        buckets = xa.group_by_week(merged)
+        self.assertEqual(len(buckets), 2)
+        # 第一周桶内按时间正序：early 在 late 前
+        first_week = xa.iso_week_key(xa.to_shanghai("2026-06-02T02:00:00.000Z"))
+        ids = [tweet["id"] for _, tweet in buckets[first_week]]
+        self.assertEqual(ids, ["early", "late"])
+
+
 class MergePagesTest(unittest.TestCase):
     def test_merges_data_and_includes_across_pages(self):
         pages = [
