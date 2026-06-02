@@ -119,3 +119,33 @@ def render_week(key: tuple[int, int], items: list[tuple[datetime, dict]],
     }
     folder_name = f"{monday.isoformat()}-x-week-{iso_week:02d}"
     return folder_name, article_md, meta
+
+
+def start_time_iso(days: int, now_utc: datetime) -> str:
+    """now - days，格式化为 X API 要的 UTC 秒级 ISO。"""
+    start = now_utc - timedelta(days=days)
+    return start.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def fetch_all(user_id: str, start_time: str, fetcher) -> dict:
+    """用注入的 fetcher(user_id, params)->dict 翻页拉完，返回 merge_pages 结果。"""
+    base_params = {
+        "start_time": start_time,
+        "max_results": "100",
+        "exclude": "retweets",
+        "tweet.fields": "created_at,text,referenced_tweets,public_metrics,in_reply_to_user_id",
+        "expansions": "referenced_tweets.id,referenced_tweets.id.author_id",
+        "user.fields": "username",
+    }
+    pages: list[dict] = []
+    token = None
+    while True:
+        params = dict(base_params)
+        if token:
+            params["pagination_token"] = token
+        page = fetcher(user_id, params)
+        pages.append(page)
+        token = (page.get("meta") or {}).get("next_token")
+        if not token:
+            break
+    return merge_pages(pages)

@@ -29,6 +29,32 @@ class TimeHelpersTest(unittest.TestCase):
         self.assertLessEqual(monday, dt.date())
 
 
+class FetchAllTest(unittest.TestCase):
+    def test_paginates_until_no_next_token(self):
+        calls = []
+
+        def fake_fetcher(user_id, params):
+            calls.append((user_id, dict(params)))
+            if "pagination_token" not in params:
+                return {"data": [{"id": "1", "text": "a", "created_at": "2026-06-02T01:00:00.000Z"}],
+                        "meta": {"next_token": "T2"}}
+            return {"data": [{"id": "2", "text": "b", "created_at": "2026-06-03T01:00:00.000Z"}],
+                    "meta": {}}
+
+        merged = xa.fetch_all("999081", "2026-05-03T00:00:00Z", fake_fetcher)
+        self.assertEqual([t["id"] for t in merged["data"]], ["1", "2"])
+        self.assertEqual(len(calls), 2)
+        # 首次调用带 start_time、不带 pagination_token
+        self.assertEqual(calls[0][1]["start_time"], "2026-05-03T00:00:00Z")
+        self.assertNotIn("pagination_token", calls[0][1])
+        # 第二次带上 token
+        self.assertEqual(calls[1][1]["pagination_token"], "T2")
+
+    def test_start_time_from_days(self):
+        now = datetime.fromisoformat("2026-06-02T00:00:00+00:00")
+        self.assertEqual(xa.start_time_iso(30, now), "2026-05-03T00:00:00Z")
+
+
 class RenderWeekTest(unittest.TestCase):
     def _merged(self):
         return {
