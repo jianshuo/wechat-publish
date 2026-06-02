@@ -149,3 +149,102 @@ def fetch_all(user_id: str, start_time: str, fetcher) -> dict:
         if not token:
             break
     return merge_pages(pages)
+
+
+import argparse
+import json
+import os
+import subprocess
+import sys
+from datetime import timezone
+from urllib.parse import urlencode
+
+
+class XurlError(RuntimeError):
+    pass
+
+
+def run_xurl(path: str) -> dict:
+    """用 oauth1 调 xurl，返回解析后的 JSON。失败抛 XurlError。"""
+    proc = subprocess.run(
+        ["xurl", "--auth", "oauth1", path],
+        capture_output=True, text=True,
+    )
+    if proc.returncode != 0:
+        raise XurlError(f"xurl 退出码 {proc.returncode}: {proc.stderr.strip()}\n"
+                        f"先跑 `xurl auth status` 检查认证。")
+    try:
+        payload = json.loads(proc.stdout)
+    except json.JSONDecodeError as exc:
+        raise XurlError(f"xurl 返回非 JSON：{proc.stdout[:200]}") from exc
+    if isinstance(payload, dict) and (payload.get("errors") or payload.get("title") == "Unauthorized"):
+        raise XurlError(f"X API 报错：{json.dumps(payload, ensure_ascii=False)[:300]}\n"
+                        f"先跑 `xurl auth status` 检查认证。")
+    return payload
+
+
+def get_user_id(username: str) -> str:
+    payload = run_xurl(f"/2/users/by/username/{username}")
+    return payload["data"]["id"]
+
+
+def real_fetcher(user_id: str, params: dict) -> dict:
+    query = urlencode(params)
+    return run_xurl(f"/2/users/{user_id}/tweets?{query}")
+
+
+def write_week(out_dir: str, folder_name: str, article_md: str, meta: dict) -> str:
+    week_dir = os.path.join(out_dir, folder_name)
+    os.makedirs(week_dir, exist_ok=True)
+    with open(os.path.join(week_dir, "article.md"), "w", encoding="utf-8") as fh:
+        fh.write(article_md)
+    with open(os.path.join(week_dir, "meta.json"), "w", encoding="utf-8") as fh:
+        json.dump(meta, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    return week_dir
+
+
+def main(argv=None) -> int:
+    parser = argparse.ArgumentParser(description="把 X 发帖按周归档成公众号格式文章")
+    parser.add_argument("--days", type=int, default=30, help="往前拉多少天（默认 30）")
+    parser.add_argument("--username", default="jianshuo", help="X 用户名")
+    parser.add_argument("--out", default="x-weekly", help="输出目录")
+    parser.add_argument("--no-metrics", action="store_true", help="不显示互动数")
+    args = parser.parse_args(argv)
+
+    now_utc = datetime.now(timezone.utc)
+    start_time = start_time_iso(args.days, now_utc)
+    print(f"拉取 @{args.username} 自 {start_time} 起的发帖（原创+回复，去转推）…")
+
+    try:
+        user_id = get_user_id(args.username)
+        merged = fetch_all(user_id, start_time, real_fetcher)
+    except XurlError as exc:
+        print(f"错误：{exc}", file=sys.stderr)
+        return 1
+
+    # 原始数据落盘便于排查
+    cache_dir = os.path.join(args.out, ".cache")
+    os.makedirs(cache_dir, exist_ok=True)
+    stamp = now_utc.strftime("%Y%m%dT%H%M%SZ")
+    with open(os.path.join(cache_dir, f"tweets-{stamp}.json"), "w", encoding="utf-8") as fh:
+        json.dump(merged, fh, ensure_ascii=False, indent=2)
+
+    buckets = group_by_week(merged)
+    if not buckets:
+        print("窗口内没有发帖，未生成任何文章。")
+        return 0
+
+    for key in sorted(buckets):
+        items = buckets[key]
+        folder_name, article_md, meta = render_week(
+            key, items, merged, include_metrics=not args.no_metrics)
+        week_dir = write_week(args.out, folder_name, article_md, meta)
+        print(f"  写入 {week_dir}（{len(items)} 条）")
+
+    print(f"完成，共 {len(buckets)} 周。")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
