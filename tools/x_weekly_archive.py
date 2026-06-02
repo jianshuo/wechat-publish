@@ -161,6 +161,19 @@ class XurlError(RuntimeError):
     pass
 
 
+def check_payload(payload: dict) -> None:
+    """X API 错误判定。容忍「有 data 同时带非致命 errors」（如被引用原帖已删）。
+    仅在 401/未授权、或 errors-only（无可用 data）时抛 XurlError。"""
+    if not isinstance(payload, dict):
+        return
+    if payload.get("title") == "Unauthorized" or (isinstance(payload.get("status"), int) and payload["status"] >= 400):
+        raise XurlError(f"X API 未授权/错误：{json.dumps(payload, ensure_ascii=False)[:300]}\n"
+                        f"先跑 `xurl auth status` 检查认证。")
+    if payload.get("errors") and not payload.get("data"):
+        raise XurlError(f"X API 报错：{json.dumps(payload, ensure_ascii=False)[:300]}\n"
+                        f"先跑 `xurl auth status` 检查认证。")
+
+
 def run_xurl(path: str) -> dict:
     """用 oauth1 调 xurl，返回解析后的 JSON。失败抛 XurlError。"""
     proc = subprocess.run(
@@ -174,9 +187,7 @@ def run_xurl(path: str) -> dict:
         payload = json.loads(proc.stdout)
     except json.JSONDecodeError as exc:
         raise XurlError(f"xurl 返回非 JSON：{proc.stdout[:200]}") from exc
-    if isinstance(payload, dict) and (payload.get("errors") or payload.get("title") == "Unauthorized"):
-        raise XurlError(f"X API 报错：{json.dumps(payload, ensure_ascii=False)[:300]}\n"
-                        f"先跑 `xurl auth status` 检查认证。")
+    check_payload(payload)
     return payload
 
 

@@ -153,5 +153,23 @@ class MergePagesTest(unittest.TestCase):
         self.assertEqual(merged["users_by_id"], {})
 
 
+class CheckPayloadTest(unittest.TestCase):
+    def test_partial_errors_with_data_is_tolerated(self):
+        payload = {"data": [{"id": "1"}], "errors": [{"title": "Not Found Error"}]}
+        # should NOT raise
+        xa.check_payload(payload)
+
+    def test_errors_only_without_data_raises(self):
+        with self.assertRaises(xa.XurlError):
+            xa.check_payload({"errors": [{"title": "Not Found Error"}]})
+
+    def test_unauthorized_raises(self):
+        with self.assertRaises(xa.XurlError):
+            xa.check_payload({"title": "Unauthorized", "status": 401})
+
+    def test_clean_payload_ok(self):
+        xa.check_payload({"data": [{"id": "1"}], "meta": {}})  # no raise
+
+
 if __name__ == "__main__":
     unittest.main()
