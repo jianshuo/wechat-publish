@@ -15,7 +15,7 @@ class TimeHelpersTest(unittest.TestCase):
         self.assertEqual((dt.year, dt.month, dt.day), (2026, 6, 2))
         self.assertEqual((dt.hour, dt.minute), (21, 44))
 
-    def test_to_shanghai_crosses_midnight_changes_week(self):
+    def test_to_shanghai_crosses_midnight_same_week(self):
         # 2026-06-01 17:00 UTC = 周一 6/2 01:00 上海 -> 属于含 6/2 的那一周
         dt = xa.to_shanghai("2026-06-01T17:00:00.000Z")
         self.assertEqual((dt.month, dt.day, dt.hour), (6, 2, 1))
@@ -47,6 +47,9 @@ class FetchAllTest(unittest.TestCase):
         # 首次调用带 start_time、不带 pagination_token
         self.assertEqual(calls[0][1]["start_time"], "2026-05-03T00:00:00Z")
         self.assertNotIn("pagination_token", calls[0][1])
+        self.assertEqual(calls[0][1]["exclude"], "retweets")
+        self.assertIn("referenced_tweets", calls[0][1]["tweet.fields"])
+        self.assertIn("referenced_tweets.id", calls[0][1]["expansions"])
         # 第二次带上 token
         self.assertEqual(calls[1][1]["pagination_token"], "T2")
 

@@ -78,7 +78,7 @@ def _ref_lines(tweet: dict, merged: dict) -> list[str]:
     return lines
 
 
-def _metrics_line(tweet: dict) -> str | None:
+def _metrics_line(tweet: dict) -> str:
     pm = tweet.get("public_metrics") or {}
     return (f"<small>💬{pm.get('reply_count', 0)} "
             f"♥{pm.get('like_count', 0)} "
