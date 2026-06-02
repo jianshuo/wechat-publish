@@ -12,6 +12,9 @@
 .venv/
 __pycache__/
 
+# X 归档脚本的原始数据缓存（可重新拉取）
+x-weekly/.cache/
+
 # macOS cruft
 .DS_Store
 
