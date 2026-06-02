@@ -22,3 +22,18 @@ def iso_week_key(dt: datetime) -> tuple[int, int]:
 def week_monday(iso_year: int, iso_week: int) -> date:
     """该 ISO 周的周一日期。"""
     return date.fromisocalendar(iso_year, iso_week, 1)
+
+
+def merge_pages(pages: list[dict]) -> dict:
+    """把多页 API 响应合并成 {data, tweets_by_id, users_by_id}。"""
+    data: list[dict] = []
+    tweets_by_id: dict[str, dict] = {}
+    users_by_id: dict[str, dict] = {}
+    for page in pages:
+        data.extend(page.get("data") or [])
+        includes = page.get("includes") or {}
+        for tweet in includes.get("tweets") or []:
+            tweets_by_id[tweet["id"]] = tweet
+        for user in includes.get("users") or []:
+            users_by_id[user["id"]] = user
+    return {"data": data, "tweets_by_id": tweets_by_id, "users_by_id": users_by_id}

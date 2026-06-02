@@ -29,5 +29,34 @@ class TimeHelpersTest(unittest.TestCase):
         self.assertLessEqual(monday, dt.date())
 
 
+class MergePagesTest(unittest.TestCase):
+    def test_merges_data_and_includes_across_pages(self):
+        pages = [
+            {
+                "data": [{"id": "1", "text": "a", "created_at": "2026-06-02T01:00:00.000Z"}],
+                "includes": {
+                    "tweets": [{"id": "p1", "text": "parent1", "author_id": "u9"}],
+                    "users": [{"id": "u9", "username": "alice"}],
+                },
+                "meta": {"next_token": "T2"},
+            },
+            {
+                "data": [{"id": "2", "text": "b", "created_at": "2026-06-03T01:00:00.000Z"}],
+                "includes": {"tweets": [], "users": []},
+                "meta": {},
+            },
+        ]
+        merged = xa.merge_pages(pages)
+        self.assertEqual([t["id"] for t in merged["data"]], ["1", "2"])
+        self.assertEqual(merged["tweets_by_id"]["p1"]["text"], "parent1")
+        self.assertEqual(merged["users_by_id"]["u9"]["username"], "alice")
+
+    def test_handles_missing_keys(self):
+        merged = xa.merge_pages([{}])
+        self.assertEqual(merged["data"], [])
+        self.assertEqual(merged["tweets_by_id"], {})
+        self.assertEqual(merged["users_by_id"], {})
+
+
 if __name__ == "__main__":
     unittest.main()
