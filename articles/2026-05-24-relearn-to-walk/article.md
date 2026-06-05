@@ -10,7 +10,7 @@
 
 我说，我们这种都是二十年前写程序的人，现在在 AI 里面，又重新开始学了。
 
-Dash 同时也贴出了他 Codex 的最近三个月的用量：120 亿 token。我看了看自己的数字：Claude Code 42 亿（大约是如果按照 API 付费，三四千美元每个月吧），Codex 1.5 亿 token。上周我和 Claude Code 的对话时间是 49 小时。
+Dash 同时也贴出了他 Codex 的最近三个月的用量：120 亿 token。我看了看自己五月份的数字：Claude Code 42 亿（大约是如果按照 API 付费，三四千美元每个月吧），Codex 1.5 亿 token。上周我和 Claude Code 的对话时间是 49 小时。
 
 49 小时，差不多每天 7 小时。大部分是**陪跑 token**——我在线，它在跑；我睡觉，它也跟着睡。我现在主要还是在跑 skill，没有搭好 workflow 和 loop 的架构。
 
