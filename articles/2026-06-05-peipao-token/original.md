@@ -1,1 +1,0 @@
-https://x.com/DashHuang/status/2062689714013143380/photo/1 Dash又贴出来，他的Codex的用量已经达到了120亿了，我看了一下我过去一个月的Claude Code的token用量，只有42亿左右，Codex用的比较少，只有1.5亿的token。我上一周和Claude Code的对话时间是49个小时，这一周可能会更高一些吧。从这个数字，我知道我应该更多的还在跑Skill，并没有搭好workflow和loop的架构，所以我睡觉的时候我的agent大多还在睡觉，49小时我的聊天时间基本上我还是「陪跑token」。应该是我的使用时间降低到30小时，但是Claude Code的工作时间增加到每周60小时才合理。
