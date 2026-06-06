@@ -1,0 +1,7 @@
+{
+  "title": "让网站自己改自己的技能",
+  "summary": "在网站上加一个「提建议」对话框，访客说一句话，Claude 自动改代码、部署上线——我把这个做成了开源 skill，支持 Hugo、Next.js、Astro 和静态站，用自己的 GitHub Actions，不需要额外付费。",
+  "author": "王建硕",
+  "date": "2026-06-06",
+  "slug": "looping-feedback"
+}
