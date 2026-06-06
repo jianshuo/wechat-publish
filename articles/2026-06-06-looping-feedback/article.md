@@ -1,8 +1,6 @@
-上周在播客里和任鑫聊到一个想法：**在网站上加一个「提建议」的对话框，访客说一句话，网站自己改自己。**
+上周在播客里和任鑫介绍过我前面一直在跑的一个功能：**在网站上加一个「提建议」的对话框，访客说一句话，网站自己改自己。**
 
-我做出来了。
-
-访客点按钮，填一句建议，变成一个 GitHub Issue，Actions 触发，Claude Code 读我写的约束文件，直接改代码，commit 推到 main，自动部署，Issue 关闭，回复里附着 commit 链接和预览地址。全程没有我。五分钟左右。
+具体做法是：访客点按钮，填一句建议，变成一个 GitHub Issue，Actions 触发，Claude Code 读我写的约束文件，直接改代码，commit 推到 main，自动部署，Issue 关闭，回复里附着 commit 链接和预览地址。全程不需要人参与，耗时五分钟左右。
 
 我把这个叫**「反馈闭环」**。
 
@@ -37,11 +35,5 @@
 > 安装 https://github.com/jianshuo/claude-skills/blob/main/wjs-looping-feedback/SKILL.md
 
 它会自己 fetch、放到 skill 目录里、提示你重启对话。
-
-用 Hermes 的话直接命令行：
-
-```bash
-hermes skills install https://github.com/jianshuo/claude-skills/blob/main/wjs-looping-feedback/SKILL.md
-```
 
 装完之后，对 agent 说一句「给这个网站加上反馈闭环」，就能用。
