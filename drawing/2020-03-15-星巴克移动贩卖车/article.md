@@ -1,5 +1,5 @@
 # 星巴克移动贩卖车
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jpfFCVbaXN8PUibQtlaHP9glqgRtHxYTskAGnJalv7Xxa36XeeRENdMOian49SsMz6E08AtX0KD11TPUmyBteZCQ/640?wx_fmt=jpeg)
+![图片](./img-01-d40d7eff04.jpg)
 
 我画的第一辆

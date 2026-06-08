@@ -1,4 +1,4 @@
 # 儿童乐园一角
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jpfFCVbaXNibDgrBwn4jcFPHwlX9f5XD6EcibtJzsWmoWfBhNxY5wYlfsxenaCRncwiciaW60skia6pomicNxOthdCCQ/640?wx_fmt=jpeg)
+![图片](./img-01-6e48363002.jpg)
 开始挑战自己画这种圆鼓鼓的东西。

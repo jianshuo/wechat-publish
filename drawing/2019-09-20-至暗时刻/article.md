@@ -1,6 +1,6 @@
 # 至暗时刻
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jpfFCVbaXNicAP0eib6DLLm10EFaLXUsksNtVjkfvvjbOU5kZcJEfBMibrmFqBpMPfy6xd6VmwKyalVibqWZt4rtYg/640?wx_fmt=jpeg)
+![图片](./img-01-6174daa40f.jpg)
 
 每个人都有至暗时刻。那种超出正常时间长度的被抑郁和自我怀疑笼罩的时期。
 

@@ -1,12 +1,12 @@
 # 桥和水练习
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jpfFCVbaXNicgj7BkgZ1E3BYDIP6chBas7JhJVv2YIY7NVbMo4XTSyUuelSQ6jnvnts3SBicQDrnwFVUHaYIwF7w/640?wx_fmt=jpeg)
+![图片](./img-01-2f1e86b6c9.jpg)
 
 这是一幅练习图，原图是下面的这张，是Paul Heaston（我最喜欢的街景素描画家）在他的视频里面讲解的原照片。
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jpfFCVbaXNicgj7BkgZ1E3BYDIP6chBasicI9GhLtfNNrcxYGLoAo5G6e3n53A5JibhgvIEYugEM2IQo3ZFZLbsQA/640?wx_fmt=png)
+![图片](./img-02-aed7a85042.png)
 
 我把这个当作考试，先自己画了一幅，然后再看视频比较一下。下面是他的最终作品。和他的距离还是有点远呀。。。
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jpfFCVbaXNicgj7BkgZ1E3BYDIP6chBasUYs2cLGMRp31NjjcbJTX7l14yS7NIWPcHwsFHh25AdvM20LTtylrDQ/640?wx_fmt=png)
+![图片](./img-03-770b7bcbfc.png)
 
 记录一下几个错误：
 

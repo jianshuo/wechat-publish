@@ -1,5 +1,5 @@
 # 青浦山姆会员店
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jpfFCVbaXNibeYgicHgEzhDibtpuT3bTic4KZxpkzicswWTRcsDFzAPDgKoI8ia2icoqvWrDOhFhRZdBNWb4IS3PiaZG9w/640?wx_fmt=jpeg)
+![图片](./img-01-4645e63637.jpg)
 
 我画了那么多的平行线居然没有打结？我都佩服自己了。😄 发现排线只要不是反复描的纯黑色，总有空隙的，所以每一次排线灰度都会加深一些。不妨把排线的次数当做灰度的编号，一次稀疏排线是一号（如房顶的栅栏），密集排线是二号，比如建筑的主体。。。。到了Sam的大招牌那里，已经是横、竖、左、右四次排线，算是六号。但显然还有继续加深的潜力。这样能够表现的灰度的范围就能有效的拉大了。
