@@ -1,0 +1,7 @@
+# 五原路281号住宅
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jpfFCVbaXNibDGjrkXKc336ZchxKLGpSCCicG5nHDv5aAuWeWZJO8TnIWqkNU7qibA5ibTWNCIfwg5n6r4dvU5LqAQ/640?wx_fmt=jpeg)
+
+又是挑战自己，专门挑了一个圆弧形的塔楼的住宅建筑。开始的时候，还不知道明暗线会不会画。结果还算满意，虽算不上准确，也没有画坏。对于洋房的屋檐，从开始缺乏观察的薄薄的一片，到越来越后，直到看清楚复杂的结构。
+
+画完了一直在想，面对的这左右两堵白墙是应该排线加一些灰度呢还是就这样留白呢？
