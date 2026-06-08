@@ -1,0 +1,7 @@
+{
+  "title": "Agent 是一个 while true 循环",
+  "summary": "大语言模型是一个函数，Agent 是一个永不退出的 while true 循环，上下文是那个越来越长的数组，harness 是循环里装的那些东西。理解这三件事，Agent 框架就没什么神秘的了。",
+  "author": "王建硕",
+  "date": "2026-06-09",
+  "slug": "agent-while-true"
+}
