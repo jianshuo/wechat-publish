@@ -132,7 +132,19 @@ function runTool(name, input) {
 
 最终生成的 JSON 格式就是这样，原封不动的给大模型就行：
 
-<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:14px;line-height:1.8;color:#24292e;">[<br>  {<br>    type: 'function',<br>    function: {<br>      name: 'read_file',<br>      description: 'Read a file.',<br>      parameters: [Object]<br>    }<br>  },<br>  ...<br>]</section>
+```javascript
+[
+  {
+    type: 'function',
+    function: {
+      name: 'read_file',
+      description: 'Read a file.',
+      parameters: [Object]
+    }
+  },
+  ...
+]
+```
 
 LLM 会根据上下文和你提供的工具，找到合适的工具，把最终的项目完成。
 
