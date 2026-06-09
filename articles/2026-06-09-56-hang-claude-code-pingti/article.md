@@ -1,95 +1,18 @@
 Claude Code 虽然很复杂（50 万行），但是却非常精巧。<span style="color:#c0392b;">从本质上来说，就是两层 `while(true) {}` 的循环，组织起来的读写查文件三个工具调用。</span>我用了 56 行，复刻了一下 Claude Code 的最核心代码，虽然不能真的做到平替，但是写些简单的代码是可以的，最主要是理解 Claude Code（或者大多数 Agent）的工作原理。以下是全部代码，Github 源代码放在「查看原文」里面。
 
-```javascript
-import OpenAI from "openai";
-import fs from "fs";
-import path from "path";
-import readline from "readline";
-
-const client = new OpenAI({ apiKey: process.env.MOONSHOT_API_KEY, baseURL: "https://api.moonshot.cn/v1" });
-
-const fn = (name, desc, props, req = []) => ({
-    type: "function",
-    function: { name, description: desc, parameters: { type: "object", properties: props, required: req } },
-});
-
-const TOOLS = [
-    fn("read_file",  "Read a file.",               { path: { type: "string" } },                               ["path"]),
-    fn("list_files", "List files in a directory.", { path: { type: "string" } }),
-    fn("edit_file",  "Write content to a file.",   { path: { type: "string" }, content: { type: "string" } }, ["path", "content"]),
-];
-
-function runTool(name, input) {
-    try {
-        if (name === "read_file")  return fs.readFileSync(input.path, "utf8");
-        if (name === "list_files") return fs.readdirSync(input.path ?? ".").sort().join("\n");
-        if (name === "edit_file") {
-            fs.mkdirSync(path.dirname(path.resolve(input.path)), { recursive: true });
-            fs.writeFileSync(input.path, input.content);
-            return `Wrote ${input.content.length} bytes to ${input.path}`;
-        }
-    } catch (e) { return `Error: ${e.message}`; }
-}
-
-async function agentLoop(userMessage, history) {
-    history.push({ role: "user", content: userMessage });
-    while (true) {
-        const { choices } = await client.chat.completions.create({ model: "moonshot-v1-8k", tools: TOOLS, tool_choice: "auto", messages: history });
-        const msg = choices[0].message;
-        history.push(msg);
-        if (msg.content) console.log(`\nAssistant: ${msg.content}`);
-        if (!msg.tool_calls?.length) return;
-        for (const tc of msg.tool_calls) {
-            const input = JSON.parse(tc.function.arguments);
-            console.log(`  → ${tc.function.name}(${tc.function.arguments})`);
-            const out = runTool(tc.function.name, input);
-            console.log(`  ← ${String(out).slice(0, 120)}`);
-            history.push({ role: "tool", tool_call_id: tc.id, content: out });
-        }
-    }
-}
-
-const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-const ask = q => new Promise(r => rl.question(q, r));
-const history = [{ role: "system", content: "You are a coding assistant. Use tools to read, list, and edit files — never guess file contents. Always call a tool when the task involves the filesystem. Always output code into filesystem" }];
-console.log("Mini Code Assistant (Kimi) — press Ctrl+C to exit\n");
-while (true) {
-    const msg = (await ask("You: ")).trim();
-    if (msg) await agentLoop(msg, history);
-}
-```
+<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#24292e;">import OpenAI from "openai";<br>import fs from "fs";<br>import path from "path";<br>import readline from "readline";<br><br>const client = new OpenAI({ apiKey: process.env.MOONSHOT_API_KEY, baseURL: "https://api.moonshot.cn/v1" });<br><br>const fn = (name, desc, props, req = []) =&gt; ({<br>    type: "function",<br>    function: { name, description: desc, parameters: { type: "object", properties: props, required: req } },<br>});<br><br>const TOOLS = [<br>    fn("read_file",  "Read a file.",               { path: { type: "string" } },                               ["path"]),<br>    fn("list_files", "List files in a directory.", { path: { type: "string" } }),<br>    fn("edit_file",  "Write content to a file.",   { path: { type: "string" }, content: { type: "string" } }, ["path", "content"]),<br>];<br><br>function runTool(name, input) {<br>    try {<br>        if (name === "read_file")  return fs.readFileSync(input.path, "utf8");<br>        if (name === "list_files") return fs.readdirSync(input.path ?? ".").sort().join("\n");<br>        if (name === "edit_file") {<br>            fs.mkdirSync(path.dirname(path.resolve(input.path)), { recursive: true });<br>            fs.writeFileSync(input.path, input.content);<br>            return `Wrote ${input.content.length} bytes to ${input.path}`;<br>        }<br>    } catch (e) { return `Error: ${e.message}`; }<br>}<br><br>async function agentLoop(userMessage, history) {<br>    history.push({ role: "user", content: userMessage });<br>    while (true) {<br>        const { choices } = await client.chat.completions.create({ model: "moonshot-v1-8k", tools: TOOLS, tool_choice: "auto", messages: history });<br>        const msg = choices[0].message;<br>        history.push(msg);<br>        if (msg.content) console.log(`\nAssistant: ${msg.content}`);<br>        if (!msg.tool_calls?.length) return;<br>        for (const tc of msg.tool_calls) {<br>            const input = JSON.parse(tc.function.arguments);<br>            console.log(`  → ${tc.function.name}(${tc.function.arguments})`);<br>            const out = runTool(tc.function.name, input);<br>            console.log(`  ← ${String(out).slice(0, 120)}`);<br>            history.push({ role: "tool", tool_call_id: tc.id, content: out });<br>        }<br>    }<br>}<br><br>const rl = readline.createInterface({ input: process.stdin, output: process.stdout });<br>const ask = q =&gt; new Promise(r =&gt; rl.question(q, r));<br>const history = [{ role: "system", content: "You are a coding assistant. Use tools to read, list, and edit files — never guess file contents. Always call a tool when the task involves the filesystem. Always output code into filesystem" }];<br>console.log("Mini Code Assistant (Kimi) — press Ctrl+C to exit\n");<br>while (true) {<br>    const msg = (await ask("You: ")).trim();<br>    if (msg) await agentLoop(msg, history);<br>}</section>
 
 **两层循环**
 
 最外层，就是最后四句，收到一个用户输入，把它和历史一起开启一个内部的小循环。
 
-```javascript
-while (true) {
-    const msg = (await ask("You: ")).trim();
-    if (msg) await agentLoop(msg, history);
-}
-```
+<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#24292e;">while (true) {<br>    const msg = (await ask("You: ")).trim();<br>    if (msg) await agentLoop(msg, history);<br>}</section>
 
 这是大循环。
 
 这是那个内部的小循环：
 
-```javascript
-while (true) {
-    const { choices } = await client.chat.completions.create({ model: "moonshot-v1-8k", tools: TOOLS, tool_choice: "auto", messages: history });
-    const msg = choices[0].message;
-    history.push(msg);
-    if (msg.content) console.log(`\nAssistant: ${msg.content}`);
-    if (!msg.tool_calls?.length) return;
-    for (const tc of msg.tool_calls) {
-        const input = JSON.parse(tc.function.arguments);
-        console.log(`  → ${tc.function.name}(${tc.function.arguments})`);
-        const out = runTool(tc.function.name, input);
-        console.log(`  ← ${String(out).slice(0, 120)}`);
-        history.push({ role: "tool", tool_call_id: tc.id, content: out });
-    }
-}
-```
+<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#24292e;">while (true) {<br>    const { choices } = await client.chat.completions.create({ model: "moonshot-v1-8k", tools: TOOLS, tool_choice: "auto", messages: history });<br>    const msg = choices[0].message;<br>    history.push(msg);<br>    if (msg.content) console.log(`\nAssistant: ${msg.content}`);<br>    if (!msg.tool_calls?.length) return;<br>    for (const tc of msg.tool_calls) {<br>        const input = JSON.parse(tc.function.arguments);<br>        console.log(`  → ${tc.function.name}(${tc.function.arguments})`);<br>        const out = runTool(tc.function.name, input);<br>        console.log(`  ← ${String(out).slice(0, 120)}`);<br>        history.push({ role: "tool", tool_call_id: tc.id, content: out });<br>    }<br>}</section>
 
 两个都是死循环。
 
@@ -103,48 +26,13 @@ while (true) {
 
 上面就是两个函数定义了一下工具。一个是真正的定义，里面只定义了三个代码 Agent 至少要用的工具：一个是读文件，一个是读文件夹内容，一个是写文件。都是最简单的文件操作。当然 Claude Code 内置了四十几个工具，大家可以从泄漏的代码的 Tools 文件夹里面看到，每一个工具的定义不比我下面定义的复杂多少。
 
-```javascript
-const fn = (name, desc, props, req = []) => ({
-    type: "function",
-    function: { name, description: desc, parameters: { type: "object", properties: props, required: req } },
-});
-
-const TOOLS = [
-    fn("read_file",  "Read a file.",               { path: { type: "string" } },                               ["path"]),
-    fn("list_files", "List files in a directory.", { path: { type: "string" } }),
-    fn("edit_file",  "Write content to a file.",   { path: { type: "string" }, content: { type: "string" } }, ["path", "content"]),
-];
-
-function runTool(name, input) {
-    try {
-        if (name === "read_file")  return fs.readFileSync(input.path, "utf8");
-        if (name === "list_files") return fs.readdirSync(input.path ?? ".").sort().join("\n");
-        if (name === "edit_file") {
-            fs.mkdirSync(path.dirname(path.resolve(input.path)), { recursive: true });
-            fs.writeFileSync(input.path, input.content);
-            return `Wrote ${input.content.length} bytes to ${input.path}`;
-        }
-    } catch (e) { return `Error: ${e.message}`; }
-}
-```
+<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#24292e;">const fn = (name, desc, props, req = []) =&gt; ({<br>    type: "function",<br>    function: { name, description: desc, parameters: { type: "object", properties: props, required: req } },<br>});<br><br>const TOOLS = [<br>    fn("read_file",  "Read a file.",               { path: { type: "string" } },                               ["path"]),<br>    fn("list_files", "List files in a directory.", { path: { type: "string" } }),<br>    fn("edit_file",  "Write content to a file.",   { path: { type: "string" }, content: { type: "string" } }, ["path", "content"]),<br>];<br><br>function runTool(name, input) {<br>    try {<br>        if (name === "read_file")  return fs.readFileSync(input.path, "utf8");<br>        if (name === "list_files") return fs.readdirSync(input.path ?? ".").sort().join("\n");<br>        if (name === "edit_file") {<br>            fs.mkdirSync(path.dirname(path.resolve(input.path)), { recursive: true });<br>            fs.writeFileSync(input.path, input.content);<br>            return `Wrote ${input.content.length} bytes to ${input.path}`;<br>        }<br>    } catch (e) { return `Error: ${e.message}`; }<br>}</section>
 
 在后面就是把这几个工具变成一个 JSON 数据传给 LLM 就好了。
 
 最终生成的 JSON 格式就是这样，原封不动的给大模型就行：
 
-```javascript
-[
-  {
-    type: 'function',
-    function: {
-      name: 'read_file',
-      description: 'Read a file.',
-      parameters: [Object]
-    }
-  },
-  ...
-]
-```
+<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#24292e;">[<br>  {<br>    type: 'function',<br>    function: {<br>      name: 'read_file',<br>      description: 'Read a file.',<br>      parameters: [Object]<br>    }<br>  },<br>  ...<br>]</section>
 
 LLM 会根据上下文和你提供的工具，找到合适的工具，把最终的项目完成。
 
