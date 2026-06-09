@@ -29,4 +29,6 @@ Harness 是这个死循环里除了用户输入之外的所有定义。
 
 ![](./illustration.png)
 
+刚刚用 Node.js 写了一个 58 行的 Mini Claude Code，明天发出来。代码里可以看到那个死循环。
 
+![](./code-screenshot.png)
