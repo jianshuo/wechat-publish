@@ -31,4 +31,4 @@ Harness 是这个死循环里除了用户输入之外的所有定义。
 
 刚刚用 Node.js 写了一个 58 行的 Mini Claude Code，明天发出来。代码里可以看到那个死循环。
 
-![](./code-screenshot.png)
+![](http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQPpuDbulXsoGc9IVUgiczj1HiafqoA0urRhhER0wHd3VdiaFg13MFWdesnYYpSCZQbzdicvL4B29pGv4e91sN6EwzgNyqFn0TB1sNo/0?wx_fmt=png)
