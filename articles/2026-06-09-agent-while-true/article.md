@@ -25,7 +25,8 @@
 
 理解了这三件事——函数、循环、上下文——基本上就能读懂现在大多数 Agent 框架的文档了。
 
-![](./code-screenshot.png)
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQN9EZZZ1dBoYYYlu8IX31hgVp2YzCHxqqG7JiazS8sI0k1wyYWDMpbvYDa4oukXcWkoucoxqcg9BrBicIvaodI5jCupgRHta8sLg/0?wx_fmt=png)
 
 上面这段代码大约就是这个死循环的样子，它是 Claude Code 代码里面最重要的两个循环之一。我写了一个 56 行代码的 Mini Claude Code，就可以实现基本的编程工具，源代码在「阅读原文」里面。
 
+![](./illustration.png)
