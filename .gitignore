@@ -21,3 +21,4 @@ x-weekly/.cache/
 # tweet.sh in-flight drafts (mktemp -p .)
 .tweet.*
 .angle.*
+docs/shadowsocks-setup-guide.html

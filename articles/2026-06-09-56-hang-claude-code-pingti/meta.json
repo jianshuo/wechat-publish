@@ -1,0 +1,7 @@
+{
+  "title": "56 行代码的 Claude Code 平替的详细分析",
+  "summary": "Claude Code 有 50 万行代码，但核心逻辑只有两层循环加三个工具。我用 56 行复刻了它的骨架，顺手把大多数 Coding Agent 的工作原理讲清楚了。",
+  "author": "王建硕",
+  "date": "2026-06-09",
+  "slug": "56-hang-claude-code-pingti"
+}
