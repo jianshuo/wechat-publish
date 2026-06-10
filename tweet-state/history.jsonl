@@ -90,3 +90,4 @@
 {"date":"2026-06-10","status":"rest_day"}
 {"date":"2026-06-10","status":"rest_day"}
 {"date":"2026-06-10","slug":"2026-06-09-56-hang-claude-code-pingti","angle":"A","chars":81,"tweet_id":"2064703049549877490","tweet_url":"https://x.com/jianshuo/status/2064703049549877490","text":"Claude Code 50 万行，本质是两层 while(true) 循环，加读写查三个工具。就这简单的 56 行，是大多数 Coding Agent 的骨架。","status":"posted"}
+{"date":"2026-06-10","status":"rest_day"}
