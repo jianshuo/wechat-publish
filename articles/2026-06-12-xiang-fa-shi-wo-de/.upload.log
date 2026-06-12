@@ -12,3 +12,5 @@ pangu: /Users/jianshuo/code/wechat-publish/articles/2026-06-12-xiang-fa-shi-wo-d
 <stdin>:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   (publish.json updated)
 → git sync (/Users/jianshuo/code/wechat-publish @ main) ...
+  ⚠ git pull --rebase failed — resolve, then push manually
+  ⚠ git push failed — push manually

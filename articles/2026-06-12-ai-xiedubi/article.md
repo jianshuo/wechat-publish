@@ -33,6 +33,8 @@ AI 又不一样了，他把写读比彻底翻了过来。我花五分钟生成�
 
 但我们总要接受这种感觉。我们一路被冒犯走过来。我们被午餐肉冒犯，被预制菜冒犯，被玻璃冒犯，被群发拜年短信冒犯，背后都是随着技术的发展，导致我们无处不在的新技术包围后的不爽感。
 
-后注：说到午餐肉，或许SPAM的例子最说明问题。SPAM本来是人家 Hormel 公司 1937 年的创立的火腿肠品牌，知道现在我还是依然喜欢去超市买 SPAM 牌子的午餐肉吃。但就是太美味，廉价，市场营销又到位，导致好多参天个的各种菜都放 SPAM，直到被 Monty Python 在一个剧里面调侃：“egg and spam, egg bacon and spam, spam spam spam egg and spam“，现在成为了垃圾邮件的代名词：SPAM。很多成功的新技术都有 SPAM 的特征，包括 AI 写作。
+后注：说到午餐肉，或许 SPAM 的例子最说明问题。SPAM 本来是人家 Hormel 公司 1937 年的创立的火腿肠品牌，知道现在我还是依然喜欢去超市买 SPAM 牌子的午餐肉吃。但就是太美味，廉价，市场营销又到位，导致好多参天个的各种菜都放 SPAM，直到被 Monty Python 在一个剧里面调侃：“egg and spam, egg bacon and spam, spam spam spam egg and spam“，现在成为了垃圾邮件的代名词：SPAM。很多成功的新技术都有 SPAM 的特征，包括 AI 写作。
 
-![](./spam.png)
+![](http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQMAyeiajXUkkgiaOicsGpUWCnwFjGE4xwhjzMyLpdQMALjGYrPeduNJhoibOS3lwwZoKtibjyCDze0uklU3xib8GlF2VAEicABFIt0bRg/0?wx_fmt=png)
+
+![](./illustration.png)
