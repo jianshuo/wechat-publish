@@ -1,0 +1,5 @@
+target_word: 在 CLAUDE.md 里养一只金丝雀
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-06-12T11:09:27Z
