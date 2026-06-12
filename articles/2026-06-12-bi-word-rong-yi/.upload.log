@@ -13,3 +13,4 @@ pangu: /Users/jianshuo/code/wechat-publish/articles/2026-06-12-bi-word-rong-yi/a
   (publish.json updated)
 → git sync (/Users/jianshuo/code/wechat-publish @ main) ...
   ⚠ git pull --rebase failed — resolve, then push manually
+  ⚠ git push failed — push manually
