@@ -38,18 +38,20 @@
 <p><br></p>
 <span style="color:#c0392b;">以前一个产品要过「值得做」这一关，现在只要过「我想要」这一关。</span>那些想了十年没等来的小东西，都可以自己动手了。
 <p><br></p>
-<p><img src="http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQOMASMC5uAmLvwqrBskR4GpkZZnSDjNdzp0NKqsqaZTtQU4SBkiaU0IFduGUjLdicFTY4mxp6SVcSW9aicpHvtjLjcIMxFmsGQ2oA/0?wx_fmt=png" alt=""></p>
+<p><img src="http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQO9stN8fYiciaHmGiaVXYx7K3toRIicQxU9MhFbhkfszFlbQhZAkQdYAVRwbyG8L8eQkTTNYucPKeR0iaic5yhPJibcPs0McRLd2UBaCU/0?wx_fmt=png" alt=""></p>
 <p><br></p>
 <h2 style="font-size:1.4em;font-weight:bold;">怎么装</h2>
 <p><br></p>
-<p>先说实话：这是我给自己做的，开源放在 GitHub 上，但它不像 App Store 里点一下就装好，得自己动手编译，普通人用估计会磕磕绊绊。</p>
+<p>这回不用编译了。打开 bdpan-finder.jianshuo.dev，是个干干净净的下载页。</p>
 <p><br></p>
-<p>它靠一个叫 bdpan 的命令行工具登录你的百度网盘，所以你得先有它、并且登录上（敲 <code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">bdpan whoami</code> 能看到自己就对了）。</p>
+<p><img src="http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQMCRibymibdubv1oBlMfVnPibadYWXYoc50bvx0TzsbnnFxTwdnJbugTNu4RjYoCXRTQ648M40HVmmTIe48Ncfu1w7e433LroiaPDQ/0?wx_fmt=png" alt=""></p>
 <p><br></p>
-<p>然后把代码拉下来，用 Xcode 打开，签上你自己的 Apple ID，编译运行：</p>
+<p>三步就装好：</p>
 <p><br></p>
-<p><code style="font-family:Menlo,Consolas,monospace;background:#f4f4f4;padding:1px 6px;border-radius:3px;font-size:0.92em;">git clone https://github.com/jianshuo/bdpan-finder.git<br>open bdpan-finder/BdpanFinder.xcodeproj</code></p>
+<ol><li>点「下载 DMG」，下下来双击打开。已经做过 Apple 签名和公证，不会跳「身份不明的开发者」那个吓人的提示；bdpan 也打包在里面了，不用另装。</li><li>把「百度网盘」拖进「应用程序」，从启动台打开它。</li><li>第一次启动会弹个登录窗，扫码登录你的百度网盘，授权一下就行。登录信息只存在你自己机器上。</li></ol>
 <p><br></p>
-<p>跑起来等几秒，Finder 左边的「位置」里就会冒出一个百度网盘。</p>
+<p><img src="http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQPa83kH69XRb4wxtGXHDNUOMbF33I0mGOMOsN2TFJdYlsrDjdjn47xeWvt29VqYadycgqp4X713Y6c7f70m6BiabSibVnVLnf1hw/0?wx_fmt=png" alt=""></p>
 <p><br></p>
-<p>源码都在这儿：github.com/jianshuo/bdpan-finder。</p>
+<p>装好之后，Finder 左边的「位置」里就冒出一个百度网盘，跟 iCloud Drive 并排站着。</p>
+<p><br></p>
+<p>先说实话：这是个人工具，目前只在 Apple 芯片的 Mac 上跑，你得有个百度网盘账号。源码都开源在 GitHub：github.com/jianshuo/bdpan-finder。</p>

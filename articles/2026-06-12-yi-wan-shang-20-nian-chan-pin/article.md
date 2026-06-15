@@ -50,7 +50,7 @@
 
 这回不用编译了。打开 bdpan-finder.jianshuo.dev，是个干干净净的下载页。
 
-![](./img-hero.png)
+![](http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQMCRibymibdubv1oBlMfVnPibadYWXYoc50bvx0TzsbnnFxTwdnJbugTNu4RjYoCXRTQ648M40HVmmTIe48Ncfu1w7e433LroiaPDQ/0?wx_fmt=png)
 
 三步就装好：
 
@@ -58,7 +58,7 @@
 2. 把「百度网盘」拖进「应用程序」，从启动台打开它。
 3. 第一次启动会弹个登录窗，扫码登录你的百度网盘，授权一下就行。登录信息只存在你自己机器上。
 
-![](./img-install.png)
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQPa83kH69XRb4wxtGXHDNUOMbF33I0mGOMOsN2TFJdYlsrDjdjn47xeWvt29VqYadycgqp4X713Y6c7f70m6BiabSibVnVLnf1hw/0?wx_fmt=png)
 
 装好之后，Finder 左边的「位置」里就冒出一个百度网盘，跟 iCloud Drive 并排站着。
 
