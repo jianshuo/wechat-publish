@@ -1,5 +1,5 @@
-target_word: 想了二十年的产品，一晚上写出来
+target_word: 想了十年的产品，一晚上写出来
 size: 1536x1024
 quality: high
 via: gpt-image-2-skill (codex provider only)
-generated: 2026-06-12T10:53:44Z
+generated: 2026-06-15T04:43:24Z
