@@ -68,8 +68,4 @@
 
 **最近文章**
 
-- [工程师的浪漫](https://mp.weixin.qq.com/s/-vvqwMWruUwThoY9yaecmg)
-- [用 Claude Code 比用 Word 容易](https://mp.weixin.qq.com/s/fdpshvAlPfVr0c3_e7q1aw)
-- [在 CLAUDE.md 里养一只金丝雀](https://mp.weixin.qq.com/s/qgXBlHSVSgckPF8ITz-p7A)
-- [为什么我们看到 AI 写的东西，就会觉得被冒犯？](https://mp.weixin.qq.com/s/rVIdslZq-1B2A3SWWqneNA)
-- [你每天使用 Claude Code 多久？](https://mp.weixin.qq.com/s/HUrCbQ5LcMBdQ7o0ESblkg)
+<section style="line-height:2.2;font-size:0.95em;"><a href="https://mp.weixin.qq.com/s/-vvqwMWruUwThoY9yaecmg" style="color:#576b95;text-decoration:none;">工程师的浪漫</a><br><a href="https://mp.weixin.qq.com/s/fdpshvAlPfVr0c3_e7q1aw" style="color:#576b95;text-decoration:none;">用 Claude Code 比用 Word 容易</a><br><a href="https://mp.weixin.qq.com/s/qgXBlHSVSgckPF8ITz-p7A" style="color:#576b95;text-decoration:none;">在 CLAUDE.md 里养一只金丝雀</a><br><a href="https://mp.weixin.qq.com/s/rVIdslZq-1B2A3SWWqneNA" style="color:#576b95;text-decoration:none;">为什么我们看到 AI 写的东西，就会觉得被冒犯？</a><br><a href="https://mp.weixin.qq.com/s/HUrCbQ5LcMBdQ7o0ESblkg" style="color:#576b95;text-decoration:none;">你每天使用 Claude Code 多久？</a><br></section>
