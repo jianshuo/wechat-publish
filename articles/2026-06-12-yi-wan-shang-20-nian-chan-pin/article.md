@@ -14,7 +14,7 @@
 
 我就跟 Claude Code 说：你给我做一个像 OneDrive 一样的、可以在 Finder 里面用百度网盘的东西。就这么几句话。中间来来回回调了不少，反正干了一晚上，大概四五个小时，能用了。
 
-![](./bdpan-finder.png)
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQPbtBex4bicHeGnnAYXmjllCYhgRJ9ibsDiajjAy6dxDsY0AnqgA981X5S3Rjv5KAGHCviboPpZCzqWYibzCYRbI6LsuZdPgHF69PoA/0?wx_fmt=png)
 
 以前一个产品要出生，得过两关：
 
