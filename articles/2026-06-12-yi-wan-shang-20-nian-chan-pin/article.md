@@ -68,8 +68,8 @@
 
 **最近文章**
 
-- 工程师的浪漫
-- 公众号全是 AI 写的，想法是我的
-- 绝对不是泡沫
-- 模型给的是大概率事件，不是答案
-- 在 CLAUDE.md 里养一只金丝雀
+- [工程师的浪漫](https://mp.weixin.qq.com/s/-vvqwMWruUwThoY9yaecmg)
+- [用 Claude Code 比用 Word 容易](https://mp.weixin.qq.com/s/fdpshvAlPfVr0c3_e7q1aw)
+- [在 CLAUDE.md 里养一只金丝雀](https://mp.weixin.qq.com/s/qgXBlHSVSgckPF8ITz-p7A)
+- [为什么我们看到 AI 写的东西，就会觉得被冒犯？](https://mp.weixin.qq.com/s/rVIdslZq-1B2A3SWWqneNA)
+- [你每天使用 Claude Code 多久？](https://mp.weixin.qq.com/s/HUrCbQ5LcMBdQ7o0ESblkg)
