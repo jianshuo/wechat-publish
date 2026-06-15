@@ -48,17 +48,18 @@
 
 ## 怎么装
 
-先说实话：这是我给自己做的，开源放在 GitHub 上，但它不像 App Store 里点一下就装好，得自己动手编译，普通人用估计会磕磕绊绊。
+这回不用编译了。打开 bdpan-finder.jianshuo.dev，是个干干净净的下载页。
 
-它靠一个叫 bdpan 的命令行工具登录你的百度网盘，所以你得先有它、并且登录上（敲 `bdpan whoami` 能看到自己就对了）。
+![](./img-hero.png)
 
-然后把代码拉下来，用 Xcode 打开，签上你自己的 Apple ID，编译运行：
+三步就装好：
 
-```bash
-git clone https://github.com/jianshuo/bdpan-finder.git
-open bdpan-finder/BdpanFinder.xcodeproj
-```
+1. 点「下载 DMG」，下下来双击打开。已经做过 Apple 签名和公证，不会跳「身份不明的开发者」那个吓人的提示；bdpan 也打包在里面了，不用另装。
+2. 把「百度网盘」拖进「应用程序」，从启动台打开它。
+3. 第一次启动会弹个登录窗，扫码登录你的百度网盘，授权一下就行。登录信息只存在你自己机器上。
 
-跑起来等几秒，Finder 左边的「位置」里就会冒出一个百度网盘。
+![](./img-install.png)
 
-源码都在这儿：github.com/jianshuo/bdpan-finder。
+装好之后，Finder 左边的「位置」里就冒出一个百度网盘，跟 iCloud Drive 并排站着。
+
+先说实话：这是个人工具，目前只在 Apple 芯片的 Mac 上跑，你得有个百度网盘账号。源码都开源在 GitHub：github.com/jianshuo/bdpan-finder。
