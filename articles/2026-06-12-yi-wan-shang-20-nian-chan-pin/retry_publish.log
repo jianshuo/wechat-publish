@@ -38,3 +38,5 @@ pangu: /Users/jianshuo/code/wechat-publish/articles/2026-06-12-yi-wan-shang-20-n
 <stdin>:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   (publish.json updated)
 → git sync (/Users/jianshuo/code/wechat-publish @ main) ...
+  ✓ pushed to GitHub (main)
+[12:31:40] PUBLISH_OK url=http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQNs4pH88iaOmwmclhsic7ia9lMd1DnZRjIK3mXlCwwnvybQwJibsqdTNZelPXRdtdroj6RwfKw03r1qcxnpRibV0oD80X99fuZgpALA/0?wx_fmt=png
