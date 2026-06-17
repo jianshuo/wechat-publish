@@ -4,40 +4,40 @@
 
 他怎么做到的？用的是缺省值。
 
-大语言模型是人类知识的压缩。当我在没有 Wifi 的飞机上，在万米高空飞行，我还是能让他帮我做出一个好网站——因为他需要的知识，不在网上，在他身体里。他见过几百万个公司网站，知道玻璃公司用什么颜色，知道首页应该放什么，知道"关于我们"怎么写。这些全都在他肚子里，不用我告诉他。
+虽然我没有告诉他任何细节，但他自己选择了：
 
-这是 LLM 缺省值和传统软件缺省值的本质区别。
+- 最通用的视觉语言
+- 最少风险的布局方案
+- 转化率最高的页面结构模板
 
-传统软件的缺省值是工程师拍脑袋定的——字体大小默认 14px，颜色默认黑色，这些是任意的。LLM 的缺省值不一样，是从人类几十年的内容里蒸馏出来的。<span style="color:#c0392b;">他的"默认"，其实是人类的"平均最优解"。</span>
+大语言模型是人类知识的压缩。在没有 Wifi 的万米高空，我用 Gemma 跑在本地，几 G 的数据，问他这个世界上我感兴趣的大多数知识——他居然都能回答。这不是联网，这是压缩。他把人类历史上的知识，压进了一个几 G 的小文件里。
 
-这是缺省值的是。
+换句话说，如果地球毁灭了，有一艘飞船逃离，只要带着一个几 G 的 U 盘，就可以把人类大多数的主要知识带到另一个星球去。<span style="color:#c0392b;">这里面浓缩的，就是人类历史对绝大多数问题的缺省值。</span>
 
-缺省值的非，有三层。
+**什么是缺省值？**
 
-第一，<span style="color:#c0392b;">缺省值代表的是平均用户，不是你。</span>
+我坐在餐厅里说："给我一杯水。" 服务员拿来了水。在中国，八成是常温的；在美国，八成是冰水。我没有说，但他给了他认为最合理的选择——那个选择，是当地文化几十年沉淀下来的缺省值。我点了沙拉，里面放没放胡椒？放了多少？也是缺省值，除非我额外提出。
 
-ccglass 的网站，Claude 做得漂亮，是因为玻璃公司网站有普遍的审美。但如果你的需求是反常识的——怪诞风格、反传统内容、垂直领域的专家用户——缺省值就会把你带偏。他做的是"普通好的网站"，不是"你要的网站"。
+整个世界充满了缺省值。否则我们没法生活——我们的大脑是有限的，不可能在每次进餐馆的时候，都精确要求盘子多大、什么花纹、什么质地。而且要求了八成也没用，因为每个餐厅都在他们的缺省值提供服务，无法对每个顾客定制非标准品。
 
-不只是网站。我用他写文章，他默认平衡；我用他写代码，他默认保守加警告；我让他做判断，他默认给几个选项而不是给结论。这些都是缺省值，不是能力问题。
+**那到底哪些要用缺省值，哪些不要？**
 
-第二，缺省值会悄悄改变。
+完全取决于你的实际需要。
 
-Claude 4 的默认行为和 Claude 3 不一样。同一个 prompt，两个版本的结果可能完全不同。你的工作流如果依赖了某个缺省值，根本不知道它什么时候悄悄变了。只会在某次更新之后发现结果不对，然后花时间去找原因。
+如果你只是想要一个立刻上线、有功能性、有审美的网站，缺省值就够了——就像在餐厅点菜，你把盘子、摆盘、调味全交给厨师来决定。但如果你就是那个厨师，或者你是餐厅的主人，你就必须自己做出回答。
 
-第三，缺省值是别人的价值观，不是你的。
+艺术家，就是那个把选择从人类平均缺省值努力拉远的人。
 
-Claude 在没有特别指示的时候，会表现得"负责任"、"平衡"、"谨慎"。这些词背后是 Anthropic 的选择。他会在某些话题上自动补一句"不同的人有不同的看法"，会在你让他写强烈立场的文章时悄悄软化措辞。有时候和你想要的一致，有时候不是。
+达到人类的平均水平，你会是一个好画家——透视对、结构合理、色彩匀称。但<span style="color:#c0392b;">真正的画家，要找到远离人类平均值，但依然美的地方。</span>梵高，把油画引入了绚烂的色彩；毕加索，把人引入了抽象的线条。这些都不是缺省值，但是美。而这些点的存在，又进一步改变着人类的缺省值。
 
-**那怎么用好缺省值？**
+所以，当我们拿到一个大路货的网站、大路货的 APP，应该欣然接受。<span style="color:#c0392b;">它是最省脑力的作品，是人类过去所有人思维的结晶。</span>
 
-知道什么时候该信它，什么时候该覆盖它。
+AI 的时代，给了我们一个前所未有的选择。想省心的时候，把专业的事情交给专业的人——他替你把人类的共识打包好了；愿意更明确表达的时候，有无穷无尽的方法去驯化他，给出你希望的定制。
 
-ccglass 的例子，信缺省值是对的——省了大量时间，他做出来的已经足够好。但如果你想要特定的风格、特定的立场、特定的约束，就要明确说出来，不然他按他的缺省值来。
-
-缺省值帮了你，是因为他存的是人类的共识。
-
-<span style="color:#c0392b;">缺省值害了你，是因为你的需求偏离了共识，而你没有告诉他。</span>
-
-这是两件不同的事，要分清楚。
+而这种离开缺省值的部分，就叫做专业。前 AI 时代如此，AI 时代依然如此。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">最近文章</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-vvqwMWruUwThoY9yaecmg" textvalue="工程师的浪漫" data-itemshowtype="0" linktype="text" data-linktype="2">工程师的浪漫</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/fdpshvAlPfVr0c3_e7q1aw" textvalue="用 Claude Code 比用 Word 容易" data-itemshowtype="0" linktype="text" data-linktype="2">用 Claude Code 比用 Word 容易</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/qgXBlHSVSgckPF8ITz-p7A" textvalue="在 CLAUDE.md 里养一只金丝雀" data-itemshowtype="0" linktype="text" data-linktype="2">在 CLAUDE.md 里养一只金丝雀</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/rVIdslZq-1B2A3SWWqneNA" textvalue="为什么我们看到 AI 写的东西，就会觉得被冒犯？" data-itemshowtype="0" linktype="text" data-linktype="2">为什么我们看到 AI 写的东西，就会觉得被冒犯？</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/OqKnabjSCRPOuKDO-P7aMA" textvalue="56 行代码的 Claude Code 平替的详细分析" data-itemshowtype="0" linktype="text" data-linktype="2">56 行代码的 Claude Code 平替的详细分析</a></section>
+<!--RECENT_ARTICLES_END-->
