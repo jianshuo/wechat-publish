@@ -1,0 +1,3081 @@
+{
+  "audio_info": {
+    "duration": 321129
+  },
+  "result": {
+    "additions": {
+      "log_id": "20260618094638B39073576F8E49E01F59"
+    },
+    "text": "就是就是你他其实是这个叫做缺省值，嗯，就等于说你做的所有的东西里，以后他你什么都不要，当然你做了一些巴黎风啊？什么蓝颜色，什么黄颜色呀？绿颜色，淡绿色。什么？非常非常简单的。嗯嗯，有了这几个以后，他其实是在你可以想象出来是一个，比如说一个三维的。然后我们作为人的特色是把这个点往其他地方拉，梵高就把就是画，从可能所有人画的都是那很精致的油画，梵高就把它往这边拉到了色彩的鲜艳的那一面，那这个就是你说的控制。然后可能毕加索就把他拉到了抽象里边，就每个人都在把这个点往远处拉，既远又 make sense 又 beautiful，但那个远处拉那个过程就是展现我自己风格的过程。对，因为一般来说远离这个中心点的东西都是丑的。一般来说，但是又远又丑的那不又漂亮的地方，那就是艺术，就是人没有想象到的东西。所以你看这里面就是，就是，嗯，这里材质，这是绿色，真的就这张图啊？让我看一下是这张图吗？123，不对，这个沙发跟这个图还不不？这两个不卖去，你发现吗？沙发，这其实不一样，但这些东西都是可 fix 的，这都是可 fix 的，就是说有的时候你就给它一个参考图，就是沙发，就这张沙发，然后什么什么，它就生成的就这个东西。餐桌，餐桌。不是，他说他是圆的，是圆的，这个不是，对，这个他有点瞎话了，但这个东西因为你什么都没给他，这也 make sense。然后呢？你看这个的话，就是给你写了一个 sit dance 的 prompt，然后呢？我们就要去把那个鸡蛋的。这个，这就是那个 MD 文件吗？就是 MD Markdown，就是如这种东西，就是人眼能读，机器也能读，就是表示这个东西很很重要。巴拉巴拉巴苏木。苏木是什么？什么什么东西？然后上传参考手真，然后把这东西拉进去，然后整个漫游中文提示词。然后呢？这什么？这豆包吗？没有。这个是，是那个叫。但是他做的视频就肯定很傻了，为啥？因为他是拿那个本地的那个随便几张照片 Zoom out 的那种视频，他不像那个 sit dance 可以搞得那么多花哨。是专门做视频的是吗？对，有几个。容易吗？哈哈哈，这也太。正确，然后把成品发给我啊。",
+    "utterances": [
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 12032,
+        "start_time": 1472,
+        "text": "就是就是你他其实是这个叫做缺省值，嗯，就等于说你做的所有的东西里，以后他你什么都不要，当然你做了一些巴黎风啊？",
+        "words": [
+          {
+            "end_time": 1552,
+            "start_time": 1472,
+            "text": "就是"
+          },
+          {
+            "end_time": 2512,
+            "start_time": 2432,
+            "text": "就是"
+          },
+          {
+            "end_time": 3312,
+            "start_time": 3232,
+            "text": "你"
+          },
+          {
+            "end_time": 4272,
+            "start_time": 4192,
+            "text": "他"
+          },
+          {
+            "end_time": 4432,
+            "start_time": 4352,
+            "text": "其实"
+          },
+          {
+            "end_time": 5792,
+            "start_time": 5712,
+            "text": "是"
+          },
+          {
+            "end_time": 6112,
+            "start_time": 6032,
+            "text": "这个"
+          },
+          {
+            "end_time": 6352,
+            "start_time": 6272,
+            "text": "叫做"
+          },
+          {
+            "end_time": 6832,
+            "start_time": 6752,
+            "text": "缺"
+          },
+          {
+            "end_time": 6992,
+            "start_time": 6912,
+            "text": "省"
+          },
+          {
+            "end_time": 7072,
+            "start_time": 6992,
+            "text": "值"
+          },
+          {
+            "end_time": 7312,
+            "start_time": 7232,
+            "text": "嗯"
+          },
+          {
+            "end_time": 7632,
+            "start_time": 7552,
+            "text": "就"
+          },
+          {
+            "end_time": 7872,
+            "start_time": 7792,
+            "text": "等于"
+          },
+          {
+            "end_time": 8031,
+            "start_time": 7952,
+            "text": "说"
+          },
+          {
+            "end_time": 8112,
+            "start_time": 8031,
+            "text": "你"
+          },
+          {
+            "end_time": 8352,
+            "start_time": 8272,
+            "text": "做"
+          },
+          {
+            "end_time": 8432,
+            "start_time": 8352,
+            "text": "的"
+          },
+          {
+            "end_time": 8512,
+            "start_time": 8432,
+            "text": "所有"
+          },
+          {
+            "end_time": 8592,
+            "start_time": 8512,
+            "text": "的"
+          },
+          {
+            "end_time": 8672,
+            "start_time": 8592,
+            "text": "东西"
+          },
+          {
+            "end_time": 9072,
+            "start_time": 8992,
+            "text": "里"
+          },
+          {
+            "end_time": 9232,
+            "start_time": 9152,
+            "text": "以后"
+          },
+          {
+            "end_time": 9552,
+            "start_time": 9472,
+            "text": "他"
+          },
+          {
+            "end_time": 9712,
+            "start_time": 9632,
+            "text": "你"
+          },
+          {
+            "end_time": 10032,
+            "start_time": 9952,
+            "text": "什么"
+          },
+          {
+            "end_time": 10192,
+            "start_time": 10112,
+            "text": "都"
+          },
+          {
+            "end_time": 10432,
+            "start_time": 10352,
+            "text": "不要"
+          },
+          {
+            "end_time": 10912,
+            "start_time": 10832,
+            "text": "当然"
+          },
+          {
+            "end_time": 11072,
+            "start_time": 10992,
+            "text": "你"
+          },
+          {
+            "end_time": 11232,
+            "start_time": 11152,
+            "text": "做"
+          },
+          {
+            "end_time": 11312,
+            "start_time": 11232,
+            "text": "了"
+          },
+          {
+            "end_time": 11392,
+            "start_time": 11312,
+            "text": "一"
+          },
+          {
+            "end_time": 11472,
+            "start_time": 11392,
+            "text": "些"
+          },
+          {
+            "end_time": 11792,
+            "start_time": 11712,
+            "text": "巴黎"
+          },
+          {
+            "end_time": 11952,
+            "start_time": 11872,
+            "text": "风"
+          },
+          {
+            "end_time": 12032,
+            "start_time": 11952,
+            "text": "啊"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 13552,
+        "start_time": 12112,
+        "text": "什么蓝颜色，什么黄颜色呀？",
+        "words": [
+          {
+            "end_time": 12192,
+            "start_time": 12112,
+            "text": "什么"
+          },
+          {
+            "end_time": 12672,
+            "start_time": 12592,
+            "text": "蓝"
+          },
+          {
+            "end_time": 12832,
+            "start_time": 12752,
+            "text": "颜色"
+          },
+          {
+            "end_time": 13072,
+            "start_time": 12992,
+            "text": "什么"
+          },
+          {
+            "end_time": 13232,
+            "start_time": 13152,
+            "text": "黄"
+          },
+          {
+            "end_time": 13392,
+            "start_time": 13312,
+            "text": "颜色"
+          },
+          {
+            "end_time": 13552,
+            "start_time": 13472,
+            "text": "呀"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 14352,
+        "start_time": 13792,
+        "text": "绿颜色，淡绿色。",
+        "words": [
+          {
+            "end_time": 13872,
+            "start_time": 13792,
+            "text": "绿"
+          },
+          {
+            "end_time": 14032,
+            "start_time": 13952,
+            "text": "颜色"
+          },
+          {
+            "end_time": 14272,
+            "start_time": 14192,
+            "text": "淡"
+          },
+          {
+            "end_time": 14352,
+            "start_time": 14272,
+            "text": "绿色"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 14592,
+        "start_time": 14512,
+        "text": "什么？",
+        "words": [
+          {
+            "end_time": 14592,
+            "start_time": 14512,
+            "text": "什么"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 15552,
+        "start_time": 14672,
+        "text": "非常非常简单的。",
+        "words": [
+          {
+            "end_time": 14752,
+            "start_time": 14672,
+            "text": "非常"
+          },
+          {
+            "end_time": 14992,
+            "start_time": 14912,
+            "text": "非常"
+          },
+          {
+            "end_time": 15312,
+            "start_time": 15232,
+            "text": "简单"
+          },
+          {
+            "end_time": 15552,
+            "start_time": 15472,
+            "text": "的"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 20972,
+        "start_time": 15552,
+        "text": "嗯嗯，有了这几个以后，他其实是在你可以想象出来是一个，比如说一个三维的。",
+        "words": [
+          {
+            "end_time": 15632,
+            "start_time": 15552,
+            "text": "嗯"
+          },
+          {
+            "end_time": 16032,
+            "start_time": 15952,
+            "text": "嗯"
+          },
+          {
+            "end_time": 16512,
+            "start_time": 16432,
+            "text": "有"
+          },
+          {
+            "end_time": 16672,
+            "start_time": 16592,
+            "text": "了"
+          },
+          {
+            "end_time": 16832,
+            "start_time": 16752,
+            "text": "这"
+          },
+          {
+            "end_time": 16992,
+            "start_time": 16912,
+            "text": "几个"
+          },
+          {
+            "end_time": 17152,
+            "start_time": 17072,
+            "text": "以后"
+          },
+          {
+            "end_time": 17392,
+            "start_time": 17312,
+            "text": "他"
+          },
+          {
+            "end_time": 17632,
+            "start_time": 17552,
+            "text": "其实"
+          },
+          {
+            "end_time": 18032,
+            "start_time": 17952,
+            "text": "是"
+          },
+          {
+            "end_time": 18192,
+            "start_time": 18112,
+            "text": "在"
+          },
+          {
+            "end_time": 18832,
+            "start_time": 18752,
+            "text": "你"
+          },
+          {
+            "end_time": 18912,
+            "start_time": 18832,
+            "text": "可以"
+          },
+          {
+            "end_time": 19312,
+            "start_time": 19232,
+            "text": "想象"
+          },
+          {
+            "end_time": 19392,
+            "start_time": 19312,
+            "text": "出来"
+          },
+          {
+            "end_time": 19712,
+            "start_time": 19632,
+            "text": "是"
+          },
+          {
+            "end_time": 19792,
+            "start_time": 19712,
+            "text": "一"
+          },
+          {
+            "end_time": 19952,
+            "start_time": 19872,
+            "text": "个"
+          },
+          {
+            "end_time": 20272,
+            "start_time": 20192,
+            "text": "比如说"
+          },
+          {
+            "end_time": 20352,
+            "start_time": 20272,
+            "text": "一"
+          },
+          {
+            "end_time": 20432,
+            "start_time": 20352,
+            "text": "个"
+          },
+          {
+            "end_time": 20592,
+            "start_time": 20512,
+            "text": "三"
+          },
+          {
+            "end_time": 20752,
+            "start_time": 20672,
+            "text": "维"
+          },
+          {
+            "end_time": 20972,
+            "start_time": 20892,
+            "text": "的"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 40842,
+        "start_time": 26382,
+        "text": "然后我们作为人的特色是把这个点往其他地方拉，梵高就把就是画，从可能所有人画的都是那很精致的油画，梵高就把它往这边拉到了色彩的鲜艳的那一面，那这个就是你说的控制。",
+        "words": [
+          {
+            "end_time": 26462,
+            "start_time": 26382,
+            "text": "然后"
+          },
+          {
+            "end_time": 27262,
+            "start_time": 27182,
+            "text": "我们"
+          },
+          {
+            "end_time": 27582,
+            "start_time": 27502,
+            "text": "作为"
+          },
+          {
+            "end_time": 27982,
+            "start_time": 27902,
+            "text": "人"
+          },
+          {
+            "end_time": 28062,
+            "start_time": 27982,
+            "text": "的"
+          },
+          {
+            "end_time": 28542,
+            "start_time": 28462,
+            "text": "特色"
+          },
+          {
+            "end_time": 28862,
+            "start_time": 28782,
+            "text": "是"
+          },
+          {
+            "end_time": 29022,
+            "start_time": 28942,
+            "text": "把"
+          },
+          {
+            "end_time": 29182,
+            "start_time": 29102,
+            "text": "这个"
+          },
+          {
+            "end_time": 29502,
+            "start_time": 29422,
+            "text": "点"
+          },
+          {
+            "end_time": 29902,
+            "start_time": 29822,
+            "text": "往"
+          },
+          {
+            "end_time": 30782,
+            "start_time": 30702,
+            "text": "其他"
+          },
+          {
+            "end_time": 30942,
+            "start_time": 30862,
+            "text": "地方"
+          },
+          {
+            "end_time": 31022,
+            "start_time": 30942,
+            "text": "拉"
+          },
+          {
+            "end_time": 31662,
+            "start_time": 31582,
+            "text": "梵"
+          },
+          {
+            "end_time": 31822,
+            "start_time": 31742,
+            "text": "高"
+          },
+          {
+            "end_time": 31982,
+            "start_time": 31902,
+            "text": "就"
+          },
+          {
+            "end_time": 32062,
+            "start_time": 31982,
+            "text": "把"
+          },
+          {
+            "end_time": 32942,
+            "start_time": 32862,
+            "text": "就是"
+          },
+          {
+            "end_time": 33582,
+            "start_time": 33502,
+            "text": "画"
+          },
+          {
+            "end_time": 33902,
+            "start_time": 33822,
+            "text": "从"
+          },
+          {
+            "end_time": 34062,
+            "start_time": 33982,
+            "text": "可能"
+          },
+          {
+            "end_time": 34622,
+            "start_time": 34542,
+            "text": "所有"
+          },
+          {
+            "end_time": 34782,
+            "start_time": 34702,
+            "text": "人"
+          },
+          {
+            "end_time": 34942,
+            "start_time": 34862,
+            "text": "画"
+          },
+          {
+            "end_time": 35022,
+            "start_time": 34942,
+            "text": "的"
+          },
+          {
+            "end_time": 35182,
+            "start_time": 35102,
+            "text": "都是"
+          },
+          {
+            "end_time": 35342,
+            "start_time": 35262,
+            "text": "那"
+          },
+          {
+            "end_time": 35502,
+            "start_time": 35422,
+            "text": "很"
+          },
+          {
+            "end_time": 35662,
+            "start_time": 35582,
+            "text": "精致"
+          },
+          {
+            "end_time": 35742,
+            "start_time": 35662,
+            "text": "的"
+          },
+          {
+            "end_time": 35982,
+            "start_time": 35902,
+            "text": "油"
+          },
+          {
+            "end_time": 36062,
+            "start_time": 35982,
+            "text": "画"
+          },
+          {
+            "end_time": 36702,
+            "start_time": 36622,
+            "text": "梵"
+          },
+          {
+            "end_time": 36782,
+            "start_time": 36702,
+            "text": "高"
+          },
+          {
+            "end_time": 36942,
+            "start_time": 36862,
+            "text": "就"
+          },
+          {
+            "end_time": 37022,
+            "start_time": 36942,
+            "text": "把"
+          },
+          {
+            "end_time": 37262,
+            "start_time": 37182,
+            "text": "它"
+          },
+          {
+            "end_time": 37422,
+            "start_time": 37342,
+            "text": "往"
+          },
+          {
+            "end_time": 37582,
+            "start_time": 37502,
+            "text": "这边"
+          },
+          {
+            "end_time": 37822,
+            "start_time": 37742,
+            "text": "拉"
+          },
+          {
+            "end_time": 37982,
+            "start_time": 37902,
+            "text": "到了"
+          },
+          {
+            "end_time": 38302,
+            "start_time": 38222,
+            "text": "色彩"
+          },
+          {
+            "end_time": 38622,
+            "start_time": 38542,
+            "text": "的"
+          },
+          {
+            "end_time": 39022,
+            "start_time": 38942,
+            "text": "鲜艳"
+          },
+          {
+            "end_time": 39342,
+            "start_time": 39262,
+            "text": "的那"
+          },
+          {
+            "end_time": 39502,
+            "start_time": 39422,
+            "text": "一"
+          },
+          {
+            "end_time": 39582,
+            "start_time": 39502,
+            "text": "面"
+          },
+          {
+            "end_time": 39662,
+            "start_time": 39582,
+            "text": "那"
+          },
+          {
+            "end_time": 39822,
+            "start_time": 39742,
+            "text": "这个"
+          },
+          {
+            "end_time": 39982,
+            "start_time": 39902,
+            "text": "就是"
+          },
+          {
+            "end_time": 40142,
+            "start_time": 40062,
+            "text": "你"
+          },
+          {
+            "end_time": 40302,
+            "start_time": 40222,
+            "text": "说的"
+          },
+          {
+            "end_time": 40842,
+            "start_time": 40762,
+            "text": "控制"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 53352,
+        "start_time": 41352,
+        "text": "然后可能毕加索就把他拉到了抽象里边，就每个人都在把这个点往远处拉，既远又 make sense 又 beautiful，但那个远处拉那个过程就是展现我自己风格的过程。",
+        "words": [
+          {
+            "end_time": 41432,
+            "start_time": 41352,
+            "text": "然后"
+          },
+          {
+            "end_time": 41912,
+            "start_time": 41832,
+            "text": "可能"
+          },
+          {
+            "end_time": 42232,
+            "start_time": 42152,
+            "text": "毕"
+          },
+          {
+            "end_time": 42312,
+            "start_time": 42232,
+            "text": "加"
+          },
+          {
+            "end_time": 42392,
+            "start_time": 42312,
+            "text": "索"
+          },
+          {
+            "end_time": 42552,
+            "start_time": 42472,
+            "text": "就"
+          },
+          {
+            "end_time": 42632,
+            "start_time": 42552,
+            "text": "把"
+          },
+          {
+            "end_time": 42712,
+            "start_time": 42632,
+            "text": "他"
+          },
+          {
+            "end_time": 42792,
+            "start_time": 42712,
+            "text": "拉"
+          },
+          {
+            "end_time": 42952,
+            "start_time": 42872,
+            "text": "到了"
+          },
+          {
+            "end_time": 43192,
+            "start_time": 43112,
+            "text": "抽象"
+          },
+          {
+            "end_time": 43432,
+            "start_time": 43352,
+            "text": "里"
+          },
+          {
+            "end_time": 43512,
+            "start_time": 43432,
+            "text": "边"
+          },
+          {
+            "end_time": 44072,
+            "start_time": 43992,
+            "text": "就"
+          },
+          {
+            "end_time": 44232,
+            "start_time": 44152,
+            "text": "每"
+          },
+          {
+            "end_time": 44312,
+            "start_time": 44232,
+            "text": "个人"
+          },
+          {
+            "end_time": 44552,
+            "start_time": 44472,
+            "text": "都"
+          },
+          {
+            "end_time": 44632,
+            "start_time": 44552,
+            "text": "在"
+          },
+          {
+            "end_time": 44872,
+            "start_time": 44792,
+            "text": "把"
+          },
+          {
+            "end_time": 45032,
+            "start_time": 44952,
+            "text": "这个"
+          },
+          {
+            "end_time": 45432,
+            "start_time": 45352,
+            "text": "点"
+          },
+          {
+            "end_time": 45832,
+            "start_time": 45752,
+            "text": "往"
+          },
+          {
+            "end_time": 46232,
+            "start_time": 46152,
+            "text": "远处"
+          },
+          {
+            "end_time": 46392,
+            "start_time": 46312,
+            "text": "拉"
+          },
+          {
+            "end_time": 47832,
+            "start_time": 47752,
+            "text": "既"
+          },
+          {
+            "end_time": 47992,
+            "start_time": 47912,
+            "text": "远"
+          },
+          {
+            "end_time": 48792,
+            "start_time": 48712,
+            "text": "又"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 49192,
+            "start_time": 49112,
+            "text": "make"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 49352,
+            "start_time": 49272,
+            "text": "sense"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 49992,
+            "start_time": 49912,
+            "text": "又"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 50232,
+            "start_time": 50152,
+            "text": "beautiful"
+          },
+          {
+            "end_time": 51112,
+            "start_time": 51032,
+            "text": "但"
+          },
+          {
+            "end_time": 51272,
+            "start_time": 51192,
+            "text": "那个"
+          },
+          {
+            "end_time": 51432,
+            "start_time": 51352,
+            "text": "远处"
+          },
+          {
+            "end_time": 51592,
+            "start_time": 51512,
+            "text": "拉"
+          },
+          {
+            "end_time": 51832,
+            "start_time": 51752,
+            "text": "那个"
+          },
+          {
+            "end_time": 51992,
+            "start_time": 51912,
+            "text": "过程"
+          },
+          {
+            "end_time": 52152,
+            "start_time": 52072,
+            "text": "就是"
+          },
+          {
+            "end_time": 52472,
+            "start_time": 52392,
+            "text": "展现"
+          },
+          {
+            "end_time": 52632,
+            "start_time": 52552,
+            "text": "我"
+          },
+          {
+            "end_time": 52712,
+            "start_time": 52632,
+            "text": "自己"
+          },
+          {
+            "end_time": 53032,
+            "start_time": 52952,
+            "text": "风格"
+          },
+          {
+            "end_time": 53192,
+            "start_time": 53112,
+            "text": "的"
+          },
+          {
+            "end_time": 53352,
+            "start_time": 53272,
+            "text": "过程"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 57332,
+        "start_time": 53512,
+        "text": "对，因为一般来说远离这个中心点的东西都是丑的。",
+        "words": [
+          {
+            "end_time": 53592,
+            "start_time": 53512,
+            "text": "对"
+          },
+          {
+            "end_time": 54072,
+            "start_time": 53992,
+            "text": "因为"
+          },
+          {
+            "end_time": 54712,
+            "start_time": 54632,
+            "text": "一"
+          },
+          {
+            "end_time": 54952,
+            "start_time": 54872,
+            "text": "般"
+          },
+          {
+            "end_time": 55112,
+            "start_time": 55032,
+            "text": "来说"
+          },
+          {
+            "end_time": 55832,
+            "start_time": 55752,
+            "text": "远离"
+          },
+          {
+            "end_time": 56152,
+            "start_time": 56072,
+            "text": "这个"
+          },
+          {
+            "end_time": 56392,
+            "start_time": 56312,
+            "text": "中心"
+          },
+          {
+            "end_time": 56552,
+            "start_time": 56472,
+            "text": "点"
+          },
+          {
+            "end_time": 56632,
+            "start_time": 56552,
+            "text": "的"
+          },
+          {
+            "end_time": 56712,
+            "start_time": 56632,
+            "text": "东西"
+          },
+          {
+            "end_time": 56872,
+            "start_time": 56792,
+            "text": "都是"
+          },
+          {
+            "end_time": 57112,
+            "start_time": 57032,
+            "text": "丑"
+          },
+          {
+            "end_time": 57332,
+            "start_time": 57252,
+            "text": "的"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 66152,
+        "start_time": 58792,
+        "text": "一般来说，但是又远又丑的那不又漂亮的地方，那就是艺术，就是人没有想象到的东西。",
+        "words": [
+          {
+            "end_time": 58872,
+            "start_time": 58792,
+            "text": "一"
+          },
+          {
+            "end_time": 59032,
+            "start_time": 58952,
+            "text": "般"
+          },
+          {
+            "end_time": 59112,
+            "start_time": 59032,
+            "text": "来说"
+          },
+          {
+            "end_time": 59992,
+            "start_time": 59912,
+            "text": "但是"
+          },
+          {
+            "end_time": 60712,
+            "start_time": 60632,
+            "text": "又"
+          },
+          {
+            "end_time": 60792,
+            "start_time": 60712,
+            "text": "远"
+          },
+          {
+            "end_time": 60872,
+            "start_time": 60792,
+            "text": "又"
+          },
+          {
+            "end_time": 61192,
+            "start_time": 61112,
+            "text": "丑"
+          },
+          {
+            "end_time": 61672,
+            "start_time": 61592,
+            "text": "的那"
+          },
+          {
+            "end_time": 61832,
+            "start_time": 61752,
+            "text": "不"
+          },
+          {
+            "end_time": 61992,
+            "start_time": 61912,
+            "text": "又"
+          },
+          {
+            "end_time": 62152,
+            "start_time": 62072,
+            "text": "漂亮"
+          },
+          {
+            "end_time": 62392,
+            "start_time": 62312,
+            "text": "的"
+          },
+          {
+            "end_time": 62472,
+            "start_time": 62392,
+            "text": "地方"
+          },
+          {
+            "end_time": 62792,
+            "start_time": 62712,
+            "text": "那"
+          },
+          {
+            "end_time": 63192,
+            "start_time": 63112,
+            "text": "就是"
+          },
+          {
+            "end_time": 63492,
+            "start_time": 63412,
+            "text": "艺术"
+          },
+          {
+            "end_time": 64952,
+            "start_time": 64872,
+            "text": "就是"
+          },
+          {
+            "end_time": 65272,
+            "start_time": 65192,
+            "text": "人"
+          },
+          {
+            "end_time": 65432,
+            "start_time": 65352,
+            "text": "没有"
+          },
+          {
+            "end_time": 65832,
+            "start_time": 65752,
+            "text": "想象"
+          },
+          {
+            "end_time": 65992,
+            "start_time": 65912,
+            "text": "到"
+          },
+          {
+            "end_time": 66072,
+            "start_time": 65992,
+            "text": "的"
+          },
+          {
+            "end_time": 66152,
+            "start_time": 66072,
+            "text": "东西"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 76312,
+        "start_time": 66872,
+        "text": "所以你看这里面就是，就是，嗯，这里材质，这是绿色，真的就这张图啊？",
+        "words": [
+          {
+            "end_time": 66952,
+            "start_time": 66872,
+            "text": "所以"
+          },
+          {
+            "end_time": 67112,
+            "start_time": 67032,
+            "text": "你"
+          },
+          {
+            "end_time": 67272,
+            "start_time": 67192,
+            "text": "看"
+          },
+          {
+            "end_time": 67432,
+            "start_time": 67352,
+            "text": "这里"
+          },
+          {
+            "end_time": 67592,
+            "start_time": 67512,
+            "text": "面"
+          },
+          {
+            "end_time": 67832,
+            "start_time": 67752,
+            "text": "就是"
+          },
+          {
+            "end_time": 68632,
+            "start_time": 68552,
+            "text": "就是"
+          },
+          {
+            "end_time": 69832,
+            "start_time": 69752,
+            "text": "嗯"
+          },
+          {
+            "end_time": 70312,
+            "start_time": 70232,
+            "text": "这里"
+          },
+          {
+            "end_time": 73112,
+            "start_time": 73032,
+            "text": "材质"
+          },
+          {
+            "end_time": 73752,
+            "start_time": 73672,
+            "text": "这"
+          },
+          {
+            "end_time": 73992,
+            "start_time": 73912,
+            "text": "是"
+          },
+          {
+            "end_time": 75432,
+            "start_time": 75352,
+            "text": "绿色"
+          },
+          {
+            "end_time": 75672,
+            "start_time": 75592,
+            "text": "真的"
+          },
+          {
+            "end_time": 75832,
+            "start_time": 75752,
+            "text": "就"
+          },
+          {
+            "end_time": 75992,
+            "start_time": 75912,
+            "text": "这"
+          },
+          {
+            "end_time": 76072,
+            "start_time": 75992,
+            "text": "张"
+          },
+          {
+            "end_time": 76232,
+            "start_time": 76152,
+            "text": "图"
+          },
+          {
+            "end_time": 76312,
+            "start_time": 76232,
+            "text": "啊"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 77672,
+        "start_time": 76872,
+        "text": "让我看一下是这张图吗？",
+        "words": [
+          {
+            "end_time": 76952,
+            "start_time": 76872,
+            "text": "让"
+          },
+          {
+            "end_time": 77032,
+            "start_time": 76952,
+            "text": "我"
+          },
+          {
+            "end_time": 77112,
+            "start_time": 77032,
+            "text": "看"
+          },
+          {
+            "end_time": 77192,
+            "start_time": 77112,
+            "text": "一"
+          },
+          {
+            "end_time": 77272,
+            "start_time": 77192,
+            "text": "下"
+          },
+          {
+            "end_time": 77352,
+            "start_time": 77272,
+            "text": "是"
+          },
+          {
+            "end_time": 77432,
+            "start_time": 77352,
+            "text": "这"
+          },
+          {
+            "end_time": 77512,
+            "start_time": 77432,
+            "text": "张"
+          },
+          {
+            "end_time": 77592,
+            "start_time": 77512,
+            "text": "图"
+          },
+          {
+            "end_time": 77672,
+            "start_time": 77592,
+            "text": "吗"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 82562,
+        "start_time": 77752,
+        "text": "123，不对，这个沙发跟这个图还不不？",
+        "words": [
+          {
+            "end_time": 77832,
+            "start_time": 77752,
+            "text": "1"
+          },
+          {
+            "end_time": 77992,
+            "start_time": 77912,
+            "text": "2"
+          },
+          {
+            "end_time": 78212,
+            "start_time": 78132,
+            "text": "3"
+          },
+          {
+            "end_time": 80082,
+            "start_time": 80002,
+            "text": "不对"
+          },
+          {
+            "end_time": 80482,
+            "start_time": 80402,
+            "text": "这个"
+          },
+          {
+            "end_time": 80722,
+            "start_time": 80642,
+            "text": "沙发"
+          },
+          {
+            "end_time": 80962,
+            "start_time": 80882,
+            "text": "跟"
+          },
+          {
+            "end_time": 81202,
+            "start_time": 81122,
+            "text": "这个"
+          },
+          {
+            "end_time": 81442,
+            "start_time": 81362,
+            "text": "图"
+          },
+          {
+            "end_time": 81602,
+            "start_time": 81522,
+            "text": "还"
+          },
+          {
+            "end_time": 81842,
+            "start_time": 81762,
+            "text": "不"
+          },
+          {
+            "end_time": 82562,
+            "start_time": 82482,
+            "text": "不"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 83682,
+        "start_time": 82642,
+        "text": "这两个不卖去，你发现吗？",
+        "words": [
+          {
+            "end_time": 82722,
+            "start_time": 82642,
+            "text": "这"
+          },
+          {
+            "end_time": 82802,
+            "start_time": 82722,
+            "text": "两个"
+          },
+          {
+            "end_time": 82962,
+            "start_time": 82882,
+            "text": "不"
+          },
+          {
+            "end_time": 83202,
+            "start_time": 83122,
+            "text": "卖"
+          },
+          {
+            "end_time": 83442,
+            "start_time": 83362,
+            "text": "去"
+          },
+          {
+            "end_time": 83522,
+            "start_time": 83442,
+            "text": "你"
+          },
+          {
+            "end_time": 83602,
+            "start_time": 83522,
+            "text": "发现"
+          },
+          {
+            "end_time": 83682,
+            "start_time": 83602,
+            "text": "吗"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 95502,
+        "start_time": 85122,
+        "text": "沙发，这其实不一样，但这些东西都是可 fix 的，这都是可 fix 的，就是说有的时候你就给它一个参考图，就是沙发，就这张沙发，然后什么什么，它就生成的就这个东西。",
+        "words": [
+          {
+            "end_time": 85202,
+            "start_time": 85122,
+            "text": "沙发"
+          },
+          {
+            "end_time": 85442,
+            "start_time": 85362,
+            "text": "这"
+          },
+          {
+            "end_time": 85602,
+            "start_time": 85522,
+            "text": "其实"
+          },
+          {
+            "end_time": 85682,
+            "start_time": 85602,
+            "text": "不"
+          },
+          {
+            "end_time": 85762,
+            "start_time": 85682,
+            "text": "一"
+          },
+          {
+            "end_time": 85842,
+            "start_time": 85762,
+            "text": "样"
+          },
+          {
+            "end_time": 86322,
+            "start_time": 86242,
+            "text": "但"
+          },
+          {
+            "end_time": 86562,
+            "start_time": 86482,
+            "text": "这些"
+          },
+          {
+            "end_time": 86722,
+            "start_time": 86642,
+            "text": "东西"
+          },
+          {
+            "end_time": 86962,
+            "start_time": 86882,
+            "text": "都是"
+          },
+          {
+            "end_time": 87362,
+            "start_time": 87282,
+            "text": "可"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 87522,
+            "start_time": 87442,
+            "text": "fix"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 87762,
+            "start_time": 87682,
+            "text": "的"
+          },
+          {
+            "end_time": 88162,
+            "start_time": 88082,
+            "text": "这"
+          },
+          {
+            "end_time": 88242,
+            "start_time": 88162,
+            "text": "都是"
+          },
+          {
+            "end_time": 88482,
+            "start_time": 88402,
+            "text": "可"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 88642,
+            "start_time": 88562,
+            "text": "fix"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 88722,
+            "start_time": 88642,
+            "text": "的"
+          },
+          {
+            "end_time": 89202,
+            "start_time": 89122,
+            "text": "就是说"
+          },
+          {
+            "end_time": 89682,
+            "start_time": 89602,
+            "text": "有的"
+          },
+          {
+            "end_time": 89842,
+            "start_time": 89762,
+            "text": "时候"
+          },
+          {
+            "end_time": 90002,
+            "start_time": 89922,
+            "text": "你"
+          },
+          {
+            "end_time": 90162,
+            "start_time": 90082,
+            "text": "就"
+          },
+          {
+            "end_time": 90322,
+            "start_time": 90242,
+            "text": "给"
+          },
+          {
+            "end_time": 90482,
+            "start_time": 90402,
+            "text": "它"
+          },
+          {
+            "end_time": 90562,
+            "start_time": 90482,
+            "text": "一"
+          },
+          {
+            "end_time": 90642,
+            "start_time": 90562,
+            "text": "个"
+          },
+          {
+            "end_time": 90722,
+            "start_time": 90642,
+            "text": "参考"
+          },
+          {
+            "end_time": 90962,
+            "start_time": 90882,
+            "text": "图"
+          },
+          {
+            "end_time": 91842,
+            "start_time": 91762,
+            "text": "就是"
+          },
+          {
+            "end_time": 92242,
+            "start_time": 92162,
+            "text": "沙发"
+          },
+          {
+            "end_time": 92562,
+            "start_time": 92482,
+            "text": "就"
+          },
+          {
+            "end_time": 92722,
+            "start_time": 92642,
+            "text": "这"
+          },
+          {
+            "end_time": 92802,
+            "start_time": 92722,
+            "text": "张"
+          },
+          {
+            "end_time": 92962,
+            "start_time": 92882,
+            "text": "沙发"
+          },
+          {
+            "end_time": 93602,
+            "start_time": 93522,
+            "text": "然后"
+          },
+          {
+            "end_time": 93842,
+            "start_time": 93762,
+            "text": "什么"
+          },
+          {
+            "end_time": 94002,
+            "start_time": 93922,
+            "text": "什么"
+          },
+          {
+            "end_time": 94242,
+            "start_time": 94162,
+            "text": "它"
+          },
+          {
+            "end_time": 94642,
+            "start_time": 94562,
+            "text": "就"
+          },
+          {
+            "end_time": 94802,
+            "start_time": 94722,
+            "text": "生成"
+          },
+          {
+            "end_time": 94962,
+            "start_time": 94882,
+            "text": "的"
+          },
+          {
+            "end_time": 95042,
+            "start_time": 94962,
+            "text": "就"
+          },
+          {
+            "end_time": 95202,
+            "start_time": 95122,
+            "text": "这个"
+          },
+          {
+            "end_time": 95502,
+            "start_time": 95422,
+            "text": "东西"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 99502,
+        "start_time": 98242,
+        "text": "餐桌，餐桌。",
+        "words": [
+          {
+            "end_time": 98322,
+            "start_time": 98242,
+            "text": "餐桌"
+          },
+          {
+            "end_time": 99502,
+            "start_time": 99422,
+            "text": "餐桌"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 108572,
+        "start_time": 101312,
+        "text": "不是，他说他是圆的，是圆的，这个不是，对，这个他有点瞎话了，但这个东西因为你什么都没给他，这也 make sense。",
+        "words": [
+          {
+            "end_time": 101392,
+            "start_time": 101312,
+            "text": "不是"
+          },
+          {
+            "end_time": 102192,
+            "start_time": 102112,
+            "text": "他"
+          },
+          {
+            "end_time": 102432,
+            "start_time": 102352,
+            "text": "说"
+          },
+          {
+            "end_time": 102512,
+            "start_time": 102432,
+            "text": "他"
+          },
+          {
+            "end_time": 102672,
+            "start_time": 102592,
+            "text": "是"
+          },
+          {
+            "end_time": 102752,
+            "start_time": 102672,
+            "text": "圆"
+          },
+          {
+            "end_time": 102832,
+            "start_time": 102752,
+            "text": "的"
+          },
+          {
+            "end_time": 103392,
+            "start_time": 103312,
+            "text": "是"
+          },
+          {
+            "end_time": 103552,
+            "start_time": 103472,
+            "text": "圆"
+          },
+          {
+            "end_time": 103632,
+            "start_time": 103552,
+            "text": "的"
+          },
+          {
+            "end_time": 103872,
+            "start_time": 103792,
+            "text": "这个"
+          },
+          {
+            "end_time": 104032,
+            "start_time": 103952,
+            "text": "不是"
+          },
+          {
+            "end_time": 104832,
+            "start_time": 104752,
+            "text": "对"
+          },
+          {
+            "end_time": 104992,
+            "start_time": 104912,
+            "text": "这个"
+          },
+          {
+            "end_time": 105072,
+            "start_time": 104992,
+            "text": "他"
+          },
+          {
+            "end_time": 105312,
+            "start_time": 105232,
+            "text": "有点"
+          },
+          {
+            "end_time": 105632,
+            "start_time": 105552,
+            "text": "瞎"
+          },
+          {
+            "end_time": 105712,
+            "start_time": 105632,
+            "text": "话"
+          },
+          {
+            "end_time": 105792,
+            "start_time": 105712,
+            "text": "了"
+          },
+          {
+            "end_time": 106512,
+            "start_time": 106432,
+            "text": "但"
+          },
+          {
+            "end_time": 106592,
+            "start_time": 106512,
+            "text": "这个"
+          },
+          {
+            "end_time": 106672,
+            "start_time": 106592,
+            "text": "东西"
+          },
+          {
+            "end_time": 106912,
+            "start_time": 106832,
+            "text": "因为"
+          },
+          {
+            "end_time": 106992,
+            "start_time": 106912,
+            "text": "你"
+          },
+          {
+            "end_time": 107152,
+            "start_time": 107072,
+            "text": "什么"
+          },
+          {
+            "end_time": 107312,
+            "start_time": 107232,
+            "text": "都"
+          },
+          {
+            "end_time": 107392,
+            "start_time": 107312,
+            "text": "没"
+          },
+          {
+            "end_time": 107632,
+            "start_time": 107552,
+            "text": "给他"
+          },
+          {
+            "end_time": 107952,
+            "start_time": 107872,
+            "text": "这"
+          },
+          {
+            "end_time": 108032,
+            "start_time": 107952,
+            "text": "也"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 108272,
+            "start_time": 108192,
+            "text": "make"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 108572,
+            "start_time": 108492,
+            "text": "sense"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 115422,
+        "start_time": 115022,
+        "text": "然后呢？",
+        "words": [
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 115102,
+            "start_time": 115022,
+            "text": "然后"
+          },
+          {
+            "end_time": 115422,
+            "start_time": 115342,
+            "text": "呢"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 120142,
+        "start_time": 115582,
+        "text": "你看这个的话，就是给你写了一个 sit dance 的 prompt，然后呢？",
+        "words": [
+          {
+            "end_time": 115662,
+            "start_time": 115582,
+            "text": "你"
+          },
+          {
+            "end_time": 115902,
+            "start_time": 115822,
+            "text": "看"
+          },
+          {
+            "end_time": 115982,
+            "start_time": 115902,
+            "text": "这个"
+          },
+          {
+            "end_time": 116222,
+            "start_time": 116142,
+            "text": "的话"
+          },
+          {
+            "end_time": 116622,
+            "start_time": 116542,
+            "text": "就是"
+          },
+          {
+            "end_time": 116862,
+            "start_time": 116782,
+            "text": "给你"
+          },
+          {
+            "end_time": 117262,
+            "start_time": 117182,
+            "text": "写"
+          },
+          {
+            "end_time": 117342,
+            "start_time": 117262,
+            "text": "了"
+          },
+          {
+            "end_time": 117502,
+            "start_time": 117422,
+            "text": "一"
+          },
+          {
+            "end_time": 117582,
+            "start_time": 117502,
+            "text": "个"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 117902,
+            "start_time": 117822,
+            "text": "sit"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 118142,
+            "start_time": 118062,
+            "text": "dance"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 118302,
+            "start_time": 118222,
+            "text": "的"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 118702,
+            "start_time": 118622,
+            "text": "prompt"
+          },
+          {
+            "end_time": 119902,
+            "start_time": 119822,
+            "text": "然后"
+          },
+          {
+            "end_time": 120142,
+            "start_time": 120062,
+            "text": "呢"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 124862,
+        "start_time": 120462,
+        "text": "我们就要去把那个鸡蛋的。",
+        "words": [
+          {
+            "end_time": 120542,
+            "start_time": 120462,
+            "text": "我们"
+          },
+          {
+            "end_time": 120862,
+            "start_time": 120782,
+            "text": "就要"
+          },
+          {
+            "end_time": 121322,
+            "start_time": 121242,
+            "text": "去"
+          },
+          {
+            "end_time": 123042,
+            "start_time": 122962,
+            "text": "把"
+          },
+          {
+            "end_time": 123201,
+            "start_time": 123122,
+            "text": "那个"
+          },
+          {
+            "end_time": 124322,
+            "start_time": 124242,
+            "text": "鸡蛋"
+          },
+          {
+            "end_time": 124862,
+            "start_time": 124782,
+            "text": "的"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 133212,
+        "start_time": 131262,
+        "text": "这个，这就是那个 MD 文件吗？",
+        "words": [
+          {
+            "end_time": 131342,
+            "start_time": 131262,
+            "text": "这个"
+          },
+          {
+            "end_time": 132332,
+            "start_time": 132252,
+            "text": "这"
+          },
+          {
+            "end_time": 132412,
+            "start_time": 132332,
+            "text": "就是"
+          },
+          {
+            "end_time": 132571,
+            "start_time": 132492,
+            "text": "那个"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 132892,
+            "start_time": 132812,
+            "text": "MD"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 133132,
+            "start_time": 133052,
+            "text": "文件"
+          },
+          {
+            "end_time": 133212,
+            "start_time": 133132,
+            "text": "吗"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 139592,
+        "start_time": 134012,
+        "text": "就是 MD Markdown，就是如这种东西，就是人眼能读，机器也能读，就是表示这个东西很很重要。",
+        "words": [
+          {
+            "end_time": 134092,
+            "start_time": 134012,
+            "text": "就是"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 134412,
+            "start_time": 134332,
+            "text": "MD"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 134972,
+            "start_time": 134732,
+            "text": "Markdown"
+          },
+          {
+            "end_time": 135212,
+            "start_time": 135132,
+            "text": "就是"
+          },
+          {
+            "end_time": 135532,
+            "start_time": 135452,
+            "text": "如"
+          },
+          {
+            "end_time": 135931,
+            "start_time": 135852,
+            "text": "这种"
+          },
+          {
+            "end_time": 136092,
+            "start_time": 136012,
+            "text": "东西"
+          },
+          {
+            "end_time": 136492,
+            "start_time": 136412,
+            "text": "就是"
+          },
+          {
+            "end_time": 136732,
+            "start_time": 136652,
+            "text": "人"
+          },
+          {
+            "end_time": 136892,
+            "start_time": 136812,
+            "text": "眼"
+          },
+          {
+            "end_time": 136972,
+            "start_time": 136892,
+            "text": "能"
+          },
+          {
+            "end_time": 137052,
+            "start_time": 136972,
+            "text": "读"
+          },
+          {
+            "end_time": 137452,
+            "start_time": 137372,
+            "text": "机器"
+          },
+          {
+            "end_time": 137612,
+            "start_time": 137532,
+            "text": "也"
+          },
+          {
+            "end_time": 137692,
+            "start_time": 137612,
+            "text": "能"
+          },
+          {
+            "end_time": 137772,
+            "start_time": 137692,
+            "text": "读"
+          },
+          {
+            "end_time": 138332,
+            "start_time": 138252,
+            "text": "就是"
+          },
+          {
+            "end_time": 138492,
+            "start_time": 138412,
+            "text": "表示"
+          },
+          {
+            "end_time": 138732,
+            "start_time": 138652,
+            "text": "这个"
+          },
+          {
+            "end_time": 138892,
+            "start_time": 138812,
+            "text": "东西"
+          },
+          {
+            "end_time": 139212,
+            "start_time": 139132,
+            "text": "很"
+          },
+          {
+            "end_time": 139292,
+            "start_time": 139212,
+            "text": "很"
+          },
+          {
+            "end_time": 139592,
+            "start_time": 139512,
+            "text": "重要"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 144812,
+        "start_time": 143452,
+        "text": "巴拉巴拉巴苏木。",
+        "words": [
+          {
+            "end_time": 143532,
+            "start_time": 143452,
+            "text": "巴"
+          },
+          {
+            "end_time": 143692,
+            "start_time": 143612,
+            "text": "拉"
+          },
+          {
+            "end_time": 143772,
+            "start_time": 143692,
+            "text": "巴"
+          },
+          {
+            "end_time": 143931,
+            "start_time": 143851,
+            "text": "拉"
+          },
+          {
+            "end_time": 144412,
+            "start_time": 144332,
+            "text": "巴"
+          },
+          {
+            "end_time": 144652,
+            "start_time": 144571,
+            "text": "苏"
+          },
+          {
+            "end_time": 144812,
+            "start_time": 144732,
+            "text": "木"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 145532,
+        "start_time": 144972,
+        "text": "苏木是什么？",
+        "words": [
+          {
+            "end_time": 145052,
+            "start_time": 144972,
+            "text": "苏"
+          },
+          {
+            "end_time": 145211,
+            "start_time": 145132,
+            "text": "木"
+          },
+          {
+            "end_time": 145452,
+            "start_time": 145372,
+            "text": "是"
+          },
+          {
+            "end_time": 145532,
+            "start_time": 145452,
+            "text": "什么"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 145851,
+        "start_time": 145532,
+        "text": "什么什么东西？",
+        "words": [
+          {
+            "end_time": 145612,
+            "start_time": 145532,
+            "text": "什么"
+          },
+          {
+            "end_time": 145772,
+            "start_time": 145692,
+            "text": "什么"
+          },
+          {
+            "end_time": 145851,
+            "start_time": 145772,
+            "text": "东西"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 153272,
+        "start_time": 146972,
+        "text": "然后上传参考手真，然后把这东西拉进去，然后整个漫游中文提示词。",
+        "words": [
+          {
+            "end_time": 147052,
+            "start_time": 146972,
+            "text": "然后"
+          },
+          {
+            "end_time": 148332,
+            "start_time": 148252,
+            "text": "上传"
+          },
+          {
+            "end_time": 148812,
+            "start_time": 148732,
+            "text": "参考"
+          },
+          {
+            "end_time": 149292,
+            "start_time": 149211,
+            "text": "手"
+          },
+          {
+            "end_time": 149452,
+            "start_time": 149372,
+            "text": "真"
+          },
+          {
+            "end_time": 149692,
+            "start_time": 149612,
+            "text": "然后"
+          },
+          {
+            "end_time": 149931,
+            "start_time": 149851,
+            "text": "把"
+          },
+          {
+            "end_time": 150092,
+            "start_time": 150012,
+            "text": "这"
+          },
+          {
+            "end_time": 150252,
+            "start_time": 150172,
+            "text": "东西"
+          },
+          {
+            "end_time": 150492,
+            "start_time": 150412,
+            "text": "拉"
+          },
+          {
+            "end_time": 150652,
+            "start_time": 150571,
+            "text": "进去"
+          },
+          {
+            "end_time": 151052,
+            "start_time": 150972,
+            "text": "然后"
+          },
+          {
+            "end_time": 151612,
+            "start_time": 151532,
+            "text": "整个"
+          },
+          {
+            "end_time": 151851,
+            "start_time": 151772,
+            "text": "漫"
+          },
+          {
+            "end_time": 151931,
+            "start_time": 151851,
+            "text": "游"
+          },
+          {
+            "end_time": 152732,
+            "start_time": 152652,
+            "text": "中文"
+          },
+          {
+            "end_time": 152892,
+            "start_time": 152812,
+            "text": "提示"
+          },
+          {
+            "end_time": 153272,
+            "start_time": 153192,
+            "text": "词"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 158442,
+        "start_time": 157742,
+        "text": "然后呢？",
+        "words": [
+          {
+            "end_time": 157822,
+            "start_time": 157742,
+            "text": "然后"
+          },
+          {
+            "end_time": 158442,
+            "start_time": 158362,
+            "text": "呢"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 171482,
+        "start_time": 171162,
+        "text": "这什么？",
+        "words": [
+          {
+            "end_time": 171242,
+            "start_time": 171162,
+            "text": "这"
+          },
+          {
+            "end_time": 171482,
+            "start_time": 171402,
+            "text": "什么"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 172122,
+        "start_time": 171722,
+        "text": "这豆包吗？",
+        "words": [
+          {
+            "end_time": 171802,
+            "start_time": 171722,
+            "text": "这"
+          },
+          {
+            "end_time": 171882,
+            "start_time": 171802,
+            "text": "豆"
+          },
+          {
+            "end_time": 171962,
+            "start_time": 171882,
+            "text": "包"
+          },
+          {
+            "end_time": 172122,
+            "start_time": 172042,
+            "text": "吗"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 173002,
+        "start_time": 172922,
+        "text": "没有。",
+        "words": [
+          {
+            "end_time": 173002,
+            "start_time": 172922,
+            "text": "没有"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 175142,
+        "start_time": 173242,
+        "text": "这个是，是那个叫。",
+        "words": [
+          {
+            "end_time": 173322,
+            "start_time": 173242,
+            "text": "这个"
+          },
+          {
+            "end_time": 173642,
+            "start_time": 173562,
+            "text": "是"
+          },
+          {
+            "end_time": 174522,
+            "start_time": 174442,
+            "text": "是"
+          },
+          {
+            "end_time": 174762,
+            "start_time": 174682,
+            "text": "那个"
+          },
+          {
+            "end_time": 175142,
+            "start_time": 175062,
+            "text": "叫"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 222582,
+        "start_time": 219782,
+        "text": "但是他做的视频就肯定很傻了，为啥？",
+        "words": [
+          {
+            "end_time": 219862,
+            "start_time": 219782,
+            "text": "但是"
+          },
+          {
+            "end_time": 220022,
+            "start_time": 219942,
+            "text": "他"
+          },
+          {
+            "end_time": 220101,
+            "start_time": 220022,
+            "text": "做"
+          },
+          {
+            "end_time": 220262,
+            "start_time": 220181,
+            "text": "的"
+          },
+          {
+            "end_time": 220342,
+            "start_time": 220262,
+            "text": "视频"
+          },
+          {
+            "end_time": 221062,
+            "start_time": 220982,
+            "text": "就"
+          },
+          {
+            "end_time": 221222,
+            "start_time": 221142,
+            "text": "肯定"
+          },
+          {
+            "end_time": 221461,
+            "start_time": 221382,
+            "text": "很"
+          },
+          {
+            "end_time": 221542,
+            "start_time": 221461,
+            "text": "傻"
+          },
+          {
+            "end_time": 221702,
+            "start_time": 221622,
+            "text": "了"
+          },
+          {
+            "end_time": 222582,
+            "start_time": 222502,
+            "text": "为啥"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 233712,
+        "start_time": 223382,
+        "text": "因为他是拿那个本地的那个随便几张照片 Zoom out 的那种视频，他不像那个 sit dance 可以搞得那么多花哨。",
+        "words": [
+          {
+            "end_time": 223461,
+            "start_time": 223382,
+            "text": "因为"
+          },
+          {
+            "end_time": 223542,
+            "start_time": 223461,
+            "text": "他"
+          },
+          {
+            "end_time": 223702,
+            "start_time": 223622,
+            "text": "是"
+          },
+          {
+            "end_time": 224101,
+            "start_time": 224022,
+            "text": "拿"
+          },
+          {
+            "end_time": 224262,
+            "start_time": 224181,
+            "text": "那个"
+          },
+          {
+            "end_time": 225062,
+            "start_time": 224982,
+            "text": "本地"
+          },
+          {
+            "end_time": 225461,
+            "start_time": 225382,
+            "text": "的"
+          },
+          {
+            "end_time": 225622,
+            "start_time": 225542,
+            "text": "那个"
+          },
+          {
+            "end_time": 226101,
+            "start_time": 226022,
+            "text": "随便"
+          },
+          {
+            "end_time": 226422,
+            "start_time": 226342,
+            "text": "几"
+          },
+          {
+            "end_time": 226582,
+            "start_time": 226502,
+            "text": "张"
+          },
+          {
+            "end_time": 226662,
+            "start_time": 226582,
+            "text": "照片"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 227542,
+            "start_time": 227461,
+            "text": "Zoom"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 227942,
+            "start_time": 227862,
+            "text": "out"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 228022,
+            "start_time": 227942,
+            "text": "的"
+          },
+          {
+            "end_time": 228181,
+            "start_time": 228101,
+            "text": "那种"
+          },
+          {
+            "end_time": 228262,
+            "start_time": 228181,
+            "text": "视频"
+          },
+          {
+            "end_time": 229222,
+            "start_time": 229142,
+            "text": "他"
+          },
+          {
+            "end_time": 229461,
+            "start_time": 229382,
+            "text": "不像"
+          },
+          {
+            "end_time": 229702,
+            "start_time": 229622,
+            "text": "那个"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 230181,
+            "start_time": 230101,
+            "text": "sit"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 230422,
+            "start_time": 230342,
+            "text": "dance"
+          },
+          {
+            "end_time": -1,
+            "start_time": -1,
+            "text": " "
+          },
+          {
+            "end_time": 230961,
+            "start_time": 230882,
+            "text": "可以"
+          },
+          {
+            "end_time": 232292,
+            "start_time": 232212,
+            "text": "搞"
+          },
+          {
+            "end_time": 232532,
+            "start_time": 232452,
+            "text": "得"
+          },
+          {
+            "end_time": 232612,
+            "start_time": 232532,
+            "text": "那么"
+          },
+          {
+            "end_time": 233172,
+            "start_time": 233092,
+            "text": "多"
+          },
+          {
+            "end_time": 233332,
+            "start_time": 233252,
+            "text": "花"
+          },
+          {
+            "end_time": 233712,
+            "start_time": 233632,
+            "text": "哨"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 238052,
+        "start_time": 237092,
+        "text": "是专门做视频的是吗？",
+        "words": [
+          {
+            "end_time": 237172,
+            "start_time": 237092,
+            "text": "是"
+          },
+          {
+            "end_time": 237252,
+            "start_time": 237172,
+            "text": "专门"
+          },
+          {
+            "end_time": 237492,
+            "start_time": 237412,
+            "text": "做"
+          },
+          {
+            "end_time": 237572,
+            "start_time": 237492,
+            "text": "视频"
+          },
+          {
+            "end_time": 237812,
+            "start_time": 237732,
+            "text": "的"
+          },
+          {
+            "end_time": 237892,
+            "start_time": 237812,
+            "text": "是"
+          },
+          {
+            "end_time": 238052,
+            "start_time": 237972,
+            "text": "吗"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 240462,
+        "start_time": 238752,
+        "text": "对，有几个。",
+        "words": [
+          {
+            "end_time": 238832,
+            "start_time": 238752,
+            "text": "对"
+          },
+          {
+            "end_time": 240242,
+            "start_time": 240162,
+            "text": "有"
+          },
+          {
+            "end_time": 240462,
+            "start_time": 240382,
+            "text": "几个"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 262672,
+        "start_time": 262352,
+        "text": "容易吗？",
+        "words": [
+          {
+            "end_time": 262432,
+            "start_time": 262352,
+            "text": "容易"
+          },
+          {
+            "end_time": 262672,
+            "start_time": 262591,
+            "text": "吗"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 266012,
+        "start_time": 263472,
+        "text": "哈哈哈，这也太。",
+        "words": [
+          {
+            "end_time": 263552,
+            "start_time": 263472,
+            "text": "哈哈哈"
+          },
+          {
+            "end_time": 265392,
+            "start_time": 265311,
+            "text": "这"
+          },
+          {
+            "end_time": 265472,
+            "start_time": 265392,
+            "text": "也"
+          },
+          {
+            "end_time": 266012,
+            "start_time": 265932,
+            "text": "太"
+          }
+        ]
+      },
+      {
+        "additions": {
+          "fixed_prefix_result": ""
+        },
+        "definite": true,
+        "end_time": 309742,
+        "start_time": 307042,
+        "text": "正确，然后把成品发给我啊。",
+        "words": [
+          {
+            "end_time": 307122,
+            "start_time": 307042,
+            "text": "正确"
+          },
+          {
+            "end_time": 308562,
+            "start_time": 308482,
+            "text": "然后"
+          },
+          {
+            "end_time": 308722,
+            "start_time": 308642,
+            "text": "把"
+          },
+          {
+            "end_time": 308882,
+            "start_time": 308802,
+            "text": "成品"
+          },
+          {
+            "end_time": 309122,
+            "start_time": 309042,
+            "text": "发给"
+          },
+          {
+            "end_time": 309202,
+            "start_time": 309122,
+            "text": "我"
+          },
+          {
+            "end_time": 309742,
+            "start_time": 309662,
+            "text": "啊"
+          }
+        ]
+      }
+    ]
+  }
+}
