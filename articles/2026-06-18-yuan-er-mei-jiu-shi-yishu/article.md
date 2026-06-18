@@ -6,7 +6,7 @@
 
 我和朋友聊着聊着，聊到了梵高。
 
-你可以把所有人都会画的那种很精致的油画，想象成一个中心点——那就是「画」的缺省值。梵高干了什么？他把这个点，往色彩最鲜艳的那一边狠狠拉了过去。毕加索呢，把它往抽象那边拉。每一个我们记得住名字的人，都在做同一件事：**把那个点往远处拉**。
+你可以把所有人都会画的那种很精致的油画，想象成一个中心点——那就是「画」的缺省值。梵高干了什么？他把这个点，往色彩最鲜艳的那一边狠狠拉了过去。毕加索呢，把它往抽象那边拉。每一个我们记得住名字的人，都在做同一件事：<span style="color:#c0392b;">把那个点往远处拉</span>。
 
 往远处拉的那个过程，就是你展现自己风格的过程。所谓风格，就是你离那个缺省值有多远、往哪个方向远。
 
@@ -14,7 +14,7 @@
 
 一般来说，离中心点越远的东西，越丑。这几乎是个规律。你随手往外拉，十有八九拉出来的是个怪东西，没法看。所以大部分人不敢拉，老老实实待在缺省值附近。安全，但也平庸。
 
-真正难的，是**又远，又美**。
+真正难的，是<span style="color:#c0392b;">又远，又美</span>。
 
 又远又丑的地方多得是，谁都能到；又远，又还能让人觉得「对，就该是这样」的地方，少得可怜。
 
@@ -26,9 +26,9 @@
 
 它把那个中心点，清清楚楚地标在了地图上，让所有人都站在同一个起点。从今往后，比的不再是「你能不能画出那张标准的画」——那个 AI 一秒就给你。比的是，你敢不敢、能不能，把那个点往远处拉，拉到一个又远又美、别人没去过的地方。
 
-缺省值是 AI 给的。**往远处拉的那只手，还是人的。**
+缺省值是 AI 给的。<span style="color:#c0392b;">往远处拉的那只手，还是人的。</span>
 
-这个拉过去的能力，我们叫做，**人的品味**
+这个把那个点拉过去的能力，我们叫它<span style="color:#c0392b;">人的品味</span>。
 
 <!--RECENT_ARTICLES_START-->
 <section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/fnZikTK_0WxVyMkPA5T0hQ" textvalue="ccglass 0.3.0 新功能发布" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.3.0 新功能发布</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/p_frJoLyINOrh5nRqrX1lw" textvalue="三年之后：回看 2023 年我对 ChatGPT 的判断" data-itemshowtype="0" linktype="text" data-linktype="2">三年之后：回看 2023 年我对 ChatGPT 的判断</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vXjUudqzLINGFDIxUPxJpg" textvalue="20 年前的程序员，重新学走路" data-itemshowtype="0" linktype="text" data-linktype="2">20 年前的程序员，重新学走路</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/ARXn7Bp4GcwwDey1K_nyZg" textvalue="这一小段路，可能就是十年" data-itemshowtype="0" linktype="text" data-linktype="2">这一小段路，可能就是十年</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-HK2ymNH3bhun-zQ65cmBQ" textvalue="改指令，不要改产物" data-itemshowtype="0" linktype="text" data-linktype="2">改指令，不要改产物</a></section>
