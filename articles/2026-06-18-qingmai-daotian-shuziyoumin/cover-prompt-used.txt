@@ -1,0 +1,5 @@
+target_word: 清迈的稻田里，坐满了对着电脑的人
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-06-18T04:57:42Z
