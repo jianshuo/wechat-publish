@@ -37,3 +37,9 @@
 差别只在于，它身上那根「管多细」的旋钮，是攥在你手里的。
 
 后注：那天最后，我们没用它配的那张圆桌——不是因为不好看，是因为它太好看了，跟我们想要的「家常一点」的感觉不太一样。你看，连「我不要太好」，也是一种得你亲口说出来的约束。
+
+![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/WHDieFP7zc6iUS8nWVxcwg" textvalue="把 LLM 当编译器，把 Skill 当 App" data-itemshowtype="0" linktype="text" data-linktype="2">把 LLM 当编译器，把 Skill 当 App</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vowe7sYnZbxNowc8h7GUAQ" textvalue="AI 时代，Python 已经是新的&quot;汇编语言&quot;了" data-itemshowtype="0" linktype="text" data-linktype="2">AI 时代，Python 已经是新的&quot;汇编语言&quot;了</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/y7kQ0J46lDjXO3Ojn5L73g" textvalue="效率越高，需求越井喷" data-itemshowtype="0" linktype="text" data-linktype="2">效率越高，需求越井喷</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/z9y-hni6X3cxCWq5CX4XHA" textvalue="让网站自己改自己的技能" data-itemshowtype="0" linktype="text" data-linktype="2">让网站自己改自己的技能</a></section>
+<!--RECENT_ARTICLES_END-->
