@@ -35,3 +35,9 @@
 写作于我从来不是为了被看见，是逼自己想清楚。现在工具换了，这个内核一点没变——只不过逼自己想清楚的方式，从「每天写一篇」，变成了「每天好好跟一个人聊一段」。
 
 后记：这篇文章本身，就是我在乌布那段录音变出来的。我说的时候，完全不知道它最后会长成什么样子。
+
+![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/YC_bpfjdnOFljvNPNrPyaA" textvalue="智能无限的世界，要打破的是脑子里的禁锢" data-itemshowtype="0" linktype="text" data-linktype="2">智能无限的世界，要打破的是脑子里的禁锢</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-HK2ymNH3bhun-zQ65cmBQ" textvalue="改指令，不要改产物" data-itemshowtype="0" linktype="text" data-linktype="2">改指令，不要改产物</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vXjUudqzLINGFDIxUPxJpg" textvalue="20 年前的程序员，重新学走路" data-itemshowtype="0" linktype="text" data-linktype="2">20 年前的程序员，重新学走路</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/L8puybdd9rr_OI3iSnS-dw" textvalue="吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机" data-itemshowtype="0" linktype="text" data-linktype="2">吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机</a></section>
+<!--RECENT_ARTICLES_END-->
