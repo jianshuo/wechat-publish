@@ -8,9 +8,7 @@
 
 你可以把所有人都会画的那种很精致的油画，想象成一个中心点——那就是「画」的缺省值。梵高干了什么？他把这个点，往色彩最鲜艳的那一边狠狠拉了过去。毕加索呢，把它往抽象那边拉。每一个我们记得住名字的人，都在做同一件事：**把那个点往远处拉**。
 
-聊到这儿，对面接了一句：往远处拉的那个过程，就是你展现自己风格的过程。
-
-我说，对。所谓风格，就是你离那个缺省值有多远、往哪个方向远。
+往远处拉的那个过程，就是你展现自己风格的过程。所谓风格，就是你离那个缺省值有多远、往哪个方向远。
 
 但往远处拉，有个很要命的麻烦。
 
@@ -30,9 +28,7 @@
 
 缺省值是 AI 给的。**往远处拉的那只手，还是人的。**
 
-后注：那天我们拉着拉着，工具自己也「拉」了一下——我让它配张餐桌，它给我配了张圆的，我明明记得原图是方的。它有点瞎编。但你别说，那张圆桌摆在那间客厅里，居然也挺好看。这事我下篇再聊。
-
-![](./illustration.png)
+这个拉过去的能力，我们叫做，**人的品味**
 
 <!--RECENT_ARTICLES_START-->
 <section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/fnZikTK_0WxVyMkPA5T0hQ" textvalue="ccglass 0.3.0 新功能发布" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.3.0 新功能发布</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/p_frJoLyINOrh5nRqrX1lw" textvalue="三年之后：回看 2023 年我对 ChatGPT 的判断" data-itemshowtype="0" linktype="text" data-linktype="2">三年之后：回看 2023 年我对 ChatGPT 的判断</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vXjUudqzLINGFDIxUPxJpg" textvalue="20 年前的程序员，重新学走路" data-itemshowtype="0" linktype="text" data-linktype="2">20 年前的程序员，重新学走路</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/ARXn7Bp4GcwwDey1K_nyZg" textvalue="这一小段路，可能就是十年" data-itemshowtype="0" linktype="text" data-linktype="2">这一小段路，可能就是十年</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-HK2ymNH3bhun-zQ65cmBQ" textvalue="改指令，不要改产物" data-itemshowtype="0" linktype="text" data-linktype="2">改指令，不要改产物</a></section>
