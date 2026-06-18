@@ -8,6 +8,8 @@
 
 这群人有个名字，叫**数字游民**。说白了就是一台电脑、一根网线，人在哪儿，活就在哪儿干。今天在清迈的稻田，明天可能就在别处的海边。
 
+![](./illustration.png)
+
 我在这儿坐了一会儿，心里冒出来的第一个念头是：这些人**怎么一个个都这么好看**。帅哥美女，穿得松松垮垮，晒得刚刚好。
 
 后来想想，这事其实不奇怪。一个人要是能自己决定在哪儿工作、几点工作、和谁一起工作，他大概率会把自己过得舒服一点。环境是松的，人就松。脸上那种赶时间的紧绷，这儿很少见。
@@ -19,3 +21,7 @@
 但坐在这儿，看着风吹稻浪，旁边一圈人安安静静地对着电脑，我觉得**挺好的**。
 
 后注：他们的电脑几乎清一色是 Mac。这个我也没想明白为什么，就是看到了，记下来。
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vowe7sYnZbxNowc8h7GUAQ" textvalue="AI 时代，Python 已经是新的&quot;汇编语言&quot;了" data-itemshowtype="0" linktype="text" data-linktype="2">AI 时代，Python 已经是新的&quot;汇编语言&quot;了</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/psu7fLuqdDiiwHZ71I9DGQ" textvalue="SKILL.md 相当于 index.html" data-itemshowtype="0" linktype="text" data-linktype="2">SKILL.md 相当于 index.html</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-vvqwMWruUwThoY9yaecmg" textvalue="工程师的浪漫" data-itemshowtype="0" linktype="text" data-linktype="2">工程师的浪漫</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/ARXn7Bp4GcwwDey1K_nyZg" textvalue="这一小段路，可能就是十年" data-itemshowtype="0" linktype="text" data-linktype="2">这一小段路，可能就是十年</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/FUZUg2MlAHDH3KfW2WsgXA" textvalue="程序员的鄙视链" data-itemshowtype="0" linktype="text" data-linktype="2">程序员的鄙视链</a></section>
+<!--RECENT_ARTICLES_END-->
