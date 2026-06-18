@@ -33,3 +33,9 @@
 缺省值是 AI 给的。**往远处拉的那只手，还是人的。**
 
 后注：那天我们拉着拉着，工具自己也「拉」了一下——我让它配张餐桌，它给我配了张圆的，我明明记得原图是方的。它有点瞎编。但你别说，那张圆桌摆在那间客厅里，居然也挺好看。这事我下篇再聊。
+
+![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/fnZikTK_0WxVyMkPA5T0hQ" textvalue="ccglass 0.3.0 新功能发布" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.3.0 新功能发布</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/p_frJoLyINOrh5nRqrX1lw" textvalue="三年之后：回看 2023 年我对 ChatGPT 的判断" data-itemshowtype="0" linktype="text" data-linktype="2">三年之后：回看 2023 年我对 ChatGPT 的判断</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vXjUudqzLINGFDIxUPxJpg" textvalue="20 年前的程序员，重新学走路" data-itemshowtype="0" linktype="text" data-linktype="2">20 年前的程序员，重新学走路</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/ARXn7Bp4GcwwDey1K_nyZg" textvalue="这一小段路，可能就是十年" data-itemshowtype="0" linktype="text" data-linktype="2">这一小段路，可能就是十年</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-HK2ymNH3bhun-zQ65cmBQ" textvalue="改指令，不要改产物" data-itemshowtype="0" linktype="text" data-linktype="2">改指令，不要改产物</a></section>
+<!--RECENT_ARTICLES_END-->
