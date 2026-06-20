@@ -2,11 +2,11 @@
 
 逻辑很简单：平常走路、聊天、或者任何有想法的时候，拿出来，把想法直接说出来，不需要结构，不需要组织，说就完了。
 
-![](./shot-record.png)
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQNnUU2BbupA7twCfZViasUcZSHgIcgsbwibbediaAJRXRwaw9zLmtFoOA0fGSxFFoYL3Nj4g4HnRN792qvKHPGAqghapzYzo2I1uU/0?wx_fmt=png)
 
 服务器端用大语言模型，按照自己的写作风格，把这些口述整理成文章。风格这一块另外有一套方法，可以从历史文章里把自己的风格蒸馏出来。
 
-![](./shot-style.png)
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQOuXJAVszHkuBEh4QCsjKqChBY6HCQNhmKN6bt6ib4dheiauSsBHeb8ZsVz5TcffGRYe3Uejgs0jBbb6l9QUjf7fww86eKC84Ksw/0?wx_fmt=png)
 
 这件事本身不难，也不新。但是当我做出来自己用了一下，感觉真的挺不一样的。
 
@@ -28,7 +28,7 @@
 
 有了 VoiceDrop 以后，这个环节就直接打通了：<span style="color:#c0392b;">口述完，文章出来，随时可用</span>。这是真正不一样的地方。
 
-![](./shot-articles.png)
+![](http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQN4d8Fez7tIzhVXb9icLgTdicpWgibUTXltQY0x1FOTHU9s9Byia5L1Cib2y0FwGoCIIhC4u9yyAJ7JlNxE20kBOkLiboPsKnJPGv9k0/0?wx_fmt=png)
 
 ![](./illustration.png)
 
@@ -39,3 +39,7 @@ VoiceDrop 已经提交 App Store 审核了，过一小段时间应该就可以�
 <section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:14px;line-height:1.8;color:#24292e;">https://testflight.apple.com/join/PbzFFRS2</section>
 
 这篇文章本身，就是用 VoiceDrop 口述出来的。
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/OqKnabjSCRPOuKDO-P7aMA" textvalue="56 行代码的 Claude Code 平替的详细分析" data-itemshowtype="0" linktype="text" data-linktype="2">56 行代码的 Claude Code 平替的详细分析</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/ARXn7Bp4GcwwDey1K_nyZg" textvalue="这一小段路，可能就是十年" data-itemshowtype="0" linktype="text" data-linktype="2">这一小段路，可能就是十年</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/S1mM6VK0BXpeRunFGacSLQ" textvalue="我把做视频里最烦的那些活儿，拆成了十五个 skill" data-itemshowtype="0" linktype="text" data-linktype="2">我把做视频里最烦的那些活儿，拆成了十五个 skill</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/p_frJoLyINOrh5nRqrX1lw" textvalue="三年之后：回看 2023 年我对 ChatGPT 的判断" data-itemshowtype="0" linktype="text" data-linktype="2">三年之后：回看 2023 年我对 ChatGPT 的判断</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/jM5b0O9cIN7cPCnl6KR0bg" textvalue="AI 能力的三个简单层次" data-itemshowtype="0" linktype="text" data-linktype="2">AI 能力的三个简单层次</a></section>
+<!--RECENT_ARTICLES_END-->
