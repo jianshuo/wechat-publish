@@ -1,6 +1,12 @@
-这两天把一个挺多年前就想干的事给做出来了——一个可以直接从口述出文章的 APP，英文叫 voice shop，中文叫口述。
+这两天把一个挺多年前就想干的事给做出来了——一个可以直接从口述出文章的 APP，英文叫 VoiceDrop，中文叫口述。
 
-逻辑很简单：平常走路、聊天、或者任何有想法的时候，拿出来，把想法直接说出来，不需要结构，不需要组织，说就完了。服务器端用大语言模型，按照自己的写作风格，把这些口述整理成文章。风格这一块另外有一套方法，可以从历史文章里把自己的风格蒸馏出来。
+逻辑很简单：平常走路、聊天、或者任何有想法的时候，拿出来，把想法直接说出来，不需要结构，不需要组织，说就完了。
+
+![](./shot-record.png)
+
+服务器端用大语言模型，按照自己的写作风格，把这些口述整理成文章。风格这一块另外有一套方法，可以从历史文章里把自己的风格蒸馏出来。
+
+![](./shot-style.png)
 
 这件事本身不难，也不新。但是当我做出来自己用了一下，感觉真的挺不一样的。
 
@@ -20,10 +26,16 @@
 
 所以<span style="color:#c0392b;">录了等于没录</span>。
 
-有了 voice shop 以后，这个环节就直接打通了：<span style="color:#c0392b;">口述完，文章出来，随时可用</span>。这是真正不一样的地方。
+有了 VoiceDrop 以后，这个环节就直接打通了：<span style="color:#c0392b;">口述完，文章出来，随时可用</span>。这是真正不一样的地方。
+
+![](./shot-articles.png)
 
 ![](./illustration.png)
 
-APP 已经提交 App Store 审核了，过一小段时间应该就可以上线。链接出来我会发。如果想提早拿到测试版，可以发私信给我。
+VoiceDrop 已经提交 App Store 审核了，过一小段时间应该就可以上线。
 
-这篇文章本身，就是由它口述生成的。
+现在是 Public Beta，链接放在下面。还需要等几个小时苹果审批通过，不过这个网址以后不会变：
+
+<section style="background:#f6f8fa;border-radius:6px;padding:14px 16px;overflow-x:auto;font-family:Menlo,Consolas,monospace;font-size:14px;line-height:1.8;color:#24292e;">https://testflight.apple.com/join/PbzFFRS2</section>
+
+这篇文章本身，就是用 VoiceDrop 口述出来的。
