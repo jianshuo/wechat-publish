@@ -26,4 +26,12 @@
 
 这是现在这套方法的盲点，还没有好的解法。想到了再跟大家更新。
 
+---
+
+我把这个 skill 开源了。如果你感兴趣蒸馏一下自己，在 Claude Code、Codex 或者其他工具里直接说一句：
+
+<blockquote style="border-left:3px solid #d0d0d0;padding:8px 14px;margin:0;color:#666;background:#f7f7f7;font-size:0.95em;line-height:1.8;">安装 https://github.com/jianshuo/claude-skills/tree/main/wjs-distilling-style</blockquote>
+
+然后把尽量多的文章给他——最好是一个网站，里面有很多你写的东西。他就开始蒸馏。或许需要很长时间，直到他自己写出来的文章和你原来的文章混在一起，让一个不知情的 AI 无法判断哪个是真的哪个是假的为止。
+
 ![](./illustration.png)
