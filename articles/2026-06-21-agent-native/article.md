@@ -26,3 +26,7 @@
 下一步我会把这个东西做得更正式一些，让 VoiceDrop 的用户都能用上。先录，后加工，两边各司其职。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/fnZikTK_0WxVyMkPA5T0hQ" textvalue="ccglass 0.3.0 新功能发布" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.3.0 新功能发布</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/0JBu2-SD0K-IvxIAwjCGtw" textvalue="为什么 AI 写的文章一眼就能看穿" data-itemshowtype="0" linktype="text" data-linktype="2">为什么 AI 写的文章一眼就能看穿</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/cWGPLuqCb51XBkl48VINfw" textvalue="AI 写作让我们失去的，我接受" data-itemshowtype="0" linktype="text" data-linktype="2">AI 写作让我们失去的，我接受</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/YC_bpfjdnOFljvNPNrPyaA" textvalue="智能无限的世界，要打破的是脑子里的禁锢" data-itemshowtype="0" linktype="text" data-linktype="2">智能无限的世界，要打破的是脑子里的禁锢</a></section>
+<!--RECENT_ARTICLES_END-->

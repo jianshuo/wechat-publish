@@ -1,0 +1,31 @@
+<p>我最近越来越确定一件事：很多 APP，包括我自己做的 VoiceDrop，本质上应该是 agent native 的。</p>
+<p><br></p>
+<p>这话什么意思呢？就是说，APP 负责收集，agent 负责加工。两件事拆开，才顺畅。</p>
+<p><br></p>
+<p>我自己做 VoiceDrop，就碰到了这个问题。APP 里面我能做的功能，说实话已经不少了。录音、转写、生成文章，跑得通。但每次文章生成出来之后，我想再微调——比如这一段语气不对、那一段逻辑顺序要换一下——在 APP 里面再来回跟他说话，让他调，效果一直差强人意。</p>
+<p><br></p>
+<p>原因我想清楚了：APP 里面的交互界面，天然有局限。屏幕小，上下文看不全，改了这里忘了那里，总有点像在一张小纸条上做精密工作。但如果把「深度加工」这个动作，放到 Claude Code 里面来做，局面完全不一样。我可以在 Claude Code 里面把文章翻出来，逐段检查，细微调整措辞，然后直接推到微信发布，整个流程一气呵成，不卡。</p>
+<p><br></p>
+<p>所以我现在想的架构是这样的：</p>
+<p><br></p>
+<ul><li>APP 端：录音、随时记录口述、多段声音存档——这些是 APP 擅长的事，随手可做。</li><li>Claude Code 端：把录音转成的文字拉过来，合并多段素材，精修文章，排版发布——这些是 Claude Code 顺手的事。</li></ul>
+<p><br></p>
+<p>两边分工，APP 是前端入口，Claude Code 是后端主战场。</p>
+<p><br></p>
+<p>为了让这两边能打通，我在 APP 里面内置了一个机制：每个用户有自己的用户名和 TOKEN。TOKEN 就是你的密码。你只要把这个 TOKEN 告诉 Claude Code，<span style="color:#c0392b;">他就可以用你的身份，访问你在 APP 里面的所有素材，然后替你做后续的一切安排。</span></p>
+<p><br></p>
+<p>这个逻辑其实不复杂，但我觉得它代表了一类很重要的产品思路——agent native。</p>
+<p><br></p>
+<p>以前做 APP，我们想的是把所有功能都塞进去，做成一个完整闭环。用户在 APP 里面从头走到尾，出不来也不用出来。这个思路现在开始动摇了。因为有一类操作，天然适合在 agent 的环境里做，你非要把它压缩进 APP 界面，只会做得别扭。</p>
+<p><br></p>
+<p>正确的做法是：承认 APP 有它的边界，然后把边界那一侧的事情，干脆交给 agent 来做，两边用 TOKEN 打通，让他以你的身份继续干活。</p>
+<p><br></p>
+<p>我自己现在写这些公众号文章，用的就是这套流程：拿手机随时录口述，存在 APP 里，然后回到 Claude Code，把素材拉出来，加工成文，发出去。中间那道「以我的身份操作」的 TOKEN 机制，就是让这两端能顺滑衔接的那根线。</p>
+<p><br></p>
+<p>下一步我会把这个东西做得更正式一些，让 VoiceDrop 的用户都能用上。先录，后加工，两边各司其职。</p>
+<p><br></p>
+<p><img src="http://mmbiz.qpic.cn/sz_mmbiz_png/x701icxIMoQOcJQibxKuOXicvmwVKQkicfsfic0O6JDlQeiaED3UA2qhbjPUstibbW7nwic6mXrM05dhOfpdNCABHegoEBD867m6Y4H3NzayiaRmibPjc/0?wx_fmt=png" alt=""></p>
+<p><br></p>
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/fnZikTK_0WxVyMkPA5T0hQ" textvalue="ccglass 0.3.0 新功能发布" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.3.0 新功能发布</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/0JBu2-SD0K-IvxIAwjCGtw" textvalue="为什么 AI 写的文章一眼就能看穿" data-itemshowtype="0" linktype="text" data-linktype="2">为什么 AI 写的文章一眼就能看穿</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/cWGPLuqCb51XBkl48VINfw" textvalue="AI 写作让我们失去的，我接受" data-itemshowtype="0" linktype="text" data-linktype="2">AI 写作让我们失去的，我接受</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/YC_bpfjdnOFljvNPNrPyaA" textvalue="智能无限的世界，要打破的是脑子里的禁锢" data-itemshowtype="0" linktype="text" data-linktype="2">智能无限的世界，要打破的是脑子里的禁锢</a></section>
+<!--RECENT_ARTICLES_END-->
