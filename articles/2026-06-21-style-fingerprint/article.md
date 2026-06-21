@@ -37,3 +37,7 @@
 不管怎样，这是我目前能跑出来的最好版本。过两天继续迭代，主要想解决的问题是：有没有一种更客观的方式去衡量风格指纹的质量——不靠判官的主观感觉，而是有某种更可量化的指标。想到了再跟大家更新。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-HK2ymNH3bhun-zQ65cmBQ" textvalue="改指令，不要改产物" data-itemshowtype="0" linktype="text" data-linktype="2">改指令，不要改产物</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/qgXBlHSVSgckPF8ITz-p7A" textvalue="在 CLAUDE.md 里养一只金丝雀" data-itemshowtype="0" linktype="text" data-linktype="2">在 CLAUDE.md 里养一只金丝雀</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vowe7sYnZbxNowc8h7GUAQ" textvalue="AI 时代，Python 已经是新的&quot;汇编语言&quot;了" data-itemshowtype="0" linktype="text" data-linktype="2">AI 时代，Python 已经是新的&quot;汇编语言&quot;了</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/GZaUX8wOzMAdVODnknATaA" textvalue="Skill 是新时代的函数" data-itemshowtype="0" linktype="text" data-linktype="2">Skill 是新时代的函数</a></section>
+<!--RECENT_ARTICLES_END-->

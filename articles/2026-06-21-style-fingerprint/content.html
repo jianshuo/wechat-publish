@@ -1,0 +1,43 @@
+<p>风格这件事，我一直觉得可以拆成两样东西。</p>
+<p><br></p>
+<p>一个叫 perspective，就是观点——你对一件事的看法，从哪个角度切进去，倾向于相信什么。这个可以从文章里「蒸」出来，Nüwa skill 在这块做得挺到位的，能把一个人写作里隐含的世界观给拎出来。</p>
+<p><br></p>
+<p>另一个我叫它<span style="color:#c0392b;">风格指纹</span>。这个不是观点，是一个人说话时特定的那些习惯——他喜欢用什么样的排比、什么样的反问、句子写到一半不写完、在哪里放冲突。每个人的这些加在一起，就跟指纹一样，独一无二。</p>
+<p><br></p>
+<p>问题是：你怎么知道你提取出来的风格指纹，是准的？</p>
+<p><br></p>
+<p>这个问题困了我很久。直到我想出来一个笨但是管用的办法——对抗测试，结构上跟 GAN 很像。</p>
+<p><br></p>
+<p><strong style="color:#ff0000;">怎么做</strong></p>
+<p><br></p>
+<p>第一步，先给他一批文章，尽量多，让他从里面把风格指纹提炼出来，大概从几十个维度去描述——断句习惯、比喻方式、结尾是否收拢、反问的密度，等等。这个文件叫风格文档。</p>
+<p><br></p>
+<p>第二步，用这个风格文档来伪造文章。每一轮跑 6 个 sub-agent，每个 agent 只给两样东西：一句话标题 + 30 字以内的中心思想（从我真实写过的文章里抽出来）、那份风格文档。只有这两样，让他写出 6 篇文章。</p>
+<p><br></p>
+<p>第三步，同时从我的真实文章里随机抽 6 篇——这些叫「真迹」。把伪造的 6 篇和真迹 6 篇，一共 12 篇，打乱顺序。</p>
+<p><br></p>
+<p>第四步，交给一个完全不同的模型去判。我用 Opus 来写，用 Sonnet 来判；最好是跨公司，比如拿 Kimi 或 GPT 的模型做判官，这样不容易有模型内部的偏向。判官只做一件事：对这 12 篇独立判断，哪篇是真的，哪篇是 AI 伪造的，并且给出理由。</p>
+<p><br></p>
+<p><strong style="color:#ff0000;">判官的目标准确率要低于 50%。</strong></p>
+<p><br></p>
+<p>50% 是随机水平，低于这个数，说明判官基本分不清楚了。但这里有一个细节：不是越低越好。如果准确率长期低于 20%，说明判官在把我真实写的文章误判成 AI 的，那就是风格文档出了问题，把我的真实风格给磨平了。</p>
+<p><br></p>
+<p>目标区间大概是 35–50%：低到说明伪造得够像，但不能低到把真迹也给误判掉。</p>
+<p><br></p>
+<p><strong style="color:#ff0000;">迭代</strong></p>
+<p><br></p>
+<p>每一轮判官给出判断的时候，都会写下他认为「像 AI」或「不像我」的具体理由。比如：「这篇结构太整齐」「结尾和开头有呼应，但这不是他的风格」「三段论，论证推进太顺」。</p>
+<p><br></p>
+<p>拿到这些反馈，不是去改那 6 篇伪造的文章，而是去改风格文档。改完了，下一轮再重新生成 6 篇新的，再抽 6 篇新的真迹，再打乱，再判。这样一轮一轮转，每一轮判官的批评就成了风格文档的打磨材料。</p>
+<p><br></p>
+<p>来来回回干了大概两个多小时，跑了 9 轮，最后做了一个定稿版本。老实说并不完美。我现在怀疑的一个问题是：判官很多时候判的其实不是「像不像我的风格」，而是「像不像 AI 写的」——<span style="color:#c0392b;">这两件事其实有不小的差距。</span>一篇文章可以不像 AI，但也不像我；也可以完全不像 AI，但因为选题和真迹长得差不多就蒙混过关了。</p>
+<p><br></p>
+<p>这是现在这套方法的一个盲点，我还没有好的解法。</p>
+<p><br></p>
+<p>不管怎样，这是我目前能跑出来的最好版本。过两天继续迭代，主要想解决的问题是：有没有一种更客观的方式去衡量风格指纹的质量——不靠判官的主观感觉，而是有某种更可量化的指标。想到了再跟大家更新。</p>
+<p><br></p>
+<p><img src="http://mmbiz.qpic.cn/mmbiz_png/x701icxIMoQMZ6bxuT4Ymza0vSA9ltkaUMw0eKugibia8bsgVR8z59pRa26YPaKOekovXJP7b1kNU77CD2Lq0uYibibsTn3CTzM5tE9iaPsF066so/0?wx_fmt=png" alt=""></p>
+<p><br></p>
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-HK2ymNH3bhun-zQ65cmBQ" textvalue="改指令，不要改产物" data-itemshowtype="0" linktype="text" data-linktype="2">改指令，不要改产物</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/qgXBlHSVSgckPF8ITz-p7A" textvalue="在 CLAUDE.md 里养一只金丝雀" data-itemshowtype="0" linktype="text" data-linktype="2">在 CLAUDE.md 里养一只金丝雀</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vowe7sYnZbxNowc8h7GUAQ" textvalue="AI 时代，Python 已经是新的&quot;汇编语言&quot;了" data-itemshowtype="0" linktype="text" data-linktype="2">AI 时代，Python 已经是新的&quot;汇编语言&quot;了</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/GZaUX8wOzMAdVODnknATaA" textvalue="Skill 是新时代的函数" data-itemshowtype="0" linktype="text" data-linktype="2">Skill 是新时代的函数</a></section>
+<!--RECENT_ARTICLES_END-->
