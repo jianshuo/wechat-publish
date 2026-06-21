@@ -23,3 +23,7 @@
 APP 已经提交 App Store 审核了，过一小段时间应该就可以上线。链接出来我会发。如果想提早拿到测试版，可以发私信给我。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/GZaUX8wOzMAdVODnknATaA" textvalue="Skill 是新时代的函数" data-itemshowtype="0" linktype="text" data-linktype="2">Skill 是新时代的函数</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/p_frJoLyINOrh5nRqrX1lw" textvalue="三年之后：回看 2023 年我对 ChatGPT 的判断" data-itemshowtype="0" linktype="text" data-linktype="2">三年之后：回看 2023 年我对 ChatGPT 的判断</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/fnZikTK_0WxVyMkPA5T0hQ" textvalue="ccglass 0.3.0 新功能发布" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.3.0 新功能发布</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/pem86t5ExvJQQhefCgQF-Q" textvalue="「有用」和「好像有用」是两回事" data-itemshowtype="0" linktype="text" data-linktype="2">「有用」和「好像有用」是两回事</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/Fk65JcazCpv59JePhfaXbQ" textvalue="ccglass 0.6.0 版本新功能" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.6.0 版本新功能</a></section>
+<!--RECENT_ARTICLES_END-->
