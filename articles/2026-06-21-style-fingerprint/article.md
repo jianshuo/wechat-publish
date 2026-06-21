@@ -30,19 +30,19 @@
 
 VoiceDrop 是我自己做的一个 iOS app。用手机随时录口述，它帮你按照自己的风格生成一篇文章——不是通用 AI 腔，是你自己的语气和节奏。现在在 TestFlight 公测，可以直接装来用：
 
-<blockquote style="border-left:3px solid #d0d0d0;padding:8px 14px;margin:0;color:#666;background:#f7f7f7;font-size:0.95em;line-height:1.8;">https://testflight.apple.com/join/PbzFFRS2</blockquote>
+<blockquote style="border-left:3px solid #d0d0d0;padding:8px 14px;margin:0;color:#666;background:#f7f7f7;">https://testflight.apple.com/join/PbzFFRS2</blockquote>
 
 ---
 
 我把这个 skill 开源了。如果你感兴趣蒸馏一下自己，在 Claude Code、Codex 或者其他工具里直接说一句：
 
-<blockquote style="border-left:3px solid #d0d0d0;padding:8px 14px;margin:0;color:#666;background:#f7f7f7;font-size:0.95em;line-height:1.8;">安装 https://github.com/jianshuo/claude-skills/tree/main/wjs-distilling-style</blockquote>
+<blockquote style="border-left:3px solid #d0d0d0;padding:8px 14px;margin:0;color:#666;background:#f7f7f7;">安装 https://github.com/jianshuo/claude-skills/tree/main/wjs-distilling-style</blockquote>
 
 然后把尽量多的文章给他——最好是一个网站，里面有很多你写的东西。他就开始蒸馏。或许需要很长时间，直到他自己写出来的文章和你原来的文章混在一起，让一个不知情的 AI 无法判断哪个是真的哪个是假的为止。
 
 蒸馏完之后，还可以再装一个：
 
-<blockquote style="border-left:3px solid #d0d0d0;padding:8px 14px;margin:0;color:#666;background:#f7f7f7;font-size:0.95em;line-height:1.8;">安装 https://github.com/jianshuo/claude-skills/tree/main/wjs-voicedrop</blockquote>
+<blockquote style="border-left:3px solid #d0d0d0;padding:8px 14px;margin:0;color:#666;background:#f7f7f7;">安装 https://github.com/jianshuo/claude-skills/tree/main/wjs-voicedrop</blockquote>
 
 然后命令他「把这个风格上传到 VoiceDrop」。以后 VoiceDrop 生成的文章，就是你自己的风格了。
 
