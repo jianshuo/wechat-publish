@@ -35,3 +35,7 @@
 然后把尽量多的文章给他——最好是一个网站，里面有很多你写的东西。他就开始蒸馏。或许需要很长时间，直到他自己写出来的文章和你原来的文章混在一起，让一个不知情的 AI 无法判断哪个是真的哪个是假的为止。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;line-height:2.2;font-size:0.95em;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/L8puybdd9rr_OI3iSnS-dw" textvalue="吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机" data-itemshowtype="0" linktype="text" data-linktype="2">吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/MCNfyMx4K7ptiQIPEqrd_g" textvalue="我不信「一人公司」" data-itemshowtype="0" linktype="text" data-linktype="2">我不信「一人公司」</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/FUZUg2MlAHDH3KfW2WsgXA" textvalue="程序员的鄙视链" data-itemshowtype="0" linktype="text" data-linktype="2">程序员的鄙视链</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/Fk65JcazCpv59JePhfaXbQ" textvalue="ccglass 0.6.0 版本新功能" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.6.0 版本新功能</a></section>
+<!--RECENT_ARTICLES_END-->
