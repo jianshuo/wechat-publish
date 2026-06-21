@@ -1,0 +1,7 @@
+{
+  "title": "APP 是入口，Claude Code 才是主战场",
+  "summary": "我做 VoiceDrop 才发现：有一类操作，天然不适合在 APP 里做。把它交给 agent，用 TOKEN 打通两端，才是正确的姿势。",
+  "author": "王建硕",
+  "date": "2026-06-21",
+  "slug": "2026-06-21-agent-native"
+}
