@@ -1,0 +1,5 @@
+target_word: 看似不合理的真实需求，才最值得做
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-06-24T16:09:15Z
