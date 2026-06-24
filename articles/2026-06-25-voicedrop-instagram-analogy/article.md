@@ -47,3 +47,9 @@ Instagram 做成的，不是一个更好的相机 App，而是一种围绕摄影
 ---
 
 你用过哪些写作工具？你觉得写作这件事，是否也需要一个像晋江这样的社区？
+
+![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/L8puybdd9rr_OI3iSnS-dw" textvalue="吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机" data-itemshowtype="0" linktype="text" data-linktype="2">吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/MCNfyMx4K7ptiQIPEqrd_g" textvalue="我不信「一人公司」" data-itemshowtype="0" linktype="text" data-linktype="2">我不信「一人公司」</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/GUk32YZg-1dz3f0mv-JjEA" textvalue="我的十四条 Claude Code 使用经验" data-itemshowtype="0" linktype="text" data-linktype="2">我的十四条 Claude Code 使用经验</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/qgXBlHSVSgckPF8ITz-p7A" textvalue="在 CLAUDE.md 里养一只金丝雀" data-itemshowtype="0" linktype="text" data-linktype="2">在 CLAUDE.md 里养一只金丝雀</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/pem86t5ExvJQQhefCgQF-Q" textvalue="「有用」和「好像有用」是两回事" data-itemshowtype="0" linktype="text" data-linktype="2">「有用」和「好像有用」是两回事</a></section>
+<!--RECENT_ARTICLES_END-->
