@@ -49,3 +49,9 @@ Stanford 有两位教授，是夫妻，在两个不同的教研室工作。他�
 然后有人恰好解决了。
 
 然后很多人发现，这正是他们要的。
+
+![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/jM5b0O9cIN7cPCnl6KR0bg" textvalue="AI 能力的三个简单层次" data-itemshowtype="0" linktype="text" data-linktype="2">AI 能力的三个简单层次</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vowe7sYnZbxNowc8h7GUAQ" textvalue="AI 时代，Python 已经是新的&quot;汇编语言&quot;了" data-itemshowtype="0" linktype="text" data-linktype="2">AI 时代，Python 已经是新的&quot;汇编语言&quot;了</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/L8puybdd9rr_OI3iSnS-dw" textvalue="吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机" data-itemshowtype="0" linktype="text" data-linktype="2">吃一堑长一智.skill —— 那一秒，是改大脑参数最好的时机</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/p_frJoLyINOrh5nRqrX1lw" textvalue="三年之后：回看 2023 年我对 ChatGPT 的判断" data-itemshowtype="0" linktype="text" data-linktype="2">三年之后：回看 2023 年我对 ChatGPT 的判断</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/rVIdslZq-1B2A3SWWqneNA" textvalue="为什么我们看到 AI 写的东西，就会觉得被冒犯？" data-itemshowtype="0" linktype="text" data-linktype="2">为什么我们看到 AI 写的东西，就会觉得被冒犯？</a></section>
+<!--RECENT_ARTICLES_END-->
