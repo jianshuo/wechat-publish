@@ -1,0 +1,5 @@
+target_word: 为一个人做软件，就会有很多人用
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-06-24T16:04:51Z
