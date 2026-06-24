@@ -49,3 +49,9 @@
 因为用户没有凑合，说明这个需求真实存在，只是工程上还没有好好面对它。
 
 我最近越来越觉得，很多产品的进步，都是从这里开始的：有人坚持说"这是正常需求啊"，然后有另一个人被逼着去真正想了一下。
+
+![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-7u-Sx6yiIXWMSFCB62FTA" textvalue="我写了个 ccglass，看看 Claude Code 向大模型发了什么" data-itemshowtype="0" linktype="text" data-linktype="2">我写了个 ccglass，看看 Claude Code 向大模型发了什么</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/WHDieFP7zc6iUS8nWVxcwg" textvalue="把 LLM 当编译器，把 Skill 当 App" data-itemshowtype="0" linktype="text" data-linktype="2">把 LLM 当编译器，把 Skill 当 App</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/1EAHq2WyweZQ6hWp-rBI7g" textvalue="AI 时代，学动词，别追名词" data-itemshowtype="0" linktype="text" data-linktype="2">AI 时代，学动词，别追名词</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/GZaUX8wOzMAdVODnknATaA" textvalue="Skill 是新时代的函数" data-itemshowtype="0" linktype="text" data-linktype="2">Skill 是新时代的函数</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/6BGxh12jFZG14mrrzxCdOQ" textvalue="到底该不该用 AI 写文章？" data-itemshowtype="0" linktype="text" data-linktype="2">到底该不该用 AI 写文章？</a></section>
+<!--RECENT_ARTICLES_END-->
