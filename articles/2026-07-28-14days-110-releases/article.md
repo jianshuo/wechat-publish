@@ -68,3 +68,7 @@ VoiceDrop 是一个用语音写文章的 App。里面有一种东西叫提示词
 我们需要做的，就是让它一直跳下去。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/y7kQ0J46lDjXO3Ojn5L73g" textvalue="效率越高，需求越井喷" data-itemshowtype="0" linktype="text" data-linktype="2">效率越高，需求越井喷</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/WHDieFP7zc6iUS8nWVxcwg" textvalue="把 LLM 当编译器，把 Skill 当 App" data-itemshowtype="0" linktype="text" data-linktype="2">把 LLM 当编译器，把 Skill 当 App</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/IdRiOB79uO2rvSp9166Dnw" textvalue="用 Claude Code，你以为说了一个 Hello？不是，你发过去一本三国演义" data-itemshowtype="0" linktype="text" data-linktype="2">用 Claude Code，你以为说了一个 Hello？不是，你发过去一本三国演义</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-HK2ymNH3bhun-zQ65cmBQ" textvalue="改指令，不要改产物" data-itemshowtype="0" linktype="text" data-linktype="2">改指令，不要改产物</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-7u-Sx6yiIXWMSFCB62FTA" textvalue="我写了个 ccglass，看看 Claude Code 向大模型发了什么" data-itemshowtype="0" linktype="text" data-linktype="2">我写了个 ccglass，看看 Claude Code 向大模型发了什么</a></section>
+<!--RECENT_ARTICLES_END-->
