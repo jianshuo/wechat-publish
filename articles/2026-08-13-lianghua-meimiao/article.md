@@ -38,3 +38,7 @@ AI 读了这个文件，写出来的东西就有八分像我。
 先抓住，再慢慢让它变准。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/IdRiOB79uO2rvSp9166Dnw" textvalue="用 Claude Code，你以为说了一个 Hello？不是，你发过去一本三国演义" data-itemshowtype="0" linktype="text" data-linktype="2">用 Claude Code，你以为说了一个 Hello？不是，你发过去一本三国演义</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-_dmDAsDbBGbL3zt8ur6Sg" textvalue="存储便宜，出了 Gmail；带宽便宜，出了 YouTube。智能便宜，会出什么？" data-itemshowtype="0" linktype="text" data-linktype="2">存储便宜，出了 Gmail；带宽便宜，出了 YouTube。智能便宜，会出什么？</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/Fk65JcazCpv59JePhfaXbQ" textvalue="ccglass 0.6.0 版本新功能" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.6.0 版本新功能</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/y7kQ0J46lDjXO3Ojn5L73g" textvalue="效率越高，需求越井喷" data-itemshowtype="0" linktype="text" data-linktype="2">效率越高，需求越井喷</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/8EzBwglfZCUFXek3vESN6w" textvalue="丑，但它能跑" data-itemshowtype="0" linktype="text" data-linktype="2">丑，但它能跑</a></section>
+<!--RECENT_ARTICLES_END-->
