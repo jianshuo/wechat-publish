@@ -52,3 +52,7 @@
 MCP 这个协议好就好在，它把「AI 能干什么」这件事变成了插件问题。工具做好一次，所有客户端都能用。插座装好了，接下来就看你想让 AI 替你干什么了。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/vowe7sYnZbxNowc8h7GUAQ" textvalue="AI 时代，Python 已经是新的&quot;汇编语言&quot;了" data-itemshowtype="0" linktype="text" data-linktype="2">AI 时代，Python 已经是新的&quot;汇编语言&quot;了</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/Fk65JcazCpv59JePhfaXbQ" textvalue="ccglass 0.6.0 版本新功能" data-itemshowtype="0" linktype="text" data-linktype="2">ccglass 0.6.0 版本新功能</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/FUZUg2MlAHDH3KfW2WsgXA" textvalue="程序员的鄙视链" data-itemshowtype="0" linktype="text" data-linktype="2">程序员的鄙视链</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/QKZm26DIGwGjm3McOlkCQw" textvalue="「Agent本质是一个死循环」：一句话告诉你什么是 Agent" data-itemshowtype="0" linktype="text" data-linktype="2">「Agent本质是一个死循环」：一句话告诉你什么是 Agent</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/S1mM6VK0BXpeRunFGacSLQ" textvalue="我把做视频里最烦的那些活儿，拆成了十五个 skill" data-itemshowtype="0" linktype="text" data-linktype="2">我把做视频里最烦的那些活儿，拆成了十五个 skill</a></section>
+<!--RECENT_ARTICLES_END-->
