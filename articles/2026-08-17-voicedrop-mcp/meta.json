@@ -1,5 +1,5 @@
 {
-  "title": "我给 VoiceDrop 做了一个 MCP server",
+  "title": "给 AI 装一个工具插座：VoiceDrop 的 MCP server 上线了",
   "summary": "把 VoiceDrop 整个账号包成一个 MCP server：38 个工具，Claude Code、ChatGPT 连上就能读写文章、改文风、发公众号。凭证怎么透传、为什么放 Pages Function、哪几个坑踩了两次，都在这里。",
   "author": "王建硕",
   "date": "2026-08-17",
