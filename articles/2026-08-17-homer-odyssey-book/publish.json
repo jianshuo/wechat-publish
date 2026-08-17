@@ -12,5 +12,19 @@
    "draft_media_id": "qYkBJGAU_78uyzUjMFBzdfd_-SBdvvnvL5KcoHfV6VPBXUuM5RAVJllZONMvWQA3"
   }
  ],
+ "drafts_v2_bookstyle_3parts": [
+  {
+   "part": "上 导读+第1-5章",
+   "draft_media_id": "qYkBJGAU_78uyzUjMFBzdb8_gteJ2Er2AhSdKvbyCu1T-9vynJ4HRRpn3T2Hi_zI"
+  },
+  {
+   "part": "中 第6-10章",
+   "draft_media_id": "qYkBJGAU_78uyzUjMFBzdQGvnLf9jx2_P-E47YglL8OF3fxpAKquZuSrJShDxj5v"
+  },
+  {
+   "part": "下 第11-15章",
+   "draft_media_id": "qYkBJGAU_78uyzUjMFBzdWtXgvH_IrcBdBQark5xKKHEvpK34DijFiRhF8rhX3RL"
+  }
+ ],
  "created_at": "2026-08-17"
 }
