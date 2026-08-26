@@ -1,0 +1,31 @@
+我每次在欧洲看教堂，都会想同一个问题：这么大的房子，这么多神父，两千年了，这个组织到底靠什么运转？
+
+- 钱从哪里来？
+- 神父是怎么「招聘」进来的？
+- 教堂这栋楼，产权证上写谁的名字？
+
+导游不讲这些。导游讲彩绘玻璃、飞扶壁、哪个国王在这里加冕。
+
+但我是开公司的人，<span style="color:#ff0000;">我看到的是一家开了两千年的老店</span>：有收入，有工资单，有房产，有 CEO 接班机制，也有关店裁员的时候。
+
+于是我把这个问题丢给了 VoiceDrop，让他帮我写一本书。书名叫《上帝的物业公司》，副题「欧洲教会的钱、人和房子」，十二章。
+
+写出来的东西比我预想的好看。挑几个我读的时候「哦」出声的地方：
+
+- 德国人的工资单上真有一行「教堂税」，国家替教会从工资里扣钱，扣完转给教会。
+- <span style="color:#ff0000;">法国 1905 年政教分离之后，大部分老教堂的产权归了市政府</span>，教会只是使用者。
+- 修道院是中世纪的企业集团：啤酒、奶酪、果酱都是产品线，「祈祷与工作」是厂训。
+- 选教皇的闭门会议，就是这家两千年公司的 CEO 接班制度。
+- 信徒变少的时候，教会一样要合并教区、关掉教堂，把房子改成书店和公寓——裁员、关店、处置资产，一样不少。
+
+先说实话：这本书是 AI 写的。我出题，几个 AI 代理分头写、互相审校，费曼式的写法。我自己是第一个读者。
+
+它当不了论文的参考文献，但当一本「把事情讲清楚」的小书，够了。
+
+书就嵌在下面。点这张小程序卡片，直接翻开读：
+
+<mp-miniprogram data-miniprogram-appid="wxedfbd113b545b4f6" data-miniprogram-path="/pages/book-reader/index?slug=europes-church-machine&title=%E4%B8%8A%E5%B8%9D%E7%9A%84%E7%89%A9%E4%B8%9A%E5%85%AC%E5%8F%B8&main=%E4%B8%8A%E5%B8%9D%E7%9A%84%E7%89%A9%E4%B8%9A%E5%85%AC%E5%8F%B8&author=%E7%8E%8B%E5%BB%BA%E7%A1%95&cover=1&coverAt=1787656858292" data-miniprogram-title="上帝的物业公司" data-miniprogram-imageurl="http://mmbiz.qpic.cn/mmbiz_jpg/x701icxIMoQO3Qa3CSG66mkfmlRF9LoANVMOiajxzN4CuQRibj1Kx98HjQiby86O09icnnGaPwLu8b7fC3J9icTP5iaZpCF8rZbPRYWYSthzuniaaMA/0?wx_fmt=jpeg"></mp-miniprogram>
+
+<span style="color:#ff0000;">读完再走进任何一座欧洲教堂，你看到的就不只是彩绘玻璃了。</span>
+
+![](./illustration.png)
