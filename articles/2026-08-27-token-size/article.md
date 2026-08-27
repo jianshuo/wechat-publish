@@ -65,3 +65,7 @@ Claude 平时的上下文窗口是 20 万 token。你把整部红楼梦扔给他
 九十万下，就是一部红楼梦。
 
 ![](./illustration.png)
+
+<!--RECENT_ARTICLES_START-->
+<section style="margin-top:28px;padding-top:16px;border-top:1px solid #e5e5e5;"><strong style="color:#ff0000;">扩展阅读</strong><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/-_dmDAsDbBGbL3zt8ur6Sg" textvalue="存储便宜，出了 Gmail；带宽便宜，出了 YouTube。智能便宜，会出什么？" data-itemshowtype="0" linktype="text" data-linktype="2">存储便宜，出了 Gmail；带宽便宜，出了 YouTube。智能便宜，会出什么？</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/wK2gWNkUUsVe2xQOEuKFBA" textvalue="我们从 AI 的领导，变成了 AI 的带路党" data-itemshowtype="0" linktype="text" data-linktype="2">我们从 AI 的领导，变成了 AI 的带路党</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/cWGPLuqCb51XBkl48VINfw" textvalue="AI 写作让我们失去的，我接受" data-itemshowtype="0" linktype="text" data-linktype="2">AI 写作让我们失去的，我接受</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/rVIdslZq-1B2A3SWWqneNA" textvalue="为什么我们看到 AI 写的东西，就会觉得被冒犯？" data-itemshowtype="0" linktype="text" data-linktype="2">为什么我们看到 AI 写的东西，就会觉得被冒犯？</a><br><a class="normal_text_link mp_article_text_link" target="_blank" style="" href="https://mp.weixin.qq.com/s/z9y-hni6X3cxCWq5CX4XHA" textvalue="让网站自己改自己的技能" data-itemshowtype="0" linktype="text" data-linktype="2">让网站自己改自己的技能</a></section>
+<!--RECENT_ARTICLES_END-->
