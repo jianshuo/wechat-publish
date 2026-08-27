@@ -1,0 +1,5 @@
+target_word: token
+size: 1536x1024
+quality: high
+via: gpt-image-2-skill (codex provider only)
+generated: 2026-08-27T12:32:59Z
