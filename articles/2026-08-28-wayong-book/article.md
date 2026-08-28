@@ -1,0 +1,24 @@
+蛙泳是最多人会、也是最多人游错的泳姿。
+
+我游蛙泳的时候一直想知道：为什么蹬完腿要停住？为什么翻脚那么别扭？为什么一抬头换气，整个人就慢下来？
+
+教练会告诉你怎么做，但很少告诉你为什么。我让 VoiceDrop 把这些「为什么」写成了一本书：《蛙泳详解：水与身体的力学》，十三章，从流体力学讲到骨骼肌肉。
+
+几个我读完就想下水试的地方：
+
+- 水的密度是空气的八百倍，阻力和速度的平方成正比——快一点点都贵得离谱。
+- 翻脚是整个蛙泳最反人类的设计，脚踝柔韧度决定你的上限。
+- 抬头换气是全程最贵的一个动作，破坏的是整条流线型。
+- 收大腿、蹬太宽、剪刀腿，每个错误动作都能在前面的原理里找到判决。
+
+我印象最深的一条：<span style="color:#ff0000;">滑行才是蛙泳省力的真正秘密</span>——蹬完腿停住不动，是在用物理学赚便宜。
+
+先说实话：这本书是 AI 写的。我出题，几个 AI 代理分头写、互相审校。
+
+最后一章说得对：<span style="color:#ff0000;">懂了物理不等于会游，要把知识练成神经回路</span>。但不懂物理，你连自己错在哪都不知道。
+
+书就嵌在下面，点卡片直接读：
+
+<mp-miniprogram data-miniprogram-appid="wxedfbd113b545b4f6" data-miniprogram-path="/pages/book-reader/index?slug=breaststroke-detail&title=%E8%9B%99%E6%B3%B3%E8%AF%A6%E8%A7%A3%EF%BC%9A%E6%B0%B4%E4%B8%8E%E8%BA%AB%E4%BD%93%E7%9A%84%E5%8A%9B%E5%AD%A6&main=%E8%9B%99%E6%B3%B3%E8%AF%A6%E8%A7%A3&author=%E7%8E%8B%E5%BB%BA%E7%A1%95&cover=1&coverAt=1787760321514" data-miniprogram-title="蛙泳详解：水与身体的力学" data-miniprogram-imageurl="http://mmbiz.qpic.cn/mmbiz_jpg/x701icxIMoQMdbbQFCibVCicZj6RXvJVdb1r0PBVfQJBLlc3hbU4QHeIkbKdktorFDW0cy9vQg7oDtdsvP6pDbcObPs9osMwxJxqphF1xF9NKk/0?wx_fmt=jpeg"></mp-miniprogram>
+
+![](./illustration.png)
