@@ -1,6 +1,6 @@
 AI 公司做的，其实是航空公司的生意。
 
-这个说法这一周在 X 上传开了。Citadel 的 Ken Griffin 在大会上说过，Snowflake 的 Sridhar Ramaswamy 写了一个 16 条的推文串，Chamath 跟着转发。同一天，一个做过资产证券化交易的人，Alex Song，写了一篇长文，标题就叫《Aluminum to Silicon》，从铝到硅。
+这个说法最近在 X 上传开了。Citadel 的 Ken Griffin 在大会上说过，Snowflake 的 Sridhar Ramaswamy 写了一个 16 条的推文串，Chamath 跟着转发。Sridhar 发推的同一天，一个做过资产证券化交易的人，Alex Song，写了一篇长文，标题就叫《Aluminum to Silicon》，从铝到硅。
 
 我读完，觉得这是今年我看到的最清楚的一个 AI 商业模式的解释。
 
